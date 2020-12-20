@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class MenuPrincipal : MonoBehaviour
+public class MenuSelectC : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

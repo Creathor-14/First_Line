@@ -15,6 +15,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Menu/Menu Principal.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/MenuPrincipal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/MenuSelectC.cs" />
       </list>
     </option>
   </component>
@@ -59,6 +60,8 @@
       <updated>1608422873408</updated>
       <workItem from="1608422897396" duration="872000" />
       <workItem from="1608432413747" duration="1268000" />
+      <workItem from="1608491856973" duration="598000" />
+      <workItem from="1608493122636" duration="658000" />
     </task>
     <servers />
   </component>
