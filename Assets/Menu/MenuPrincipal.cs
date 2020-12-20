@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class NewBehaviourScript : MonoBehaviour
+public class MenuPrincipal : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -10,7 +10,7 @@ public class NewBehaviourScript : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    //Update is called once per frame
     void Update()
     {
         
@@ -24,5 +24,6 @@ public class NewBehaviourScript : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+        Debug.Log("Ha salido del juego");
     }
 }
