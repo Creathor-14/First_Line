@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMujer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animations/IdleMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animations/Combates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CAMAra.cs" />
+        <option value="$PROJECT_DIR$/Assets/Quieto.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
       </list>
     </option>
@@ -68,7 +70,7 @@
       <workItem from="1608493122636" duration="658000" />
       <workItem from="1608509137031" duration="740000" />
       <workItem from="1608515316123" duration="3878000" />
-      <workItem from="1608528785344" duration="769000" />
+      <workItem from="1608528785344" duration="7142000" />
     </task>
     <servers />
   </component>

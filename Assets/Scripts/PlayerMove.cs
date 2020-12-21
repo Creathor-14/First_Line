@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public static PlayerMove Player;
     public float speed= 4f;
-
     private Rigidbody2D rb;
-
     private SpriteRenderer player;
-
     private Animator anim;
-    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -21,11 +18,13 @@ public class PlayerMove : MonoBehaviour
 
 
     
-    void Update()
+    void FixedUpdate()
     {
+        //Permite el movimiento del personaje
         Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"),0);
         transform.position = Vector3.MoveTowards(transform.position, transform.position + mov, Time.deltaTime * speed);
-        //animaciones para movimiento
+        
+        //Animaciones para movimiento
         if (mov.x==0 && mov.y==0)
         {
             anim.SetBool("Caminar",false);
@@ -34,7 +33,7 @@ public class PlayerMove : MonoBehaviour
         {
             anim.SetBool("Caminar",true);
         }
-        //giros del personaje
+        //Giros del personaje
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
             player.flipX = true;
@@ -43,12 +42,15 @@ public class PlayerMove : MonoBehaviour
         {
             player.flipX = false;
         }    
-        //detectar ataque
+        //Detectar ataque
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger(("Ataque"));
-            mov.x = 0;
-            mov.y = 0;
+        }
+        if(anim.GetBool("Static"))
+        {
+            
         }
     }
 }
+//EN Quieto(anim) 2 HAY QUE HACER QUE EL PERSONAJE SE QUEDE QUIETO
