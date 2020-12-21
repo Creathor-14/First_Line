@@ -10,10 +10,6 @@
           <e p="MenuSelectC.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="Animations" t="Include">
-            <e p="Combates.cs" t="Include" />
-            <e p="IdleMove.cs" t="Include" />
-          </e>
           <e p="BarraVida.cs" t="Include" />
           <e p="CAMAra.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />

@@ -47,6 +47,8 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger(("Ataque"));
+            mov.x = 0;
+            mov.y = 0;
         }
     }
 }
