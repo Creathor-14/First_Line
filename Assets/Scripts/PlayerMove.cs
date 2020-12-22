@@ -47,10 +47,6 @@ public class PlayerMove : MonoBehaviour
         {
             anim.SetTrigger(("Ataque"));
         }
-        if(anim.GetBool("Static"))
-        {
-            
-        }
     }
 }
 //EN Quieto(anim) 2 HAY QUE HACER QUE EL PERSONAJE SE QUEDE QUIETO

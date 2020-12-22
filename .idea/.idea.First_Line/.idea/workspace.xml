@@ -21,7 +21,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Animations/Combates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CAMAra.cs" />
         <option value="$PROJECT_DIR$/Assets/Quieto.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PruebaMov.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/prueba2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/pruebaEne.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/pruebaPlaye.cs" />
       </list>
     </option>
   </component>
@@ -71,6 +76,10 @@
       <workItem from="1608509137031" duration="740000" />
       <workItem from="1608515316123" duration="3878000" />
       <workItem from="1608528785344" duration="7142000" />
+      <workItem from="1608571795664" duration="5920000" />
+      <workItem from="1608605200824" duration="935000" />
+      <workItem from="1608611680356" duration="5391000" />
+      <workItem from="1608652433145" duration="1986000" />
     </task>
     <servers />
   </component>
