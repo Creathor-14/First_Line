@@ -16,8 +16,8 @@ public class PlayerMove : MonoBehaviour
     
     // limites personaje eje x
 
-    public float derecha = 0;
-    public float izquierda = 0;
+    public float derecha = 100.02f;
+    public float izquierda = -10.76f;
     
     //sistema de daño
     public float vida = 10f;
@@ -51,14 +51,25 @@ public class PlayerMove : MonoBehaviour
         {
             mov.y = 0;
         }
+//Detectar limites de movimiento eje x        
+        if (izquierda == player.transform.position.x && player.transform.position.x>0)
+        {
+            mov.x = 0;
+        }
+//Topes de movimiento en el mapa        
         if (mov.y != 0)
         {
             transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, suelo, techo), transform.position.z);
         }
+        if (mov.x != 0)
+        {
+            transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha), transform.position.y, transform.position.z);
+        }
         
-        
+//Genera el movimiento
         transform.position = Vector3.MoveTowards(transform.position, transform.position + mov, Time.deltaTime * speed);
-        //Animaciones para movimiento
+        
+//Animaciones para movimiento
         if (mov.x == 0 && mov.y == 0)
         {
             anim.SetBool("Caminar", false);
@@ -68,7 +79,7 @@ public class PlayerMove : MonoBehaviour
             anim.SetBool("Caminar", true);
         }
 
-        //Giros del personaje
+//Giros del personaje
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
             player.flipX = true;
@@ -78,7 +89,7 @@ public class PlayerMove : MonoBehaviour
             player.flipX = false;
         }
         
-        //Detectar ataque
+//Detectar ataque
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger(("Ataque"));
