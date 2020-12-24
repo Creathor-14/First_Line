@@ -14,6 +14,11 @@ public class PlayerMove : MonoBehaviour
     public float techo=-0.72f;
     public float suelo=-4.23f;
     
+    // limites personaje eje x
+
+    public float derecha = 0;
+    public float izquierda = 0;
+    
     //sistema de daño
     public float vida = 10f;
     public string tagDelOponente = "Enemy";

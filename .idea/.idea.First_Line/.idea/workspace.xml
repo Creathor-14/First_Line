@@ -29,8 +29,8 @@
         <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/MenuSelectC.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/pruebaEne.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +92,8 @@
       <workItem from="1608839623947" duration="2121000" />
       <workItem from="1608842127998" duration="109000" />
       <workItem from="1608842358032" duration="265000" />
+      <workItem from="1608833539978" duration="7000" />
+      <workItem from="1608835796347" duration="117000" />
     </task>
     <servers />
   </component>
