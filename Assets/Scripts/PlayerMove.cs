@@ -23,6 +23,8 @@ public class PlayerMove : MonoBehaviour
     public float vida = 10f;
     public string tagDelOponente = "Enemy";
     
+    //sistema barreras ordas
+    private int kills = 0;
     
     void Start()
     {
@@ -61,10 +63,16 @@ public class PlayerMove : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, suelo, techo), transform.position.z);
         }
-        if (mov.x != 0)
+
+        if (kills == 0)
         {
-            transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha), transform.position.y, transform.position.z);
+            derecha = 5.72f;
+            if (mov.x != 0)
+            {
+                transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha), transform.position.y, transform.position.z);
+            }
         }
+        
         
 //Genera el movimiento
         transform.position = Vector3.MoveTowards(transform.position, transform.position + mov, Time.deltaTime * speed);
