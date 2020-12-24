@@ -10,6 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/plataformaMovil.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -27,6 +30,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/pruebaEne.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/pruebaPlaye.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/DrawScenneLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/plataformaMovil.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
       </list>
     </option>
   </component>
@@ -82,6 +88,8 @@
       <workItem from="1608652433145" duration="1986000" />
       <workItem from="1608761234638" duration="360000" />
       <workItem from="1608776171271" duration="128000" />
+      <workItem from="1608780058853" duration="637000" />
+      <workItem from="1608781065677" duration="744000" />
     </task>
     <servers />
   </component>
