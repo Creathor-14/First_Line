@@ -1,0 +1,1616 @@
+fileFormatVersion: 2
+guid: 0b43e2effbe8b404a8c3a632192a88f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3327941734257705272
+    second: SpiderMan_0
+  - first:
+      213: 3477945108333385116
+    second: SpiderMan_1
+  - first:
+      213: -2118383512649063720
+    second: SpiderMan_2
+  - first:
+      213: 763923110556983147
+    second: SpiderMan_3
+  - first:
+      213: -7270794587879084338
+    second: SpiderMan_4
+  - first:
+      213: 2947554052183339323
+    second: SpiderMan_5
+  - first:
+      213: -6019321364248987874
+    second: SpiderMan_6
+  - first:
+      213: -1486488093941657268
+    second: SpiderMan_7
+  - first:
+      213: 4384178736637219246
+    second: SpiderMan_8
+  - first:
+      213: 1557653570342433491
+    second: SpiderMan_9
+  - first:
+      213: -8065339915483102207
+    second: SpiderMan_10
+  - first:
+      213: 5075101218114526654
+    second: SpiderMan_11
+  - first:
+      213: 4337014251487279077
+    second: SpiderMan_12
+  - first:
+      213: 4593174991714680111
+    second: SpiderMan_13
+  - first:
+      213: -5162252285084392871
+    second: SpiderMan_14
+  - first:
+      213: -883760447107529624
+    second: SpiderMan_15
+  - first:
+      213: -2985897792857397580
+    second: SpiderMan_16
+  - first:
+      213: 5433897367230028181
+    second: SpiderMan_17
+  - first:
+      213: -1537439943066936593
+    second: SpiderMan_18
+  - first:
+      213: 5854968729205965414
+    second: SpiderMan_19
+  - first:
+      213: -2753333815772149167
+    second: SpiderMan_20
+  - first:
+      213: 8147558369386023681
+    second: SpiderMan_21
+  - first:
+      213: 4950216367283301236
+    second: SpiderMan_22
+  - first:
+      213: -1870603860204787266
+    second: SpiderMan_23
+  - first:
+      213: 726344476273948318
+    second: SpiderMan_24
+  - first:
+      213: 4533487178470850220
+    second: SpiderMan_25
+  - first:
+      213: 8443855393024252891
+    second: SpiderMan_26
+  - first:
+      213: 3360514577543491060
+    second: SpiderMan_27
+  - first:
+      213: -2401521660734773730
+    second: SpiderMan_28
+  - first:
+      213: 856097730759303242
+    second: SpiderMan_29
+  - first:
+      213: -5184199576499083251
+    second: SpiderMan_30
+  - first:
+      213: 3320533235011698956
+    second: SpiderMan_31
+  - first:
+      213: 2011131289537544615
+    second: SpiderMan_32
+  - first:
+      213: -8700701448057497523
+    second: SpiderMan_33
+  - first:
+      213: 3816347769141777688
+    second: SpiderMan_34
+  - first:
+      213: 9209388515001131655
+    second: SpiderMan_35
+  - first:
+      213: 4590937153661122677
+    second: SpiderMan_36
+  - first:
+      213: 5170071495097848470
+    second: SpiderMan_37
+  - first:
+      213: -2201853969087931780
+    second: SpiderMan_38
+  - first:
+      213: 3593946933434155962
+    second: SpiderMan_39
+  - first:
+      213: -4669119196865402874
+    second: SpiderMan_40
+  - first:
+      213: -7844187272750807403
+    second: SpiderMan_41
+  - first:
+      213: 5456660706965659760
+    second: SpiderMan_42
+  - first:
+      213: -3931982159990232865
+    second: SpiderMan_43
+  - first:
+      213: 2746157314570816367
+    second: SpiderMan_44
+  - first:
+      213: -3847837154436378388
+    second: SpiderMan_45
+  - first:
+      213: 161522355367655323
+    second: SpiderMan_46
+  - first:
+      213: -8057748580586948224
+    second: SpiderMan_47
+  - first:
+      213: 2486844797370439538
+    second: SpiderMan_48
+  - first:
+      213: 385131124476205185
+    second: SpiderMan_49
+  - first:
+      213: 4496843865969834880
+    second: SpiderMan_50
+  - first:
+      213: -9036955747665282620
+    second: SpiderMan_51
+  - first:
+      213: -555593722156116135
+    second: SpiderMan_52
+  - first:
+      213: 298087569346299506
+    second: SpiderMan_53
+  - first:
+      213: 7783925692978217900
+    second: SpiderMan_54
+  - first:
+      213: -9016959880394555017
+    second: SpiderMan_55
+  - first:
+      213: -2984532968457966923
+    second: SpiderMan_56
+  - first:
+      213: -2417088315756340873
+    second: SpiderMan_57
+  - first:
+      213: 211670503687397225
+    second: SpiderMan_58
+  - first:
+      213: -2906514804858873709
+    second: SpiderMan_59
+  - first:
+      213: -6508371814280361084
+    second: SpiderMan_60
+  - first:
+      213: 7941024399037939004
+    second: SpiderMan_61
+  - first:
+      213: 3871701196429828908
+    second: SpiderMan_62
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpiderMan_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 894
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce3f58ff96c0d1d0800000000000000
+      internalID: -3327941734257705272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 894
+        width: 41
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95d48a26a4244030800000000000000
+      internalID: 3477945108333385116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 894
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2228e3b6df992e0800000000000000
+      internalID: -2118383512649063720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 800
+        width: 69
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fd57885000a9a00800000000000000
+      internalID: 763923110556983147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 782
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece62aa38d2f81b90800000000000000
+      internalID: -7270794587879084338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 781
+        width: 35
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31b6ac2bc0d7e820800000000000000
+      internalID: 2947554052183339323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 781
+        width: 26
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17f4076c13177ca0800000000000000
+      internalID: -6019321364248987874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 783
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4192cd44feee5be0800000000000000
+      internalID: -1486488093941657268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 783
+        width: 52
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea11515255bb7dc30800000000000000
+      internalID: 4384178736637219246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 784
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2316f5ba5ed9510800000000000000
+      internalID: 1557653570342433491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_10
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 785
+        width: 31
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104c9d03418221090800000000000000
+      internalID: -8065339915483102207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 782
+        width: 28
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd5ed83ba16e6640800000000000000
+      internalID: 5075101218114526654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 664
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7b4b5bb7b203c30800000000000000
+      internalID: 4337014251487279077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 665
+        width: 40
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d7c5cb15c3ebf30800000000000000
+      internalID: 4593174991714680111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 706
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952a892c5eefb58b0800000000000000
+      internalID: -5162252285084392871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 702
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8648d934e804cb3f0800000000000000
+      internalID: -883760447107529624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_16
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 709
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6ac1107c5ff86d0800000000000000
+      internalID: -2985897792857397580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_17
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 562
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5991daf8dd4196b40800000000000000
+      internalID: 5433897367230028181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 561
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea9ff9748ae9aae0800000000000000
+      internalID: -1537439943066936593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 560
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662875bc907014150800000000000000
+      internalID: 5854968729205965414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_20
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 560
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a84da7b713ac9d0800000000000000
+      internalID: -2753333815772149167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_21
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 560
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bc30a5b21f11170800000000000000
+      internalID: 8147558369386023681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 560
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bee350f83b2b440800000000000000
+      internalID: 4950216367283301236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_23
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 560
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9e40533b74a06e0800000000000000
+      internalID: -1870603860204787266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_24
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 560
+        width: 36
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9630ece37e741a00800000000000000
+      internalID: 726344476273948318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_25
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 559
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caefa82c19e2aee30800000000000000
+      internalID: 4533487178470850220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_26
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 560
+        width: 51
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb1af31eb99e2570800000000000000
+      internalID: 8443855393024252891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_27
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 564
+        width: 52
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd60091432f2ae20800000000000000
+      internalID: 3360514577543491060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_28
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 560
+        width: 42
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e166f7bf5c41caed0800000000000000
+      internalID: -2401521660734773730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_29
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 442
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a402deea95871eb00800000000000000
+      internalID: 856097730759303242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 443
+        width: 51
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08aa06c3f50e08b0800000000000000
+      internalID: -5184199576499083251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_31
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 443
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0140c16267e41e20800000000000000
+      internalID: 3320533235011698956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 443
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a10f8d9049f8eb10800000000000000
+      internalID: 2011131289537544615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_33
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 426
+        width: 226
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d485ecb9126e04780800000000000000
+      internalID: -8700701448057497523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_34
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 325
+        width: 73
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815dc0f731466f430800000000000000
+      internalID: 3816347769141777688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_35
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 294
+        width: 73
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782643b9f025ecf70800000000000000
+      internalID: 9209388515001131655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_36
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 290
+        width: 73
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5783d16740946bf30800000000000000
+      internalID: 4590937153661122677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_37
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 299
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6921ea0f1a8cfb740800000000000000
+      internalID: 5170071495097848470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_38
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 301
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ada352b717171e0800000000000000
+      internalID: -2201853969087931780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_39
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 304
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab382f4c1b340e130800000000000000
+      internalID: 3593946933434155962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_40
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 282
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60861e814d4f33fb0800000000000000
+      internalID: -4669119196865402874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_41
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 157
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5964c085c39d32390800000000000000
+      internalID: -7844187272750807403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_42
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 160
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070258a9004f9bb40800000000000000
+      internalID: 5456660706965659760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 157
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8eb9ade0bce69c0800000000000000
+      internalID: -3931982159990232865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 157
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b8550278f4c1620800000000000000
+      internalID: 2746157314570816367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_45
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 155
+        width: 44
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce01548ae7cb99ac0800000000000000
+      internalID: -3847837154436378388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_46
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 155
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9739f6f9b7dd3200800000000000000
+      internalID: 161522355367655323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_47
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 123
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089f4b49b502d2090800000000000000
+      internalID: -8057748580586948224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_48
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 141
+        width: 205
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2771bc6da2c038220800000000000000
+      internalID: 2486844797370439538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_49
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 16
+        width: 48
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188d95a97b2485500800000000000000
+      internalID: 385131124476205185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_50
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 16
+        width: 39
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bb689bbaff76e30800000000000000
+      internalID: 4496843865969834880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_51
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 17
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c97c7990a8469280800000000000000
+      internalID: -9036955747665282620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_52
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 17
+        width: 40
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957927f04722a48f0800000000000000
+      internalID: -555593722156116135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 17
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27688d2a015032400800000000000000
+      internalID: 298087569346299506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_54
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 44
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3c0004d2f060c60800000000000000
+      internalID: 7783925692978217900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_55
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 34
+        width: 36
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771422f33c25dd280800000000000000
+      internalID: -9016959880394555017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_56
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 22
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baee92f31fc496d0800000000000000
+      internalID: -2984532968457966923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_57
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 24
+        width: 69
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779989cabf6c47ed0800000000000000
+      internalID: -2417088315756340873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_58
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 22
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f17bd933100f200800000000000000
+      internalID: 211670503687397225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_59
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 22
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39819f13f2cf9a7d0800000000000000
+      internalID: -2906514804858873709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_60
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 21
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b87a7515e9da5a0800000000000000
+      internalID: -6508371814280361084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_61
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 22
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dbd591e9f243e60800000000000000
+      internalID: 7941024399037939004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpiderMan_62
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 21
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23a7a999bb0bb530800000000000000
+      internalID: 3871701196429828908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

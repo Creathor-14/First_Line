@@ -1,0 +1,1064 @@
+fileFormatVersion: 2
+guid: 7b01e7b8bdbbce24d850ba62b775ff3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6906323298147563144
+    second: hombre primera linea_0
+  - first:
+      213: -1787198817875555375
+    second: hombre primera linea_1
+  - first:
+      213: -8075583943257374040
+    second: hombre primera linea_2
+  - first:
+      213: 6946107822759045813
+    second: hombre primera linea_3
+  - first:
+      213: -4694398988996700735
+    second: hombre primera linea_4
+  - first:
+      213: 2818115387287816805
+    second: hombre primera linea_5
+  - first:
+      213: -3367449669561561755
+    second: hombre primera linea_6
+  - first:
+      213: -1123805409493717980
+    second: hombre primera linea_7
+  - first:
+      213: -7394155130277784236
+    second: hombre primera linea_8
+  - first:
+      213: 3458536804718165037
+    second: hombre primera linea_9
+  - first:
+      213: -7858727969861664141
+    second: hombre primera linea_10
+  - first:
+      213: 3243335815972313132
+    second: hombre primera linea_11
+  - first:
+      213: 4428616753379656493
+    second: hombre primera linea_12
+  - first:
+      213: 2635630266251312695
+    second: hombre primera linea_13
+  - first:
+      213: 6916496370838465233
+    second: hombre primera linea_14
+  - first:
+      213: 6953557819012031860
+    second: hombre primera linea_15
+  - first:
+      213: 2496061074662095597
+    second: hombre primera linea_16
+  - first:
+      213: -7018956345751124649
+    second: hombre primera linea_17
+  - first:
+      213: 390375322236569996
+    second: hombre primera linea_18
+  - first:
+      213: -60564799169997611
+    second: hombre primera linea_19
+  - first:
+      213: 8988008508266655890
+    second: hombre primera linea_20
+  - first:
+      213: 8849392359998496840
+    second: hombre primera linea_21
+  - first:
+      213: 2705679178798755132
+    second: hombre primera linea_22
+  - first:
+      213: -7490064026655266225
+    second: hombre primera linea_23
+  - first:
+      213: 2297707927150993125
+    second: hombre primera linea_24
+  - first:
+      213: 429409853481091481
+    second: hombre primera linea_25
+  - first:
+      213: -3313692826643900231
+    second: hombre primera linea_26
+  - first:
+      213: -5289092889884539528
+    second: hombre primera linea_27
+  - first:
+      213: -7929303227453231329
+    second: hombre primera linea_28
+  - first:
+      213: -749472618700040490
+    second: hombre primera linea_29
+  - first:
+      213: 5698505286120936229
+    second: hombre primera linea_30
+  - first:
+      213: -7942685471737212793
+    second: hombre primera linea_31
+  - first:
+      213: -2924290810336165207
+    second: hombre primera linea_32
+  - first:
+      213: -3238178102480266432
+    second: hombre primera linea_33
+  - first:
+      213: -4251763836519623463
+    second: hombre primera linea_34
+  - first:
+      213: 5851217722077499306
+    second: hombre primera linea_35
+  - first:
+      213: 7910165247699863280
+    second: hombre primera linea_36
+  - first:
+      213: -7689436249433877547
+    second: hombre primera linea_37
+  - first:
+      213: 1923026405935445035
+    second: hombre primera linea_38
+  - first:
+      213: 2099217366574682269
+    second: hombre primera linea_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hombre primera linea_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 480
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f61ac27038df50800000000000000
+      internalID: 6906323298147563144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 480
+        width: 51
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db8785e4289237e0800000000000000
+      internalID: -1787198817875555375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 480
+        width: 60
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2cb4c9033cdef80800000000000000
+      internalID: -8075583943257374040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 480
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba6d134348856060800000000000000
+      internalID: 6946107822759045813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 486
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c516e2ddf42adeb0800000000000000
+      internalID: -4694398988996700735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 480
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a4a538305fb1720800000000000000
+      internalID: 2818115387287816805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dc6c6fd5a6441d0800000000000000
+      internalID: -3367449669561561755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_7
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 484
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ce67a2fe07760f0800000000000000
+      internalID: -1123805409493717980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 495
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45519adb51fa26990800000000000000
+      internalID: -7394155130277784236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_9
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 480
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c37d756e03fff20800000000000000
+      internalID: 3458536804718165037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_10
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 480
+        width: 58
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37208f97c8030f290800000000000000
+      internalID: -7858727969861664141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_11
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 480
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28d45e9db4a20d20800000000000000
+      internalID: 3243335815972313132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_12
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 480
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23c98f297b957d30800000000000000
+      internalID: 4428616753379656493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_13
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 480
+        width: 64
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e7d2353c3a39420800000000000000
+      internalID: 2635630266251312695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 352
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daea1addc45cff50800000000000000
+      internalID: 6916496370838465233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4752a5faeffff7060800000000000000
+      internalID: 6953557819012031860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 353
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaf9ec925ac3a220800000000000000
+      internalID: 2496061074662095597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_17
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 353
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755c78d3468a79e90800000000000000
+      internalID: -7018956345751124649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_18
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 358
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c894dfa8944ea6500800000000000000
+      internalID: 390375322236569996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d45493d2a4d82ff0800000000000000
+      internalID: -60564799169997611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_20
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 352
+        width: 98
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2903c652e12dbbc70800000000000000
+      internalID: 8988008508266655890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 352
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84024cf177b5fca70800000000000000
+      internalID: 8849392359998496840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_22
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 352
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d6878b0e08c8520800000000000000
+      internalID: 2705679178798755132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_23
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 352
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ae74aa372fd0890800000000000000
+      internalID: -7490064026655266225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_24
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 352
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee1f6b9f2913ef10800000000000000
+      internalID: 2297707927150993125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_25
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 353
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9910bc39cf195f500800000000000000
+      internalID: 429409853481091481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_26
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 353
+        width: 94
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8512d4ee56302d0800000000000000
+      internalID: -3313692826643900231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875436a1a0e5996b0800000000000000
+      internalID: -5289092889884539528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 235
+        width: 106
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1faa43d9b475f190800000000000000
+      internalID: -7929303227453231329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 230
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d69089cf965995f0800000000000000
+      internalID: -749472618700040490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5239ce1ad58251f40800000000000000
+      internalID: 5698505286120936229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_31
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 151
+        width: 69
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780927645a9e5c190800000000000000
+      internalID: -7942685471737212793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_32
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 229
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a249f56005da67d0800000000000000
+      internalID: -2924290810336165207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_33
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 224
+        width: 88
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b17322c2eaf03d0800000000000000
+      internalID: -3238178102480266432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_34
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 224
+        width: 116
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d455674153bef4c0800000000000000
+      internalID: -4251763836519623463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_35
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 224
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf46e36483b33150800000000000000
+      internalID: 5851217722077499306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_36
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 224
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f64ac7026d86cd60800000000000000
+      internalID: 7910165247699863280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_37
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 224
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d35b75b872a94590800000000000000
+      internalID: -7689436249433877547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 224
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b247a7bd356ffaa10800000000000000
+      internalID: 1923026405935445035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hombre primera linea_39
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 101
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90d301a21be12d10800000000000000
+      internalID: 2099217366574682269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

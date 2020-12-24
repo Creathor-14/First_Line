@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/Menu/Escenas Menu/Menu.unity
     guid: f8c79caa9f77b144d8921bfa13d8c2d1
+  - enabled: 1
+    path: Assets/Menu/Escenas Menu/PlayerSelection.unity
+    guid: 631d9c2068db9114ca44ab4db9d1ce9d
   - enabled: 1
     path: Assets/Scenes/Golpes.unity
     guid: c54213bd50bf76d46bc0f884a477ba4e
+  - enabled: 1
+    path: Assets/Menu/Escenas Menu/LoadGame.unity
+    guid: 4fab6831c9d035844b82e3d74814d4c5
+  - enabled: 1
+    path: Assets/Menu/Escenas Menu/Options.unity
+    guid: 5fc93f93e4c75b440844c60acc0be055
+  - enabled: 1
+    path: Assets/Menu/Escenas Menu/Tips.unity
+    guid: 364be32f6df61e74c86a93e1eb6b18f1
   m_configObjects: {}
