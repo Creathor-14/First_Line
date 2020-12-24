@@ -25,8 +25,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/prueba2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/pruebaEne.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/pruebaPlaye.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
       </list>
     </option>
   </component>
@@ -81,6 +81,7 @@
       <workItem from="1608611680356" duration="5391000" />
       <workItem from="1608652433145" duration="1986000" />
       <workItem from="1608761234638" duration="360000" />
+      <workItem from="1608776171271" duration="128000" />
     </task>
     <servers />
   </component>

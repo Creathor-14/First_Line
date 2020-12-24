@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 1339997616}
   - component: {fileID: 1339997615}
   - component: {fileID: 1339997614}
-  - component: {fileID: 1339997618}
+  - component: {fileID: 1339997613}
   m_Layer: 0
   m_Name: mujer primera linea
   m_TagString: Player
@@ -325,6 +325,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1339997613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339997612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30954e545a2dd88439ea177d23561d2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+  techo: -0.72
+  suelo: -4.23
 --- !u!95 &1339997614
 Animator:
   serializedVersion: 3
@@ -430,19 +445,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1339997618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339997612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef6cb5ac2c45c5e47817a02dc779b8c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 4
 --- !u!1 &1777116588
 GameObject:
   m_ObjectHideFlags: 0
