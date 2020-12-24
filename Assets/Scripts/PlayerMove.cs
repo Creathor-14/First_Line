@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,17 +8,22 @@ public class PlayerMove : MonoBehaviour
     public float speed = 4f;
     private SpriteRenderer player;
     private Animator anim;
+    private Rigidbody2D rd;
 
     //limites personaje eje y
     public float techo=-0.72f;
     public float suelo=-4.23f;
     
+    //sistema de daño
+    public float vida = 10f;
+    public string tagDelOponente = "Enemy";
     
-
+    
     void Start()
     {
         player = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        rd = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate()
@@ -73,5 +79,38 @@ public class PlayerMove : MonoBehaviour
             anim.SetTrigger(("Ataque"));
         }
     }
+    
+    
+//detecta los golpes enemigos y aplica el daño    
+
+    public void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag.Equals(tagDelOponente))
+        {
+            if (!Input.GetButtonDown(("Fire1")))
+            {
+                vida -= 4;//deve obtener el valor del daño del que lo golpea (en vez de el 4)
+                anim.SetTrigger("Daño");
+                if (vida <= 0)
+                {
+                    anim.SetBool("Muere",true);
+                }
+/*
+ *                Cuando reciva golpes el personaje no podra moverse
+ *
+ *                 mov.x = 0;
+ *                 mov.y = 0;
+ */
+                
+            }
+            else//retroceso
+            {
+                rd.AddForce(Vector2.right*(GetComponentInParent<Transform>().localScale.x*-1)*5,ForceMode2D.Impulse);//Get component depende de cual de los objetos le da el movimiento al jugador(GetComponentInParent) en este caso es Get component normal
+            }
+        }
+    }
+
+    
+    
 }
 //EN Quieto(anim) 2 HAY QUE HACER QUE EL PERSONAJE SE QUEDE QUIETO

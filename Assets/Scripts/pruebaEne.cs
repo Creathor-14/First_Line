@@ -8,14 +8,14 @@ public class pruebaEne : MonoBehaviour
     // Start is called before the first frame update
     public GameObject playerM;
     bool perseguirP;
-    public int vel;
+    public float speed = 3f;
     
     // Update is called once per frame
     void Update()
     {
         if (perseguirP)
         {
-            transform.position = Vector2.MoveTowards(transform.position, Enemypos, vel * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, Enemypos, speed * Time.deltaTime);
         }
 
         if (Vector3.Distance(transform.position, Enemypos) > 4f)
@@ -28,7 +28,7 @@ public class pruebaEne : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag.Equals("mujer primera linea"))
+        if (collision.tag.Equals("Player"))
         {
             Enemypos = playerM.transform.position;
             perseguirP = true;
