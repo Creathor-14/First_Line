@@ -12,25 +12,30 @@ public class PlayerMove : MonoBehaviour
 
     //limites personaje eje y
     public float techo=-0.72f;
-    public float suelo=-4.23f;
+    public float suelo=-3.77f;
     
     // limites personaje eje x
 
     public float derecha = 100.02f;
-    public float izquierda = -10.76f;
+    public float izquierda = -10.37f;
     
-    //sistema de daño
+    //sistema de daño(1)
     public float vida = 10f;
     public string tagDelOponente = "Enemy";
     
     //sistema barreras ordas
     private int kills = 0;
     
+    //sistema de daño(2)
+    private CircleCollider2D ac;
+    
     void Start()
     {
         player = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rd = GetComponent<Rigidbody2D>();
+        ac= transform.GetChild(0).GetComponent<CircleCollider2D>();
+        ac.enabled = false;
     }
 
     void FixedUpdate()
@@ -72,8 +77,6 @@ public class PlayerMove : MonoBehaviour
                 transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha), transform.position.y, transform.position.z);
             }
         }
-        
-        
 //Genera el movimiento
         transform.position = Vector3.MoveTowards(transform.position, transform.position + mov, Time.deltaTime * speed);
         
@@ -87,25 +90,42 @@ public class PlayerMove : MonoBehaviour
             anim.SetBool("Caminar", true);
         }
 
-//Giros del personaje
+//Giros del personaje + cambiar posicion colaiders
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
             player.flipX = true;
+            if(mov!= Vector3.zero) ac.offset= new Vector3(-2.5f,1f,0);
         }
         else if (Input.GetAxisRaw("Horizontal") > 0)
         {
             player.flipX = false;
+            if(mov!= Vector3.zero) ac.offset= new Vector3(-0.3f,1f,0);
         }
         
-//Detectar ataque
+//Atacar
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger(("Ataque"));
+            
         }
+//Activar o desactivar colaider        
+        if (player.sprite.name==("mujer primera linea(limpio)_27")||player.sprite.name==("mujer primera linea(limpio)_28")||player.sprite.name==("mujer primera linea(limpio)_33")||player.sprite.name==("mujer primera linea(limpio)_40"))
+        {
+            ac.enabled = true;
+        }
+        else
+        {
+            ac.enabled = false;
+        }
+        //https://www.youtube.com/watch?v=0LgCaEMCoz8
+        //min 12:33
     }
+
     
     
-//detecta los golpes enemigos y aplica el daño    
+    
+    
+//detecta los golpes enemigos y aplica el daño(1)    
 
     public void OnTriggerEnter2D(Collider2D col)
     {
