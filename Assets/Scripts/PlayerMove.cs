@@ -29,6 +29,7 @@ public class PlayerMove : MonoBehaviour
     //sistema de daño(2)
     private CircleCollider2D ac;
     
+    
     void Start()
     {
         player = GetComponent<SpriteRenderer>();
@@ -36,6 +37,7 @@ public class PlayerMove : MonoBehaviour
         rd = GetComponent<Rigidbody2D>();
         ac= transform.GetChild(0).GetComponent<CircleCollider2D>();
         ac.enabled = false;
+        
     }
 
     void FixedUpdate()
