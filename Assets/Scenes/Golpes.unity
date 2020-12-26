@@ -318,6 +318,8 @@ GameObject:
   - component: {fileID: 1339997615}
   - component: {fileID: 1339997614}
   - component: {fileID: 1339997613}
+  - component: {fileID: 1339997618}
+  - component: {fileID: 1339997619}
   m_Layer: 0
   m_Name: mujer primera linea
   m_TagString: Player
@@ -340,6 +342,8 @@ MonoBehaviour:
   speed: 4
   techo: -0.72
   suelo: -4.23
+  derecha: 100.02
+  izquierda: -10.37
   vida: 10
   tagDelOponente: Enemy
 --- !u!95 &1339997614
@@ -447,6 +451,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1339997618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339997612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea53a71f3978c8419a0f3c8270cd3ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixEveryFrame: 1
+--- !u!58 &1339997619
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339997612}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2
 --- !u!1 &1777116588
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,11 +492,13 @@ GameObject:
   - component: {fileID: 1777116590}
   - component: {fileID: 1777116589}
   - component: {fileID: 1777116592}
-  - component: {fileID: 1777116593}
   - component: {fileID: 1777116594}
-  m_Layer: 0
+  - component: {fileID: 1777116595}
+  - component: {fileID: 1777116596}
+  - component: {fileID: 1777116593}
+  m_Layer: 9
   m_Name: centinela con cuchillo
-  m_TagString: Enemigo
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -525,7 +560,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1863865266540844232, guid: 55f08fa5c4f29654ca796e95c8733093,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -587,11 +622,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1777116588}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b71bafbcc23416441b70542f91441238, type: 3}
+  m_Script: {fileID: 11500000, guid: 8bece0d27b3c0774caaf6f91162d94f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerM: {fileID: 1777116588}
-  speed: 3
+  visionRadius: 2
+  attackRadius: 2
+  Speed: 3
 --- !u!50 &1777116594
 Rigidbody2D:
   serializedVersion: 4
@@ -600,16 +636,45 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777116588}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &1777116595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777116588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea53a71f3978c8419a0f3c8270cd3ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixEveryFrame: 1
+--- !u!58 &1777116596
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777116588}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.5

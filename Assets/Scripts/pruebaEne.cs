@@ -5,33 +5,41 @@ using UnityEngine;
 
 public class pruebaEne : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public GameObject playerM;
-    bool perseguirP;
-    public float speed = 3f;
+    Vector2 Enemypos;
+    public GameObject PlayerM;
+    bool perseguir;
+    public int vel;
+    private Animator anim;
+    public float Speed;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
     
-    // Update is called once per frame
     void Update()
     {
-        if (perseguirP)
+        if (perseguir)
         {
-            transform.position = Vector2.MoveTowards(transform.position, Enemypos, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, Enemypos, vel * Time.deltaTime);
+            anim.SetBool("Seguir", true);
+
         }
 
-        if (Vector3.Distance(transform.position, Enemypos) > 4f)
+        if (Vector2.Distance(transform.position, Enemypos) > 12f)
         {
-            perseguirP = false;
+            perseguir = false;
+            anim.SetBool("Seguir",false);
         }
     }
-
-    public Vector2 Enemypos { get; set; }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag.Equals("Player"))
         {
-            Enemypos = playerM.transform.position;
-            perseguirP = true;
+            Enemypos = PlayerM.transform.position;
+            perseguir = true;
         }
     }
+    
 }
