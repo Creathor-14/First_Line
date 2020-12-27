@@ -1,0 +1,632 @@
+fileFormatVersion: 2
+guid: d3874389bd900bb4a844e3e4b165d5ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2804683589609646927
+    second: matapaco (2)_0
+  - first:
+      213: 9005026482273113530
+    second: matapaco (2)_1
+  - first:
+      213: -7545009735519818597
+    second: matapaco (2)_2
+  - first:
+      213: 2213883884309716042
+    second: matapaco (2)_3
+  - first:
+      213: -7024906708986953121
+    second: matapaco (2)_4
+  - first:
+      213: 5306663660656317008
+    second: matapaco (2)_5
+  - first:
+      213: 54633764445466220
+    second: matapaco (2)_6
+  - first:
+      213: -8463448281304790501
+    second: matapaco (2)_7
+  - first:
+      213: 1730482020029598574
+    second: matapaco (2)_8
+  - first:
+      213: -1064872529321061811
+    second: matapaco (2)_9
+  - first:
+      213: -3729361889861067235
+    second: matapaco (2)_10
+  - first:
+      213: -6795070199402620456
+    second: matapaco (2)_11
+  - first:
+      213: -6982776134179098422
+    second: matapaco (2)_12
+  - first:
+      213: 6642022103576734159
+    second: matapaco (2)_13
+  - first:
+      213: -1332797338688310728
+    second: matapaco (2)_14
+  - first:
+      213: 6612966203506788622
+    second: matapaco (2)_15
+  - first:
+      213: 9014469957685297772
+    second: matapaco (2)_16
+  - first:
+      213: -8699720638583961107
+    second: matapaco (2)_17
+  - first:
+      213: -5701515255059591795
+    second: matapaco (2)_18
+  - first:
+      213: 4093876847974795378
+    second: matapaco (2)_19
+  - first:
+      213: 4973354105343158344
+    second: matapaco (2)_20
+  - first:
+      213: -7992356222759786649
+    second: matapaco (2)_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: matapaco (2)_0
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 630
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b413f59223c319d0800000000000000
+      internalID: -2804683589609646927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_1
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 633
+        width: 147
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5dfdcffd748fc70800000000000000
+      internalID: 9005026482273113530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_2
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 633
+        width: 135
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c2a77ee9dba4790800000000000000
+      internalID: -7545009735519818597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 495
+        width: 138
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c1e32c9ab49be10800000000000000
+      internalID: 2213883884309716042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_4
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 492
+        width: 132
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5203965194828e90800000000000000
+      internalID: -7024906708986953121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_5
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 486
+        width: 141
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052d4e3cb7e05a940800000000000000
+      internalID: 5306663660656317008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_6
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 489
+        width: 165
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ea38a8e1912c000800000000000000
+      internalID: 54633764445466220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_7
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 489
+        width: 165
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a00f121aacb8a80800000000000000
+      internalID: -8463448281304790501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 327
+        width: 129
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b801e8a38e30810800000000000000
+      internalID: 1730482020029598574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 321
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d421fb69310d831f0800000000000000
+      internalID: -1064872529321061811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 327
+        width: 142
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e93f3ce15ae3cc0800000000000000
+      internalID: -3729361889861067235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_11
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 327
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d993ccc7af03b1a0800000000000000
+      internalID: -6795070199402620456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_12
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 327
+        width: 171
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0fd203a12381f90800000000000000
+      internalID: -6982776134179098422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_13
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 318
+        width: 165
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9ebf989e33d2c50800000000000000
+      internalID: 6642022103576734159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_14
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 315
+        width: 129
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832b5e5c1e3f08de0800000000000000
+      internalID: -1332797338688310728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 171
+        width: 153
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e098faf99b9f5cb50800000000000000
+      internalID: 6612966203506788622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 165
+        width: 150
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6243427aa4d91d70800000000000000
+      internalID: 9014469957685297772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_17
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 174
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9811c1c22644780800000000000000
+      internalID: -8699720638583961107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_18
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 171
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dc3bc551620e0b0800000000000000
+      internalID: -5701515255059591795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_19
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 174
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278cbbd8d4f50d830800000000000000
+      internalID: 4093876847974795378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_20
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 168
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848a5377537e40540800000000000000
+      internalID: 4973354105343158344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matapaco (2)_21
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 159
+        width: 126
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76725085c52751190800000000000000
+      internalID: -7992356222759786649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
