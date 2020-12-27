@@ -10,10 +10,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Main/Matapaco/ladrido.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seguir.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -38,11 +34,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FixDepth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/pruebaEne.cs" />
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/plataformaMovil.cs" />
-        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Seguir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Animaciones/Main/Matapaco/ladrido.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/MainMenu.cs" />
       </list>
     </option>
   </component>
@@ -114,6 +111,7 @@
       <workItem from="1609001863079" duration="10463000" />
       <workItem from="1609028515632" duration="8417000" />
       <workItem from="1609112540007" duration="3933000" />
+      <workItem from="1609110210245" duration="1234000" />
     </task>
     <servers />
   </component>

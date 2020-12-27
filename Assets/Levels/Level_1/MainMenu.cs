@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
 
     public void StarGame()
     {
-        SceneManager.LoadScene("Golpes");
+        SceneManager.LoadScene("Nivel_1");
     }
 
     public void LoadGame()
