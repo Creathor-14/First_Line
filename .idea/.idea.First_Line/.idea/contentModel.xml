@@ -6,6 +6,7 @@
     <e p="C:\Users\thoma\Documents\GitHub\First_Line" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AAAAaaa.cs" t="Include" />
         <e p="Animaciones" t="Include">
           <e p="Main" t="Include">
             <e p="Matapaco" t="Include">
@@ -28,7 +29,10 @@
           <e p="BarraVida.cs" t="Include" />
           <e p="CAMAra.cs" t="Include" />
           <e p="FixDepth.cs" t="Include" />
-          <e p="PlayerMove.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="Matapacos.cs" t="Include" />
+            <e p="PlayerMove.cs" t="Include" />
+          </e>
           <e p="Prue2.cs" t="Include" />
           <e p="pruebaEne.cs" t="Include" />
           <e p="Seguir.cs" t="Include" />

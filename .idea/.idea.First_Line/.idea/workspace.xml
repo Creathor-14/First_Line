@@ -10,6 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -37,9 +40,15 @@
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Seguir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Animaciones/Main/Matapaco/ladrido.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Luces.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Light2D.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/AAAAaaa.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Animaciones/Main/Matapaco/ladrido.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapacos.cs" />
       </list>
     </option>
   </component>
@@ -113,6 +122,10 @@
       <workItem from="1609112540007" duration="3933000" />
       <workItem from="1609110210245" duration="1234000" />
       <workItem from="1609133968545" duration="88000" />
+      <workItem from="1609134827477" duration="668000" />
+      <workItem from="1609135708962" duration="19000" />
+      <workItem from="1609135931798" duration="204000" />
+      <workItem from="1609137961419" duration="2100000" />
     </task>
     <servers />
   </component>

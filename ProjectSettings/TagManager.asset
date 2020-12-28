@@ -6,7 +6,8 @@ TagManager:
   tags:
   - Enemigo
   - Attack
-  - Ladrido
+  - LadridoD
+  - LadridoI
   layers:
   - Default
   - TransparentFX

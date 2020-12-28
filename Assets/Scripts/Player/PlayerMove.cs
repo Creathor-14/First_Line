@@ -15,16 +15,15 @@ public class PlayerMove : MonoBehaviour
     public float suelo=-3.77f;
     
     // limites personaje eje x
-
     public float derecha = 100.02f;
     public float izquierda = -10.37f;
+    
+    //sistema barreras ordas
+    private int kills = 0;
     
     //sistema de daño(1)
     public float vida = 10f;
     public string tagDelOponente = "Enemy";
-    
-    //sistema barreras ordas
-    private int kills = 0;
     
     //sistema de daño(2)
     private CircleCollider2D ac;
