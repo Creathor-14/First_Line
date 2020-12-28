@@ -10,9 +10,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -50,6 +47,7 @@
         <option value="$PROJECT_DIR$/Assets/Animaciones/Main/Matapaco/ladrido.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapacos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca.cs" />
+        <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
       </list>
     </option>
   </component>
@@ -62,6 +60,12 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -128,6 +132,7 @@
       <workItem from="1609135931798" duration="204000" />
       <workItem from="1609137961419" duration="2100000" />
       <workItem from="1609172867556" duration="967000" />
+      <workItem from="1609170428621" duration="3063000" />
     </task>
     <servers />
   </component>
