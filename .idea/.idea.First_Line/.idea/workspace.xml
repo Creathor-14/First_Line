@@ -10,6 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Ayudantia 1/Assets/Scripts/Perseguir.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -48,6 +51,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapacos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/attack.cs" />
       </list>
     </option>
   </component>
@@ -133,6 +137,7 @@
       <workItem from="1609137961419" duration="2100000" />
       <workItem from="1609172867556" duration="967000" />
       <workItem from="1609170428621" duration="3063000" />
+      <workItem from="1609185280546" duration="2752000" />
     </task>
     <servers />
   </component>
