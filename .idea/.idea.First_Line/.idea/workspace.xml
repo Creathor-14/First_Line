@@ -11,8 +11,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/Ayudantia 1/Assets/Scripts/Perseguir.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prue2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Main/Matapaco/ladrido.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seguir.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,7 +37,12 @@
         <option value="$PROJECT_DIR$/Assets/Enemigo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FixDepth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/pruebaEne.cs" />
+        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/plataformaMovil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Seguir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Animaciones/Main/Matapaco/ladrido.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +112,8 @@
       <workItem from="1608854580973" duration="3754000" />
       <workItem from="1608925625238" duration="1150000" />
       <workItem from="1609001863079" duration="10463000" />
+      <workItem from="1609028515632" duration="8417000" />
+      <workItem from="1609112540007" duration="3933000" />
     </task>
     <servers />
   </component>
@@ -123,9 +130,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="417" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1608515416603" />
-    <state x="642" y="190" key="run.anything.popup" timestamp="1608841258786">
+    <state x="642" y="190" key="run.anything.popup" timestamp="1609116661066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="642" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1608841258786" />
+    <state x="642" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609116661066" />
   </component>
 </project>

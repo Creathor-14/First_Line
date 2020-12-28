@@ -16,12 +16,7 @@ public class plataformaMovil : MonoBehaviour
             target.parent = null;
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void FixedUpdate()
     {
