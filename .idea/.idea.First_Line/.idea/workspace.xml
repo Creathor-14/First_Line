@@ -49,6 +49,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Animaciones/Main/Matapaco/ladrido.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapacos.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +127,7 @@
       <workItem from="1609135708962" duration="19000" />
       <workItem from="1609135931798" duration="204000" />
       <workItem from="1609137961419" duration="2100000" />
+      <workItem from="1609172867556" duration="967000" />
     </task>
     <servers />
   </component>

@@ -30,6 +30,7 @@
           <e p="CAMAra.cs" t="Include" />
           <e p="FixDepth.cs" t="Include" />
           <e p="Player" t="Include">
+            <e p="Karateca.cs" t="Include" />
             <e p="Matapacos.cs" t="Include" />
             <e p="PlayerMove.cs" t="Include" />
           </e>
