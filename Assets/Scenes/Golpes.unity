@@ -416,6 +416,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: centinela con cuchillo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 949396392255571546, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -592,6 +597,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BumpX: 5
   BumpY: 10
+--- !u!1001 &2793871825704714244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2793871823751681050, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_Name
+      value: Emprendedor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1177716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.4481144
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793871823751681062, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4109899f11b2e664fb298cdf099d2f54, type: 3}
 --- !u!1001 &4872209626658484317
 PrefabInstance:
   m_ObjectHideFlags: 0

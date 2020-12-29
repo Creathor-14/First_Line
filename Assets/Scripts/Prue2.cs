@@ -43,7 +43,6 @@ public class Prue2 : MonoBehaviour
         {
             sp.flipX = false;
         }
-        print(forward);
         if (hit.collider != null)
         {
             if (hit.collider.tag == "Player")

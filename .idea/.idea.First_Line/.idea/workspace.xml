@@ -48,7 +48,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PrimeraLinea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Empendedor.cs" />
       </list>
     </option>
   </component>
@@ -135,7 +137,9 @@
       <workItem from="1609172867556" duration="967000" />
       <workItem from="1609170428621" duration="3063000" />
       <workItem from="1609185280546" duration="2752000" />
-      <workItem from="1609200094746" duration="1000000" />
+      <workItem from="1609200094746" duration="1549000" />
+      <workItem from="1609208870124" duration="617000" />
+      <workItem from="1609211278371" duration="659000" />
     </task>
     <servers />
   </component>
