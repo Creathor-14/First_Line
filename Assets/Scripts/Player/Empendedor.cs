@@ -19,7 +19,10 @@ public class Empendedor : MonoBehaviour
     
     //sistema barreras ordas
     private int kills = 0;
-    // Start is called before the first frame update
+    
+    //condicion para sacar el tipo de arma
+    private int cont=0;
+    
     void Start()
     {
         player = GetComponent<SpriteRenderer>();
@@ -33,13 +36,14 @@ public class Empendedor : MonoBehaviour
         //Movimiento------------------------------------------------------------------------------------------------------------
         Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
 //segun animaciones
-        if (player.sprite.name==("Emprendedor_7")||player.sprite.name==("Emprendedor_8")||player.sprite.name==("Emprendedor_9")||player.sprite.name==("Emprendedor_10") ||player.sprite.name==("Emprendedor_11"))
+        if (player.sprite.name == ("Emprendedor_7") || player.sprite.name == ("Emprendedor_8") ||
+            player.sprite.name == ("Emprendedor_9") || player.sprite.name == ("Emprendedor_10") ||
+            player.sprite.name == ("Emprendedor_11"))
         {
             mov.x = 0;
             mov.y = 0;
         }
-        
-        
+
 //Detectar limites de movimiento eje y        
         if (techo == player.transform.position.y && player.transform.position.y>0)
         {
@@ -92,6 +96,22 @@ public class Empendedor : MonoBehaviour
         {
             anim.SetTrigger(("Ataque"));
             
+        }
+//Cambio de arma
+        if (player.sprite.name == ("Emprendedor_15"))
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                cont += 1;
+            }
+        }
+        if (cont < 10)
+        {
+            anim.SetBool("TipoArma", false);
+        }
+        else
+        {
+            anim.SetBool("TipoArma", true);
         }
     }
 }
