@@ -10,9 +10,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/Ayudantia 1/Assets/Scripts/Perseguir.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -39,7 +36,6 @@
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/plataformaMovil.cs" />
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Seguir.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Luces.cs" />
@@ -52,6 +48,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
       </list>
     </option>
   </component>
@@ -138,6 +135,7 @@
       <workItem from="1609172867556" duration="967000" />
       <workItem from="1609170428621" duration="3063000" />
       <workItem from="1609185280546" duration="2752000" />
+      <workItem from="1609200094746" duration="1000000" />
     </task>
     <servers />
   </component>

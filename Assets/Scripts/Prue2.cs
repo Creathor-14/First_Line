@@ -13,6 +13,7 @@ public class Prue2 : MonoBehaviour
 
     Vector3 initialPosition;
 
+    private SpriteRenderer sp;
     private Animator anim;
     Rigidbody2D rb2d;
     
@@ -22,6 +23,7 @@ public class Prue2 : MonoBehaviour
         initialPosition = transform.position;
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
+        sp = GetComponent<SpriteRenderer>();
     }
     void Update()
     {
@@ -33,7 +35,15 @@ public class Prue2 : MonoBehaviour
             
         Vector3 forward = transform.TransformDirection(player.transform.position - transform.position);
         Debug.DrawRay(transform.position, forward, Color.red);
-
+        if (forward.x > 0)
+        {
+            sp.flipX = true;
+        }
+        else
+        {
+            sp.flipX = false;
+        }
+        print(forward);
         if (hit.collider != null)
         {
             if (hit.collider.tag == "Player")
@@ -48,8 +58,8 @@ public class Prue2 : MonoBehaviour
 
         if (target != initialPosition && distance < attackRadius)
         {
-            //anim.SetBool("Golpear",true);
-            anim.Play("golpes",-1,2);
+            anim.SetBool("Golpear",true);
+            //anim.Play("golpes",-1,2);
         }
         else
         {
