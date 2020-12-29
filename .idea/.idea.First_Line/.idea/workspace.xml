@@ -10,6 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -141,6 +144,7 @@
       <workItem from="1609208870124" duration="617000" />
       <workItem from="1609211278371" duration="659000" />
       <workItem from="1609276221755" duration="1798000" />
+      <workItem from="1609276293781" duration="1395000" />
     </task>
     <servers />
   </component>
