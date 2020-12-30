@@ -1,0 +1,1880 @@
+fileFormatVersion: 2
+guid: 36159c9392a3f414fb88d33a4435e5e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2339595796522672461
+    second: centinela escudo limpio_0
+  - first:
+      213: -7213658346712903370
+    second: centinela escudo limpio_1
+  - first:
+      213: 3595073792703858567
+    second: centinela escudo limpio_2
+  - first:
+      213: -977448301126798218
+    second: centinela escudo limpio_3
+  - first:
+      213: -7304136760098135130
+    second: centinela escudo limpio_4
+  - first:
+      213: 2774743727657015668
+    second: centinela escudo limpio_5
+  - first:
+      213: 8292948079936053803
+    second: centinela escudo limpio_6
+  - first:
+      213: -4338601982295404951
+    second: centinela escudo limpio_7
+  - first:
+      213: 6526904267958944799
+    second: centinela escudo limpio_8
+  - first:
+      213: 9210596819804142282
+    second: centinela escudo limpio_9
+  - first:
+      213: -8420076696895936857
+    second: centinela escudo limpio_10
+  - first:
+      213: -8515163159928042150
+    second: centinela escudo limpio_11
+  - first:
+      213: -548536256808062654
+    second: centinela escudo limpio_12
+  - first:
+      213: -2870108973646076863
+    second: centinela escudo limpio_13
+  - first:
+      213: -2258952532183051985
+    second: centinela escudo limpio_14
+  - first:
+      213: -7353674465583718330
+    second: centinela escudo limpio_15
+  - first:
+      213: 2434126856568054707
+    second: centinela escudo limpio_16
+  - first:
+      213: -7852005935299687282
+    second: centinela escudo limpio_17
+  - first:
+      213: 740174357504205315
+    second: centinela escudo limpio_18
+  - first:
+      213: -6041121409357415542
+    second: centinela escudo limpio_19
+  - first:
+      213: 4466807170431147825
+    second: centinela escudo limpio_20
+  - first:
+      213: -6260233718071007129
+    second: centinela escudo limpio_21
+  - first:
+      213: -4721177745550816765
+    second: centinela escudo limpio_22
+  - first:
+      213: -1589760570559309317
+    second: centinela escudo limpio_23
+  - first:
+      213: 6116371706935785653
+    second: centinela escudo limpio_24
+  - first:
+      213: -2402500748083575405
+    second: centinela escudo limpio_25
+  - first:
+      213: 3426945293578529274
+    second: centinela escudo limpio_26
+  - first:
+      213: -8574206382979123597
+    second: centinela escudo limpio_27
+  - first:
+      213: -6924088673177402050
+    second: centinela escudo limpio_28
+  - first:
+      213: 5498895608498051913
+    second: centinela escudo limpio_29
+  - first:
+      213: -3874720325645488879
+    second: centinela escudo limpio_30
+  - first:
+      213: -1997519611331497312
+    second: centinela escudo limpio_31
+  - first:
+      213: 432857238962512132
+    second: centinela escudo limpio_32
+  - first:
+      213: -315720741035237989
+    second: centinela escudo limpio_33
+  - first:
+      213: 442914595841236535
+    second: centinela escudo limpio_34
+  - first:
+      213: -7493530718136032012
+    second: centinela escudo limpio_35
+  - first:
+      213: -683657514800607728
+    second: centinela escudo limpio_36
+  - first:
+      213: -6310635991111612257
+    second: centinela escudo limpio_37
+  - first:
+      213: -3993405757219411399
+    second: centinela escudo limpio_38
+  - first:
+      213: 5070651215550581181
+    second: centinela escudo limpio_39
+  - first:
+      213: 5337445687394642558
+    second: centinela escudo limpio_40
+  - first:
+      213: -3353953346944177548
+    second: centinela escudo limpio_41
+  - first:
+      213: -469963101815265787
+    second: centinela escudo limpio_42
+  - first:
+      213: 1922952292233468981
+    second: centinela escudo limpio_43
+  - first:
+      213: 4463537186000614112
+    second: centinela escudo limpio_44
+  - first:
+      213: -3992712117799966349
+    second: centinela escudo limpio_45
+  - first:
+      213: -7598566439579825177
+    second: centinela escudo limpio_46
+  - first:
+      213: 1828369231545161463
+    second: centinela escudo limpio_47
+  - first:
+      213: -529820426379856888
+    second: centinela escudo limpio_48
+  - first:
+      213: -1756335454554926636
+    second: centinela escudo limpio_49
+  - first:
+      213: -4660689497820657945
+    second: centinela escudo limpio_50
+  - first:
+      213: -1991851621729630946
+    second: centinela escudo limpio_51
+  - first:
+      213: 7812304110944253354
+    second: centinela escudo limpio_52
+  - first:
+      213: -7904315597715929557
+    second: centinela escudo limpio_53
+  - first:
+      213: -3427110739979272803
+    second: centinela escudo limpio_54
+  - first:
+      213: 1065665798761888967
+    second: centinela escudo limpio_55
+  - first:
+      213: -2080037973017479594
+    second: centinela escudo limpio_56
+  - first:
+      213: 3509770959787774558
+    second: centinela escudo limpio_57
+  - first:
+      213: -5937083798818384940
+    second: centinela escudo limpio_58
+  - first:
+      213: 3774941846264101037
+    second: centinela escudo limpio_59
+  - first:
+      213: -2617208093447263665
+    second: centinela escudo limpio_60
+  - first:
+      213: 4985363192931739516
+    second: centinela escudo limpio_61
+  - first:
+      213: -9127584902802446605
+    second: centinela escudo limpio_62
+  - first:
+      213: -6925069646508493355
+    second: centinela escudo limpio_63
+  - first:
+      213: -7785531735538584685
+    second: centinela escudo limpio_64
+  - first:
+      213: -8018558157037298786
+    second: centinela escudo limpio_65
+  - first:
+      213: -8790846310576450418
+    second: centinela escudo limpio_66
+  - first:
+      213: -3683460323586003096
+    second: centinela escudo limpio_67
+  - first:
+      213: 2746561722356458465
+    second: centinela escudo limpio_68
+  - first:
+      213: -352552884612408744
+    second: centinela escudo limpio_69
+  - first:
+      213: 453526914608975428
+    second: centinela escudo limpio_70
+  - first:
+      213: -3714952466668144019
+    second: centinela escudo limpio_71
+  - first:
+      213: 5191269736598072856
+    second: centinela escudo limpio_72
+  - first:
+      213: 5126507096086172636
+    second: centinela escudo limpio_73
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: centinela escudo limpio_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1237
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412bb13bf9e77020800000000000000
+      internalID: 2339595796522672461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1237
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631552904ffe3eb90800000000000000
+      internalID: -7213658346712903370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1237
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7870e63219444e130800000000000000
+      internalID: 3595073792703858567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1237
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6743709e2f76f62f0800000000000000
+      internalID: -977448301126798218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1237
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a36a7fc05e72aa90800000000000000
+      internalID: -7304136760098135130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1237
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4795db518bed18620800000000000000
+      internalID: 2774743727657015668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1237
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22a85d3758761370800000000000000
+      internalID: 8292948079936053803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_7
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1237
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e0a77eb703ac3c0800000000000000
+      internalID: -4338601982295404951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1237
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f148ca6c9d8349a50800000000000000
+      internalID: 6526904267958944799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_9
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1237
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acab4cdf10d92df70800000000000000
+      internalID: 9210596819804142282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1237
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a629fb0bd0e52b80800000000000000
+      internalID: -8420076696895936857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1237
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d0ff7a83014d980800000000000000
+      internalID: -8515163159928042150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1196
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24178824e253368f0800000000000000
+      internalID: -548536256808062654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1196
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1442a2f48135b28d0800000000000000
+      internalID: -2870108973646076863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1196
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2192c2f3a696a0e0800000000000000
+      internalID: -2258952532183051985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1196
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640a505f80082f990800000000000000
+      internalID: -7353674465583718330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1154
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b32affba71c7c120800000000000000
+      internalID: 2434126856568054707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1154
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c043c1432180390800000000000000
+      internalID: -7852005935299687282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_18
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1154
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30224e218a0a54a00800000000000000
+      internalID: 740174357504205315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1154
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b7e3ed510a92ca0800000000000000
+      internalID: -6041121409357415542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1113
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f57b194794dfd30800000000000000
+      internalID: 4466807170431147825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1113
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768647ff99e2f19a0800000000000000
+      internalID: -6260233718071007129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1113
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ac6f2bad10b7eb0800000000000000
+      internalID: -4721177745550816765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1113
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9d3e91f2900f9e0800000000000000
+      internalID: -1589760570559309317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1048
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8382a59a7b1e450800000000000000
+      internalID: 6116371706935785653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_25
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1048
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3954ed17c4a98aed0800000000000000
+      internalID: -2402500748083575405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1048
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9e1787694fe8f20800000000000000
+      internalID: 3426945293578529274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_27
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1048
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37674a709bc420980800000000000000
+      internalID: -8574206382979123597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 999
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3584f18902b8ef90800000000000000
+      internalID: -6924088673177402050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 999
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b5b79eb60005c40800000000000000
+      internalID: 5498895608498051913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_30
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 999
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d2ae9946a3a3ac0800000000000000
+      internalID: -3874720325645488879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_31
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 999
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2b5be2f726744e0800000000000000
+      internalID: -1997519611331497312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 950
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40121de8d51d10600800000000000000
+      internalID: 432857238962512132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_33
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 950
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d1f56a8a55e9bf0800000000000000
+      internalID: -315720741035237989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_34
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 950
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ed3fe6a7c852600800000000000000
+      internalID: 442914595841236535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_35
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 950
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f42608a381a10890800000000000000
+      internalID: -7493530718136032012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 901
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e884acc192386f0800000000000000
+      internalID: -683657514800607728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_37
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 901
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f984ff2500e1c68a0800000000000000
+      internalID: -6310635991111612257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_38
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 901
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93aefec2f929498c0800000000000000
+      internalID: -3993405757219411399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_39
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 901
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db98bc24a629e5640800000000000000
+      internalID: 5070651215550581181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 847
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a291dd29a621a40800000000000000
+      internalID: 5337445687394642558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_41
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 847
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ae822733d5471d0800000000000000
+      internalID: -3353953346944177548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_42
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 847
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506a2c28c0b5a79f0800000000000000
+      internalID: -469963101815265787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 847
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c599aebe2bfaa10800000000000000
+      internalID: 1922952292233468981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_44
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 847
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2305dfb6ba1fd30800000000000000
+      internalID: 4463537186000614112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 798
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379a220bb790798c0800000000000000
+      internalID: -3992712117799966349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 798
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebc3a605187c8690800000000000000
+      internalID: -7598566439579825177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_47
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 800
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6d084012caf5910800000000000000
+      internalID: 1828369231545161463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_48
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 802
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804f1ea1123b5a8f0800000000000000
+      internalID: -529820426379856888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_49
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 800
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d154d4a53e30a7e0800000000000000
+      internalID: -1756335454554926636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 744
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6810a5897e15fb0800000000000000
+      internalID: -4660689497820657945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_51
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 744
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e150589d0858b54e0800000000000000
+      internalID: -1991851621729630946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 744
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5f7229231ea6c60800000000000000
+      internalID: 7812304110944253354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_53
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 13
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26009db7da3e4290800000000000000
+      internalID: -7904315597715929557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_54
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 13
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dfb9980f47070d0800000000000000
+      internalID: -3427110739979272803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 13
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc3c78d5610ace00800000000000000
+      internalID: 1065665798761888967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_56
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 13
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65638faeb783223e0800000000000000
+      internalID: -2080037973017479594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_57
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 13
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52d125a71635b030800000000000000
+      internalID: 3509770959787774558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 11
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d314b1bdbd3b9da0800000000000000
+      internalID: -5937083798818384940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_59
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 13
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da83452db99436430800000000000000
+      internalID: 3774941846264101037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_60
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 13
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a6cc60b1fcdabd0800000000000000
+      internalID: -2617208093447263665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 13
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77e00f09619f2540800000000000000
+      internalID: 4985363192931739516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_62
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 13
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6ed3314ed445180800000000000000
+      internalID: -9127584902802446605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_63
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 13
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5750bd8d535ef90800000000000000
+      internalID: -6925069646508493355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_64
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 13
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39331b3d22c34f390800000000000000
+      internalID: -7785531735538584685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_65
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 13
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b1bfe17db58b090800000000000000
+      internalID: -8018558157037298786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_66
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 10
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84990f3bd3a00680800000000000000
+      internalID: -8790846310576450418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_67
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 13
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f296cf958b1ecc0800000000000000
+      internalID: -3683460323586003096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_68
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 13
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3edb6a55fbd1620800000000000000
+      internalID: 2746561722356458465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_69
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a5324f40b7b1bf0800000000000000
+      internalID: -352552884612408744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_70
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 13
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ec85173504b4600800000000000000
+      internalID: 453526914608975428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 13
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ab8ca0a66d17cc0800000000000000
+      internalID: -3714952466668144019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_72
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 13
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ee92722581b0840800000000000000
+      internalID: 5191269736598072856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centinela escudo limpio_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 13
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd35cb0ea03052740800000000000000
+      internalID: 5126507096086172636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

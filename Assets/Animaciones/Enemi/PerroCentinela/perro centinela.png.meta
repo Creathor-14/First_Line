@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: e0c674aa2ff13a047b42075b8eabe85b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3660000904491429906
+    second: perro centinela_0
+  - first:
+      213: 9057415027464421438
+    second: perro centinela_1
+  - first:
+      213: 7122675904449415198
+    second: perro centinela_2
+  - first:
+      213: 5471258142819771923
+    second: perro centinela_3
+  - first:
+      213: -8561232470769096998
+    second: perro centinela_4
+  - first:
+      213: -8577378873778596381
+    second: perro centinela_5
+  - first:
+      213: 4575068784272910219
+    second: perro centinela_6
+  - first:
+      213: -6916166906944856153
+    second: perro centinela_7
+  - first:
+      213: 753712654855798892
+    second: perro centinela_8
+  - first:
+      213: -8862560960114566461
+    second: perro centinela_9
+  - first:
+      213: -3066466338779814662
+    second: perro centinela_10
+  - first:
+      213: -7704023712813002873
+    second: perro centinela_11
+  - first:
+      213: 7548248327813919966
+    second: perro centinela_12
+  - first:
+      213: 2190023155180628474
+    second: perro centinela_13
+  - first:
+      213: 6795213887233530917
+    second: perro centinela_14
+  - first:
+      213: 2748507145025563281
+    second: perro centinela_15
+  - first:
+      213: 4912633109237243413
+    second: perro centinela_16
+  - first:
+      213: -7338016763087691648
+    second: perro centinela_17
+  - first:
+      213: -4694043807337418810
+    second: perro centinela_18
+  - first:
+      213: -3142640096357174765
+    second: perro centinela_19
+  - first:
+      213: 6720236486910669392
+    second: perro centinela_20
+  - first:
+      213: -5488392206356064427
+    second: perro centinela_21
+  - first:
+      213: -1780166632133992397
+    second: perro centinela_22
+  - first:
+      213: 6642692188081762042
+    second: perro centinela_23
+  - first:
+      213: 3837405954237297885
+    second: perro centinela_24
+  - first:
+      213: 5560661696870173365
+    second: perro centinela_25
+  - first:
+      213: -2053089359788765003
+    second: perro centinela_26
+  - first:
+      213: -353462410612795583
+    second: perro centinela_27
+  - first:
+      213: 8260871751347255029
+    second: perro centinela_28
+  - first:
+      213: 1835279278780164687
+    second: perro centinela_29
+  - first:
+      213: 8388769788951062856
+    second: perro centinela_30
+  - first:
+      213: -5287930767540385531
+    second: perro centinela_31
+  - first:
+      213: -8736962590917029243
+    second: perro centinela_32
+  - first:
+      213: -4421512478040749
+    second: perro centinela_33
+  - first:
+      213: -5815087820329748505
+    second: perro centinela_34
+  - first:
+      213: 7412116533352140660
+    second: perro centinela_35
+  - first:
+      213: 1383413713459258800
+    second: perro centinela_36
+  - first:
+      213: 2607468974875081690
+    second: perro centinela_37
+  - first:
+      213: -8312806093987159517
+    second: perro centinela_38
+  - first:
+      213: -6478064122383017537
+    second: perro centinela_39
+  - first:
+      213: 7781429387269147356
+    second: perro centinela_40
+  - first:
+      213: -1128919083304160704
+    second: perro centinela_41
+  - first:
+      213: 6751655504338201612
+    second: perro centinela_42
+  - first:
+      213: 2520108962015720175
+    second: perro centinela_43
+  - first:
+      213: 2124969063880546503
+    second: perro centinela_44
+  - first:
+      213: 6144696948092036955
+    second: perro centinela_45
+  - first:
+      213: -6548514470106423823
+    second: perro centinela_46
+  - first:
+      213: -4815572783881912449
+    second: perro centinela_47
+  - first:
+      213: 8713213090511558897
+    second: perro centinela_48
+  - first:
+      213: -5007396088225486483
+    second: perro centinela_49
+  - first:
+      213: -4162480289070777339
+    second: perro centinela_50
+  - first:
+      213: 1257336954484886523
+    second: perro centinela_51
+  - first:
+      213: 7209871246196340782
+    second: perro centinela_52
+  - first:
+      213: 879883209788805893
+    second: perro centinela_53
+  - first:
+      213: -5674713078886047936
+    second: perro centinela_54
+  - first:
+      213: -8898282823026805547
+    second: perro centinela_55
+  - first:
+      213: -8653311047656034486
+    second: perro centinela_56
+  - first:
+      213: -8782350818829416248
+    second: perro centinela_57
+  - first:
+      213: 2249451838473880962
+    second: perro centinela_58
+  - first:
+      213: 1321022201815619479
+    second: perro centinela_59
+  - first:
+      213: -3816483494057431611
+    second: perro centinela_60
+  - first:
+      213: 8777587804298278479
+    second: perro centinela_61
+  - first:
+      213: 6179920651382591065
+    second: perro centinela_62
+  - first:
+      213: -7598631224640434529
+    second: perro centinela_63
+  - first:
+      213: 392547664652896150
+    second: perro centinela_64
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: perro centinela_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 858
+        width: 110
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef0e22a190153dc0800000000000000
+      internalID: -3660000904491429906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 856
+        width: 85
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e304d4faaf662bd70800000000000000
+      internalID: 9057415027464421438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 856
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1801fe5ff3d8d260800000000000000
+      internalID: 7122675904449415198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_3
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 856
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3166c3dfa40ddeb40800000000000000
+      internalID: 5471258142819771923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_4
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 856
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6a44c5d64603980800000000000000
+      internalID: -8561232470769096998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_5
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 856
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e59c74fb5707f880800000000000000
+      internalID: -8577378873778596381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_6
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 856
+        width: 81
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87a09dc1d8ed7f30800000000000000
+      internalID: 4575068784272910219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_7
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 856
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af5d3077d6d400a0800000000000000
+      internalID: -6916166906944856153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_8
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 856
+        width: 109
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60856f8aa9b57a00800000000000000
+      internalID: 753712654855798892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 790
+        width: 110
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca502c33cbd10580800000000000000
+      internalID: -8862560960114566461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 790
+        width: 109
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af426599c19b175d0800000000000000
+      internalID: -3066466338779814662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 790
+        width: 110
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f4898304fc51590800000000000000
+      internalID: -7704023712813002873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_12
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 790
+        width: 110
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4f8cf9cd3c0c860800000000000000
+      internalID: 7548248327813919966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_13
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 789
+        width: 110
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9eb66d476846e10800000000000000
+      internalID: 2190023155180628474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_14
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 789
+        width: 111
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c1b5127037d4e50800000000000000
+      internalID: 6795213887233530917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_15
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 787
+        width: 110
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a2fd9afa8a42620800000000000000
+      internalID: 2748507145025563281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 722
+        width: 110
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e98ebd8cd2d2440800000000000000
+      internalID: 4912633109237243413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 722
+        width: 110
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080eb48e1a02a2a90800000000000000
+      internalID: -7338016763087691648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_18
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 722
+        width: 110
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfe78ff6086bdeb0800000000000000
+      internalID: -4694043807337418810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 653
+        width: 134
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3123bb79b791364d0800000000000000
+      internalID: -3142640096357174765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 650
+        width: 117
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052fde0ca73134d50800000000000000
+      internalID: 6720236486910669392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_21
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 648
+        width: 113
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557df18fd5055d3b0800000000000000
+      internalID: -5488392206356064427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_22
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 647
+        width: 108
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33066aa31e39b47e0800000000000000
+      internalID: -1780166632133992397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_23
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 647
+        width: 114
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe20eeb9559f2c50800000000000000
+      internalID: 6642692188081762042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_24
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 647
+        width: 124
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd478494264314530800000000000000
+      internalID: 3837405954237297885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 553
+        width: 104
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba41160a507b2d40800000000000000
+      internalID: 5560661696870173365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_26
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 553
+        width: 100
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b018a1ea16f183e0800000000000000
+      internalID: -2053089359788765003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 553
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14798fd6fcf381bf0800000000000000
+      internalID: -353462410612795583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_28
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 553
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6bc12071384a270800000000000000
+      internalID: 8260871751347255029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_29
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 553
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4aa353c7c8387910800000000000000
+      internalID: 1835279278780164687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_30
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 553
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849e4fc6da5ea6470800000000000000
+      internalID: 8388769788951062856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_31
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 554
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50985ebcbfe7d96b0800000000000000
+      internalID: -5287930767540385531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_32
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 554
+        width: 116
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582938060d210c680800000000000000
+      internalID: -8736962590917029243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_33
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 475
+        width: 114
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d506768aa40fff0800000000000000
+      internalID: -4421512478040749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_34
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 377
+        width: 104
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e77b83ef68ac4fa0800000000000000
+      internalID: -5815087820329748505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_35
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 377
+        width: 101
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f014c47b02dd660800000000000000
+      internalID: 7412116533352140660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_36
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 399
+        width: 133
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5a428517fd23310800000000000000
+      internalID: 1383413713459258800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_37
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 407
+        width: 144
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbf74ab7379f2420800000000000000
+      internalID: 2607468974875081690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_38
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 378
+        width: 130
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322613196eaf2ac80800000000000000
+      internalID: -8312806093987159517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_39
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 379
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb95821c00b4916a0800000000000000
+      internalID: -6478064122383017537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_40
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 379
+        width: 106
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda86f8ccc03dfb60800000000000000
+      internalID: 7781429387269147356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_41
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 268
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042fe7333164550f0800000000000000
+      internalID: -1128919083304160704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_42
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 284
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ca3edc8e2b2bd50800000000000000
+      internalID: 6751655504338201612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_43
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 305
+        width: 92
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2b934bfb939f220800000000000000
+      internalID: 2520108962015720175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_44
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 322
+        width: 91
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c85b43ea186d7d10800000000000000
+      internalID: 2124969063880546503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_45
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 313
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57e37b7159564550800000000000000
+      internalID: 6144696948092036955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_46
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 294
+        width: 102
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd1dc2f8c00f15a0800000000000000
+      internalID: -6548514470106423823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_47
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 294
+        width: 106
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ffdaa2116ab2db0800000000000000
+      internalID: -4815572783881912449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_48
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 183
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f89938242d8be870800000000000000
+      internalID: 8713213090511558897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184
+        width: 93
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69a3afb9c7228ab0800000000000000
+      internalID: -5007396088225486483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_50
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 184
+        width: 92
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cfe591b36eb36c0800000000000000
+      internalID: -4162480289070777339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_51
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 185
+        width: 69
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb0b076c45f27110800000000000000
+      internalID: 1257336954484886523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_52
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 189
+        width: 112
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28f5d9e2bb9e0460800000000000000
+      internalID: 7209871246196340782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_53
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 185
+        width: 124
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503da431e19f53c00800000000000000
+      internalID: 879883209788805893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_54
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 192
+        width: 128
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fdbba458e5f31b0800000000000000
+      internalID: -5674713078886047936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_55
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 108
+        width: 125
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4f686eae2f28480800000000000000
+      internalID: -8898282823026805547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_56
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 111
+        width: 118
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4faf79037349e780800000000000000
+      internalID: -8653311047656034486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 116
+        width: 109
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8cfce0672de1680800000000000000
+      internalID: -8782350818829416248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_58
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 116
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285c59b6788a73f10800000000000000
+      internalID: 2249451838473880962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_59
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 115
+        width: 103
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797df9781b6355210800000000000000
+      internalID: 1321022201815619479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_60
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 117
+        width: 102
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cda0959b70290bc0800000000000000
+      internalID: -3816483494057431611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_61
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 16
+        width: 111
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46fff33a9140d970800000000000000
+      internalID: 8777587804298278479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_62
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 16
+        width: 111
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e82cdf61d73c550800000000000000
+      internalID: 6179920651382591065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_63
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 16
+        width: 111
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e8d14192d3c8690800000000000000
+      internalID: -7598631224640434529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perro centinela_64
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 16
+        width: 111
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6978b0d650c927500800000000000000
+      internalID: 392547664652896150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

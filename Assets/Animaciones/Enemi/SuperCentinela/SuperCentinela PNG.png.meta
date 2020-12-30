@@ -1,0 +1,1760 @@
+fileFormatVersion: 2
+guid: d301704200ed02148b7015de738ad19d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 956714226521014659
+    second: SuperCentinela PNG_0
+  - first:
+      213: 4222419376833702503
+    second: SuperCentinela PNG_1
+  - first:
+      213: -3962163035357569475
+    second: SuperCentinela PNG_2
+  - first:
+      213: -3282710257782795246
+    second: SuperCentinela PNG_3
+  - first:
+      213: -742907384668603817
+    second: SuperCentinela PNG_4
+  - first:
+      213: -1805538842164301027
+    second: SuperCentinela PNG_5
+  - first:
+      213: -6779922771227270139
+    second: SuperCentinela PNG_6
+  - first:
+      213: 6417089118818340445
+    second: SuperCentinela PNG_7
+  - first:
+      213: 367129321581731948
+    second: SuperCentinela PNG_8
+  - first:
+      213: 4907128392069106590
+    second: SuperCentinela PNG_9
+  - first:
+      213: -5516387359903726718
+    second: SuperCentinela PNG_10
+  - first:
+      213: 8179552204062290127
+    second: SuperCentinela PNG_11
+  - first:
+      213: -8828616796833909893
+    second: SuperCentinela PNG_12
+  - first:
+      213: -3369974999629096234
+    second: SuperCentinela PNG_13
+  - first:
+      213: 4488606581699727664
+    second: SuperCentinela PNG_14
+  - first:
+      213: -5982299857623404723
+    second: SuperCentinela PNG_15
+  - first:
+      213: 5477078925869645868
+    second: SuperCentinela PNG_16
+  - first:
+      213: 4621874134774943297
+    second: SuperCentinela PNG_17
+  - first:
+      213: -811994677486033537
+    second: SuperCentinela PNG_18
+  - first:
+      213: 527023018912962443
+    second: SuperCentinela PNG_19
+  - first:
+      213: -343627309512157753
+    second: SuperCentinela PNG_20
+  - first:
+      213: -6232745109082691273
+    second: SuperCentinela PNG_21
+  - first:
+      213: -499407527654889129
+    second: SuperCentinela PNG_22
+  - first:
+      213: 9044419860503077692
+    second: SuperCentinela PNG_23
+  - first:
+      213: 6919426599380684777
+    second: SuperCentinela PNG_24
+  - first:
+      213: 4142586525880440472
+    second: SuperCentinela PNG_25
+  - first:
+      213: 4480075514950381877
+    second: SuperCentinela PNG_26
+  - first:
+      213: -381149938018794170
+    second: SuperCentinela PNG_27
+  - first:
+      213: -4215706811951228809
+    second: SuperCentinela PNG_28
+  - first:
+      213: -567945973566877943
+    second: SuperCentinela PNG_29
+  - first:
+      213: 8654304917460933301
+    second: SuperCentinela PNG_30
+  - first:
+      213: 4996210267379407302
+    second: SuperCentinela PNG_31
+  - first:
+      213: -4509734123540926246
+    second: SuperCentinela PNG_32
+  - first:
+      213: 9121656335174905497
+    second: SuperCentinela PNG_33
+  - first:
+      213: -8034142739565229318
+    second: SuperCentinela PNG_34
+  - first:
+      213: -5855623195309245919
+    second: SuperCentinela PNG_35
+  - first:
+      213: -8816340823253358300
+    second: SuperCentinela PNG_36
+  - first:
+      213: 9111115106914702016
+    second: SuperCentinela PNG_37
+  - first:
+      213: -5535211817570135447
+    second: SuperCentinela PNG_38
+  - first:
+      213: 1966050774306482138
+    second: SuperCentinela PNG_39
+  - first:
+      213: -1102006404886872380
+    second: SuperCentinela PNG_40
+  - first:
+      213: 1451690061922100304
+    second: SuperCentinela PNG_41
+  - first:
+      213: -6607953275329880926
+    second: SuperCentinela PNG_42
+  - first:
+      213: 511028078232316191
+    second: SuperCentinela PNG_43
+  - first:
+      213: 5153945244475757950
+    second: SuperCentinela PNG_44
+  - first:
+      213: 7372548215465362652
+    second: SuperCentinela PNG_45
+  - first:
+      213: -5253675926539637245
+    second: SuperCentinela PNG_46
+  - first:
+      213: 6024064367122243340
+    second: SuperCentinela PNG_47
+  - first:
+      213: 4586217546583068796
+    second: SuperCentinela PNG_48
+  - first:
+      213: 6729530656764086371
+    second: SuperCentinela PNG_49
+  - first:
+      213: 8126953863840781729
+    second: SuperCentinela PNG_50
+  - first:
+      213: 1119686080433984620
+    second: SuperCentinela PNG_51
+  - first:
+      213: -8722208724213182395
+    second: SuperCentinela PNG_52
+  - first:
+      213: 3838018718318361017
+    second: SuperCentinela PNG_53
+  - first:
+      213: -4931939942175921683
+    second: SuperCentinela PNG_54
+  - first:
+      213: 2367902153859568907
+    second: SuperCentinela PNG_55
+  - first:
+      213: -2867758129460870514
+    second: SuperCentinela PNG_56
+  - first:
+      213: 7307911226648659455
+    second: SuperCentinela PNG_57
+  - first:
+      213: -2823328908473134115
+    second: SuperCentinela PNG_58
+  - first:
+      213: 8534700025162426559
+    second: SuperCentinela PNG_59
+  - first:
+      213: -1853588886371279606
+    second: SuperCentinela PNG_60
+  - first:
+      213: 8709458053230318654
+    second: SuperCentinela PNG_61
+  - first:
+      213: 925432719632591809
+    second: SuperCentinela PNG_62
+  - first:
+      213: -7109107004535438608
+    second: SuperCentinela PNG_63
+  - first:
+      213: -6073687028642884999
+    second: SuperCentinela PNG_64
+  - first:
+      213: 1641117239892419908
+    second: SuperCentinela PNG_65
+  - first:
+      213: 3123261057258988979
+    second: SuperCentinela PNG_66
+  - first:
+      213: 2868107653479987210
+    second: SuperCentinela PNG_67
+  - first:
+      213: 8370917777313994151
+    second: SuperCentinela PNG_68
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperCentinela PNG_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1498
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3810957258ee64d00800000000000000
+      internalID: 956714226521014659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1498
+        width: 100
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a26e84d0c099a30800000000000000
+      internalID: 4222419376833702503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1498
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e145736b19309c0800000000000000
+      internalID: -3962163035357569475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1498
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2145350c9687172d0800000000000000
+      internalID: -3282710257782795246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1498
+        width: 82
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a30d37ba9a0b5f0800000000000000
+      internalID: -742907384668603817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1498
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1370ac3dff61f6e0800000000000000
+      internalID: -1805538842164301027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_6
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1514
+        width: 112
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504aa604920e8e1a0800000000000000
+      internalID: -6779922771227270139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_7
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1483
+        width: 119
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e013bed841e0950800000000000000
+      internalID: 6417089118818340445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1382
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60628f3c2e481500800000000000000
+      internalID: 367129321581731948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1382
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b4384064f991440800000000000000
+      internalID: 4907128392069106590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1381
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283cb795cead173b0800000000000000
+      internalID: -5516387359903726718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1381
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc075e8746b938170800000000000000
+      internalID: 8179552204062290127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_12
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1381
+        width: 97
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73faae9cc37a7580800000000000000
+      internalID: -8828616796833909893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1271
+        width: 83
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da192db7917b31d0800000000000000
+      internalID: -3369974999629096234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1271
+        width: 72
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03151b687ebba4e30800000000000000
+      internalID: 4488606581699727664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_15
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1271
+        width: 71
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fac7e99f99afca0800000000000000
+      internalID: -5982299857623404723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1271
+        width: 74
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c200d37a34e720c40800000000000000
+      internalID: 5477078925869645868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1271
+        width: 117
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e83dfa902342040800000000000000
+      internalID: 4621874134774943297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_18
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1271
+        width: 95
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75efe894273bb4f0800000000000000
+      internalID: -811994677486033537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_19
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1271
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87d2c6b4ac505700800000000000000
+      internalID: 527023018912962443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1161
+        width: 90
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5976958c03b3bf0800000000000000
+      internalID: -343627309512157753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_21
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1161
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739a2958857d089a0800000000000000
+      internalID: -6232745109082691273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_22
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1161
+        width: 91
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75969f3ef7fb119f0800000000000000
+      internalID: -499407527654889129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_23
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1161
+        width: 119
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3326c891fb348d70800000000000000
+      internalID: 9044419860503077692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_24
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1161
+        width: 89
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef8979d4ddb60060800000000000000
+      internalID: 6919426599380684777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_25
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1161
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8965c663f7c6d7930800000000000000
+      internalID: 4142586525880440472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_26
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1161
+        width: 113
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531fa83c1fc6c2e30800000000000000
+      internalID: 4480075514950381877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1052
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6454a3a9622e5baf0800000000000000
+      internalID: -381149938018794170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1052
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778d3748dfcce75c0800000000000000
+      internalID: -4215706811951228809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_29
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1052
+        width: 113
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fcee965204e18f0800000000000000
+      internalID: -567945973566877943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_30
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1052
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5badc2f48744a1870800000000000000
+      internalID: 8654304917460933301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_31
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1052
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c91f4264ca165540800000000000000
+      internalID: 4996210267379407302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_32
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1052
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0b2ee45b43a61c0800000000000000
+      internalID: -4509734123540926246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_33
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1052
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eaa45bb12a69e70800000000000000
+      internalID: 9121656335174905497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_34
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1052
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa4e6dbebdf08090800000000000000
+      internalID: -8034142739565229318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 955
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12afd017ab5acbea0800000000000000
+      internalID: -5855623195309245919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_36
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 955
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42965337bb016a580800000000000000
+      internalID: -8816340823253358300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_37
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 955
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2985fbaee217e70800000000000000
+      internalID: 9111115106914702016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_38
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 831
+        width: 75
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9621031cd2afe23b0800000000000000
+      internalID: -5535211817570135447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 842
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad76bec33c0d84b10800000000000000
+      internalID: 1966050774306482138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_40
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 856
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce33807303e4b0f0800000000000000
+      internalID: -1102006404886872380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_41
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 864
+        width: 121
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054e4d08b60752410800000000000000
+      internalID: 1451690061922100304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_42
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 864
+        width: 128
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac559ba185db44a0800000000000000
+      internalID: -6607953275329880926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 753
+        width: 82
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19a9416459871700800000000000000
+      internalID: 511028078232316191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_44
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 752
+        width: 103
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e759ac0a4ed768740800000000000000
+      internalID: 5153945244475757950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_45
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 752
+        width: 127
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4c0406a8d805660800000000000000
+      internalID: 7372548215465362652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_46
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 752
+        width: 98
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e659974913717b0800000000000000
+      internalID: -5253675926539637245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_47
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 752
+        width: 125
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fd86200a6c99350800000000000000
+      internalID: 6024064367122243340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_48
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 640
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c705fbe4f8485af30800000000000000
+      internalID: 4586217546583068796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_49
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 640
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368468d4a78146d50800000000000000
+      internalID: 6729530656764086371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_50
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 640
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5d7301b7db8c070800000000000000
+      internalID: 8126953863840781729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_51
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 640
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64973cce8ce98f00800000000000000
+      internalID: 1119686080433984620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_52
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 640
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540d578a06d74f680800000000000000
+      internalID: -8722208724213182395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_53
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 640
+        width: 57
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b97aaa80b1634530800000000000000
+      internalID: 3838018718318361017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 526
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de92b0dc0ca3e8bb0800000000000000
+      internalID: -4931939942175921683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_55
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 526
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b059ea7967a7cd020800000000000000
+      internalID: 2367902153859568907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_56
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 526
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e820fbfdc2da338d0800000000000000
+      internalID: -2867758129460870514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_57
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 526
+        width: 105
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff58b7aaa8aea6560800000000000000
+      internalID: 7307911226648659455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_58
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 526
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd31e5ef05581d8d0800000000000000
+      internalID: -2823328908473134115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_59
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 409
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8e2504478517670800000000000000
+      internalID: 8534700025162426559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_60
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 409
+        width: 65
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d5a348abab646e0800000000000000
+      internalID: -1853588886371279606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_61
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 409
+        width: 71
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3455f864f53ed870800000000000000
+      internalID: 8709458053230318654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_62
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 422
+        width: 130
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb6935c72cc7dc00800000000000000
+      internalID: 925432719632591809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_63
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 409
+        width: 117
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f28c6458d0675d90800000000000000
+      internalID: -7109107004535438608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_64
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 271
+        width: 81
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972d7d4c3dde5bba0800000000000000
+      internalID: -6073687028642884999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_65
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 272
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445ae864f6b66c610800000000000000
+      internalID: 1641117239892419908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_66
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 272
+        width: 46
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5abb2426d085b20800000000000000
+      internalID: 3123261057258988979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 272
+        width: 113
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08f04707b09dc720800000000000000
+      internalID: 2868107653479987210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperCentinela PNG_68
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 272
+        width: 60
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a59dc01e597b2470800000000000000
+      internalID: 8370917777313994151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
