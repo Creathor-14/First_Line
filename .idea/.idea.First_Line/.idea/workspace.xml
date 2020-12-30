@@ -11,7 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Menu/CambioPersonaje.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,6 +54,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PrimeraLinea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Empendedor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/CambioPersonaje.cs" />
       </list>
     </option>
   </component>
@@ -72,6 +73,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -145,6 +147,7 @@
       <workItem from="1609211278371" duration="659000" />
       <workItem from="1609276221755" duration="1798000" />
       <workItem from="1609276293781" duration="1395000" />
+      <workItem from="1609290115205" duration="5853000" />
     </task>
     <servers />
   </component>
@@ -157,6 +160,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1609296274389">
+      <screen x="62" y="0" width="1218" height="720" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/62.0.1218.720@62.0.1218.720" timestamp="1609296274389" />
     <state width="498" height="417" key="SwitcherDM" timestamp="1608515416603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
