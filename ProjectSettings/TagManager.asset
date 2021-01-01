@@ -8,13 +8,11 @@ TagManager:
   - Attack
   - LadridoD
   - LadridoI
-  - "Teleara\xF1aD"
-  - "Teleara\xF1aI"
   - 0
   - 1
   - 2
   - 3
-  - TeleDer
+  - Tele
   layers:
   - Default
   - TransparentFX

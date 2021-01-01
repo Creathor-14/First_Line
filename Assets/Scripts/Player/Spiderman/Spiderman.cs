@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Vector2 = System.Numerics.Vector2;
 
 public class Spiderman : MonoBehaviour
 {
@@ -97,7 +98,10 @@ public class Spiderman : MonoBehaviour
         }
 
 //Giros del personaje + cambiar posicion colaiders
-        if(player.sprite.name==("Invisible_0")){}
+        if (player.sprite.name == ("Invisible_0"))
+        {
+            
+        }
         else
         {
             if (Input.GetAxisRaw("Horizontal") < 0)
@@ -109,7 +113,8 @@ public class Spiderman : MonoBehaviour
                 player.flipX = false;
                 ;
             }
-        }    
+        }
+
         
 //Atacar
         if (Input.GetButtonDown("Fire1"))
