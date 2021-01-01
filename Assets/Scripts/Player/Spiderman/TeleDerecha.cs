@@ -4,25 +4,44 @@ using UnityEngine;
 
 public class TeleDerecha : MonoBehaviour
 {
-    private SpriteRenderer sr;
-    
-    public GameObject teleD;
+    public GameObject TeleD;
+    public GameObject a;
+    public GameObject b;
+    public GameObject c;
+    public GameObject d;
     // Start is called before the first frame update
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+    
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!sr.flipX && sr.sprite.name == ("Invisible_0"))
+        if (TeleD.gameObject.activeSelf)
         {
-            teleD.gameObject.SetActive(true);
+            a.gameObject.SetActive(true);
         }
-        else
-        {
-            teleD.gameObject.SetActive(false);
-        }
+        //teleD.gameObject.SetActive(true);
+        a.gameObject.SetActive(true);
+        StartCoroutine("Esperar");
+        a.gameObject.SetActive(false);
+                
+        b.gameObject.SetActive(true);
+        StartCoroutine("Esperar");
+        b.gameObject.SetActive(false);
+                
+        c.gameObject.SetActive(true);
+        StartCoroutine("Esperar");
+        c.gameObject.SetActive(false);
+                
+        d.gameObject.SetActive(true);
+        StartCoroutine("Esperar");
+        d.gameObject.SetActive(false);
     }
+    IEnumerator Esperar()
+    {
+        yield return new WaitForSeconds(1);
+    }
+    
 }
