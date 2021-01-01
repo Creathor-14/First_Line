@@ -22,9 +22,9 @@ public class ladrido : MonoBehaviour
         if (sr.flipX)
         {
             ladrarD.GetComponent<SpriteRenderer>().enabled= false;
-            if (sr.sprite.name==("matapaco (2)_1"))
+            if (sr.sprite.name == ("matapaco (2)_1"))
             {
-                ladrarI.GetComponent<SpriteRenderer>().enabled= true; 
+                ladrarI.GetComponent<SpriteRenderer>().enabled = true;
             }
             else
             {

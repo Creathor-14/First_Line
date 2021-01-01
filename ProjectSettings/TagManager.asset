@@ -8,6 +8,13 @@ TagManager:
   - Attack
   - LadridoD
   - LadridoI
+  - "Teleara\xF1aD"
+  - "Teleara\xF1aI"
+  - 0
+  - 1
+  - 2
+  - 3
+  - TeleDer
   layers:
   - Default
   - TransparentFX
@@ -20,7 +27,7 @@ TagManager:
   - Enemi
   - Ataque
   - Mapa
-  - 
+  - "Teleara\xF1a"
   - 
   - 
   - 
