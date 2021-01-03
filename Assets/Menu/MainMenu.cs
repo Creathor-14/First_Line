@@ -9,11 +9,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("PlayerSelection");
     }
 
-    public void StarGame()
-    {
-        SceneManager.LoadScene("Nivel_1");
-    }
-
     public void LoadGame()
     {
         SceneManager.LoadScene("LoadGame");

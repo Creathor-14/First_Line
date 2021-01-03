@@ -45,7 +45,7 @@ public class CambioPersonaje : MonoBehaviour
     public void PlayScene()
     {
         PlayerPrefs.SetInt("animation player",index);
-        SceneManager.LoadScene("Nivel_1");
+        SceneManager.LoadScene("Nivel_1 luces");
 
     }
 }
