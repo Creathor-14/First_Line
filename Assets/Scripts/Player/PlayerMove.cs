@@ -27,7 +27,8 @@ public class PlayerMove : MonoBehaviour
     
     //sistema de daño(2)
     private CircleCollider2D ac;
-    
+    private CircleCollider2D ac1;
+    private CircleCollider2D ac2;
     
     void Start()
     {
@@ -36,7 +37,10 @@ public class PlayerMove : MonoBehaviour
         rd = GetComponent<Rigidbody2D>();
         ac= transform.GetChild(0).GetComponent<CircleCollider2D>();
         ac.enabled = false;
-        
+        ac1= transform.GetChild(1).GetComponent<CircleCollider2D>();
+        ac1.enabled = false;
+        ac2= transform.GetChild(2).GetComponent<CircleCollider2D>();
+        ac2.enabled = false;
     }
 
     void FixedUpdate()
@@ -95,12 +99,16 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
             player.flipX = true;
-            if(mov!= Vector3.zero) ac.offset= new Vector3(-2.5f,1f,0);
+            if(mov!= Vector3.zero) ac.offset= new Vector3(-2.5f,1f,0);//golpes
+            if(mov!= Vector3.zero) ac1.offset= new Vector3(-3f,-0.4f,0);//barrida
+            if(mov!= Vector3.zero) ac2.offset= new Vector3(-1.5f,3f,0);//barrida2
         }
         else if (Input.GetAxisRaw("Horizontal") > 0)
         {
             player.flipX = false;
-            if(mov!= Vector3.zero) ac.offset= new Vector3(-0.3f,1f,0);
+            if(mov!= Vector3.zero) ac.offset= new Vector3(-0.3f,-0.4f,0);//golpes
+            if(mov!= Vector3.zero) ac1.offset= new Vector3(3f,-0.4f,0);//barrida
+            if(mov!= Vector3.zero) ac2.offset= new Vector3(1.5f,3f,0);//barrida2
         }
         
 //Atacar
@@ -109,7 +117,8 @@ public class PlayerMove : MonoBehaviour
             anim.SetTrigger(("Ataque"));
             
         }
-//Activar o desactivar colaider        
+//Activar o desactivar colaider    
+    //golpes
         if (player.sprite.name==("mujer primera linea(limpio)_27")||player.sprite.name==("mujer primera linea(limpio)_28")||player.sprite.name==("mujer primera linea(limpio)_33")||player.sprite.name==("mujer primera linea(limpio)_40"))
         {
             ac.enabled = true;
@@ -117,6 +126,24 @@ public class PlayerMove : MonoBehaviour
         else
         {
             ac.enabled = false;
+        }
+    //barrida    
+        if(player.sprite.name==("mujer primera linea(limpio)_59"))
+        {
+            ac1.enabled = true;
+        }
+        else
+        {
+            ac1.enabled = false;
+        }
+    //barrida2
+        if(player.sprite.name==("mujer primera linea(limpio)_70"))
+        {
+         ac2.enabled = true;
+     }
+        else
+        {
+          ac2.enabled = false;
         }
         //https://www.youtube.com/watch?v=0LgCaEMCoz8
         //min 12:33

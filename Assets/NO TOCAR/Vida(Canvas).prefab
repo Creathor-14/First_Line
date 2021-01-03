@@ -758,7 +758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9061975135546319550}
   m_Layer: 5
-  m_Name: Vida Armadura
+  m_Name: Vida/Armadura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

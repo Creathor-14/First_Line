@@ -10,9 +10,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/Ayudantia 1/Assets/Scripts/Perseguir.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -54,7 +51,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Empendedor.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/CambioPersonaje.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ladrido.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Telearañas.cs" />
@@ -64,6 +60,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Telearañas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VidaPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ataque.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/AtaqueMatapaco.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
       </list>
     </option>
   </component>
@@ -159,6 +159,7 @@
       <workItem from="1609290115205" duration="5853000" />
       <workItem from="1609435736400" duration="12869000" />
       <workItem from="1609556304417" duration="1275000" />
+      <workItem from="1609633929521" duration="4538000" />
     </task>
     <servers />
   </component>

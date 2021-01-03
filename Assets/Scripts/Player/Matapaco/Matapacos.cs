@@ -19,11 +19,16 @@ public class Matapacos : MonoBehaviour
     
     //sistema barreras ordas
     private int kills = 0;
+    
+    //sistema de daño(2)
+    private CircleCollider2D ac;
     void Start()
     {
         player = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rd = GetComponent<Rigidbody2D>();
+        ac= transform.GetChild(0).GetComponent<CircleCollider2D>();
+        ac.enabled = false;
     }
 
     void FixedUpdate()
@@ -94,22 +99,34 @@ public class Matapacos : MonoBehaviour
         {
             anim.SetBool("Caminar", true);
         }
+        
 
 //Giros del personaje + cambiar posicion colaiders
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
             player.flipX = true;
-            
+            if(mov!= Vector3.zero) ac.offset= new Vector3(-1.7f,0f,0);
         }
         else if (Input.GetAxisRaw("Horizontal") > 0)
         {
             player.flipX = false;
+            if(mov!= Vector3.zero) ac.offset= new Vector3(0f,0f,0);
         }
+        
 
 //Atacar
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger(("Ataque"));
+        }
+//Activar o desactivar colaider        
+        if (player.sprite.name==("matapaco (2)_9")||player.sprite.name==("matapaco (2)_10")||player.sprite.name==("matapaco (2)_11"))
+        {
+            ac.enabled = true;
+        }
+        else
+        {
+            ac.enabled = false;
         }
     }
 }
