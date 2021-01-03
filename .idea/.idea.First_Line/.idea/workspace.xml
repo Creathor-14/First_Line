@@ -13,7 +13,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMujer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animations/IdleMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animations/Combates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CAMAra.cs" />
@@ -64,6 +63,7 @@
         <option value="$PROJECT_DIR$/Assets/Menu/CambioPersonaje.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/ImageInv.cs" />
       </list>
     </option>
   </component>
@@ -161,6 +161,7 @@
       <workItem from="1609556304417" duration="1275000" />
       <workItem from="1609633929521" duration="4538000" />
       <workItem from="1609636884683" duration="6399000" />
+      <workItem from="1609715428360" duration="1688000" />
     </task>
     <servers />
   </component>
