@@ -7,7 +7,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AAAAaaa.cs" t="Include" />
-        <e p="ImageInv.cs" t="Include" />
         <e p="Levels" t="Include">
           <e p="Level_1" t="Include">
             <e p="CameraFollow.cs" t="Include" />
@@ -27,6 +26,7 @@
           <e p="BarraVida.cs" t="Include" />
           <e p="CAMAra.cs" t="Include" />
           <e p="FixDepth.cs" t="Include" />
+          <e p="ImageInv.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="Emprendedor" t="Include">
               <e p="Empendedor.cs" t="Include" />
