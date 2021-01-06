@@ -208,6 +208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MataPacos
       objectReference: {fileID: 0}
+    - target: {fileID: 5059405614640727821, guid: 96fe469986fcba14a9db55845af079cf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
 --- !u!1 &284201340
@@ -455,6 +460,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1048721866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 949396392255571546, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_Name
+      value: centinela con cuchillo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 411421cee5b5deb408be060f8bacdd66, type: 3}
 --- !u!114 &1236100163 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2962107957110489118, guid: 650ceea6be63aab489ffb29dd1d14b1d,

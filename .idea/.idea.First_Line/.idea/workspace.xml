@@ -10,10 +10,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DAÑOAPLAY.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Ayudantia 1/Assets/Scripts/Perseguir.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Animations/Combates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CAMAra.cs" />
         <option value="$PROJECT_DIR$/Assets/Quieto.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PruebaMov.cs" />
@@ -64,6 +67,7 @@
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/ImageInv.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageInv.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DAÑOAPLAY.cs" />
       </list>
     </option>
   </component>
@@ -166,6 +170,7 @@
       <workItem from="1609896615758" duration="7000" />
       <workItem from="1609952761771" duration="1592000" />
       <workItem from="1609957291547" duration="1898000" />
+      <workItem from="1609967712458" duration="5227000" />
     </task>
     <servers />
   </component>
