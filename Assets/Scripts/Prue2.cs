@@ -16,7 +16,16 @@ public class Prue2 : MonoBehaviour
     private SpriteRenderer sp;
     private Animator anim;
     Rigidbody2D rb2d;
+    private BoxCollider2D bc;
     
+    public float DerechaOffSetX;
+    public float DerechaOffSetY;
+    public float DerechaSizeX;
+    public float DerechaSizeY;
+    public float IzquierdaOffSetX;
+    public float IzquierdaOffSetY;
+    public float IzquierdaSizeX;
+    public float IzquierdaSizeY;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -24,6 +33,8 @@ public class Prue2 : MonoBehaviour
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         sp = GetComponent<SpriteRenderer>();
+        bc = transform.GetChild(0).GetComponent<BoxCollider2D>();
+        bc.enabled = false;
     }
     void Update()
     {
@@ -38,10 +49,16 @@ public class Prue2 : MonoBehaviour
         if (forward.x > 0)
         {
             sp.flipX = true;
+            bc.offset= new Vector2(DerechaOffSetX,DerechaOffSetY);
+            bc.size=new Vector2(DerechaSizeX,DerechaSizeY);
+            
         }
         else
         {
             sp.flipX = false;
+            bc.offset= new Vector2(IzquierdaOffSetX,IzquierdaOffSetY);
+            bc.size=new Vector2(IzquierdaSizeX,IzquierdaSizeY);
+            
         }
         if (hit.collider != null)
         {
@@ -74,7 +91,14 @@ public class Prue2 : MonoBehaviour
             anim.SetBool("Seguir", false);
         }
         Debug.DrawLine(transform.position , target, Color.green);
-
+        if (sp.sprite.name == ("centinela con cuchillo PNG_15"))
+        {
+            bc.enabled = true;
+        }
+        else
+        {
+            bc.enabled = false;
+        }
     }
     
 }

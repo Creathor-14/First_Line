@@ -12,7 +12,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DAÑOAPLAY.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Ayudantia 1/Assets/Scripts/Perseguir.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,7 +44,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PrimeraLinea.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Empendedor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ladrido.cs" />
@@ -66,8 +64,9 @@
         <option value="$PROJECT_DIR$/Assets/ImageInv.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageInv.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DAÑOAPLAY.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
       </list>
     </option>
   </component>
@@ -172,6 +171,7 @@
       <workItem from="1609957291547" duration="1898000" />
       <workItem from="1609967712458" duration="5227000" />
       <workItem from="1610042811366" duration="5819000" />
+      <workItem from="1610092977951" duration="3038000" />
     </task>
     <servers />
   </component>
