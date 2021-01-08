@@ -17,7 +17,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CAMAra.cs" />
         <option value="$PROJECT_DIR$/Assets/Quieto.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PruebaMov.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" />
@@ -45,7 +44,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapacos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PrimeraLinea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Empendedor.cs" />
@@ -68,6 +66,8 @@
         <option value="$PROJECT_DIR$/Assets/ImageInv.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageInv.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DAÑOAPLAY.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/attack.cs" />
       </list>
     </option>
   </component>
@@ -171,6 +171,7 @@
       <workItem from="1609952761771" duration="1592000" />
       <workItem from="1609957291547" duration="1898000" />
       <workItem from="1609967712458" duration="5227000" />
+      <workItem from="1610042811366" duration="5819000" />
     </task>
     <servers />
   </component>

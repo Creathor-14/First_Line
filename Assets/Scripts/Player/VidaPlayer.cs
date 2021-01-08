@@ -9,6 +9,8 @@ public class VidaPlayer : MonoBehaviour
     public Image barraVida;
     public Image barraArmadura;
     private int cont = 0;
+    public int DañoEnemigo = 10;
+
     
     void Update()
     {
@@ -36,6 +38,8 @@ public class VidaPlayer : MonoBehaviour
         if (collision.gameObject.tag == "EnemyAtk")
         {
             vida -= 10f;
+            vida -= DañoEnemigo;
+
         }
     }
 }

@@ -9,6 +9,7 @@ public class attack : MonoBehaviour
     private Rigidbody2D pRB;
     public float BumpX, BumpY;
     
+    
     void Start()
     {
         pRB = GetComponent<Rigidbody2D>();
