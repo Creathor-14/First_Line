@@ -16,16 +16,12 @@ public class Prue2 : MonoBehaviour
     private SpriteRenderer sp;
     private Animator anim;
     Rigidbody2D rb2d;
-    private BoxCollider2D bc;
     
-    public float DerechaOffSetX;
-    public float DerechaOffSetY;
-    public float DerechaSizeX;
-    public float DerechaSizeY;
-    public float IzquierdaOffSetX;
-    public float IzquierdaOffSetY;
-    public float IzquierdaSizeX;
-    public float IzquierdaSizeY;
+    private BoxCollider2D bc;
+    private BoxCollider2D bc1;
+    public string animGolpe;
+    
+   
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -33,8 +29,11 @@ public class Prue2 : MonoBehaviour
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         sp = GetComponent<SpriteRenderer>();
+        
         bc = transform.GetChild(0).GetComponent<BoxCollider2D>();
         bc.enabled = false;
+        bc1 = transform.GetChild(1).GetComponent<BoxCollider2D>();
+        bc1.enabled = false;
     }
     void Update()
     {
@@ -46,20 +45,34 @@ public class Prue2 : MonoBehaviour
             
         Vector3 forward = transform.TransformDirection(player.transform.position - transform.position);
         Debug.DrawRay(transform.position, forward, Color.red);
+        
         if (forward.x > 0)
         {
             sp.flipX = true;
-            bc.offset= new Vector2(DerechaOffSetX,DerechaOffSetY);
-            bc.size=new Vector2(DerechaSizeX,DerechaSizeY);
-            
+            bc.enabled = false;
+            if (sp.sprite.name == (animGolpe))
+            {
+                bc1.enabled = true;
+            }
+            else
+            {
+                bc1.enabled = false;
+            }
         }
         else
         {
             sp.flipX = false;
-            bc.offset= new Vector2(IzquierdaOffSetX,IzquierdaOffSetY);
-            bc.size=new Vector2(IzquierdaSizeX,IzquierdaSizeY);
-            
+            bc1.enabled = false;
+            if (sp.sprite.name == (animGolpe))
+            {
+                bc.enabled = true;
+            }
+            else
+            {
+                bc.enabled = false;
+            }
         }
+        
         if (hit.collider != null)
         {
             if (hit.collider.tag == "Player")
@@ -91,14 +104,7 @@ public class Prue2 : MonoBehaviour
             anim.SetBool("Seguir", false);
         }
         Debug.DrawLine(transform.position , target, Color.green);
-        if (sp.sprite.name == ("centinela con cuchillo PNG_15"))
-        {
-            bc.enabled = true;
-        }
-        else
-        {
-            bc.enabled = false;
-        }
+        
     }
     
 }
