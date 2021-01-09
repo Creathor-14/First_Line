@@ -38,16 +38,22 @@ public class VidaPlayer : MonoBehaviour
         if (collision.gameObject.tag == "EnemyAtk")
         {
             vida -= 10f;
-            vida -= DañoEnemigo;
 
         }
         if (collision.gameObject.tag == "golpeCuchillo")
         {
-            vida -= 1f;
-            vida -= DañoEnemigo;
-
+            vida -= 5f;
         }
-        
+
+        if (collision.gameObject.tag == "AtakEspada")
+        {
+            vida -= 5f;
+        }
+
+        if (collision.gameObject.tag == "AtakMordida")
+        {
+            vida -= 5f;
+        }
     }
 }
 
