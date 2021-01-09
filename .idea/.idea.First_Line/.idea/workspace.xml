@@ -10,14 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DAÑOAPLAY.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Ayudantia 1/Assets/Scripts/Perseguir.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Quieto.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PruebaMov.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/prueba2.cs" />
@@ -61,13 +56,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/CambioPersonaje.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/ImageInv.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageInv.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DAÑOAPLAY.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/GameOver.cs" />
       </list>
     </option>
   </component>
@@ -176,6 +172,7 @@
       <workItem from="1610147428284" duration="7360000" />
       <workItem from="1610182525995" duration="513000" />
       <workItem from="1610174290445" duration="148000" />
+      <workItem from="1610221617935" duration="2675000" />
     </task>
     <servers />
   </component>
