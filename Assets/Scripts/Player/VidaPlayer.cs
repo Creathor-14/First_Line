@@ -54,6 +54,11 @@ public class VidaPlayer : MonoBehaviour
         {
             vida -= 5f;
         }
+
+        if (collision.gameObject.tag == "GolpeMazo")
+        {
+            vida -= 5f;
+        }
     }
 }
 

@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 5902599205016562162}
   - component: {fileID: 6135132627423007898}
   - component: {fileID: 858644768892858408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: perro centinela_0
   m_TagString: EnemyAtk
   m_Icon: {fileID: 0}
@@ -356,6 +356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visionRadius: 4
-  attackRadius: 1.3
+  attackRadius: 1.2
   Speed: 3
   animGolpe: perro centinela_32
+  mirando: 

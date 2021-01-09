@@ -17,6 +17,7 @@ TagManager:
   - golpeCuchillo
   - AtakEspada
   - AtakMordida
+  - GolpeMazo
   layers:
   - Default
   - TransparentFX
