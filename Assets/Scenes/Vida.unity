@@ -956,6 +956,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SuperCentinela PNG_0
       objectReference: {fileID: 0}
+    - target: {fileID: 2881321209577029240, guid: dc24cac903a7bfb4e9e19d6e703f059d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4912967675206690833, guid: dc24cac903a7bfb4e9e19d6e703f059d,
         type: 3}
       propertyPath: m_SortingOrder
