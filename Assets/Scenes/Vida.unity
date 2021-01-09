@@ -541,6 +541,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 768271545809456571, guid: 411421cee5b5deb408be060f8bacdd66,
+        type: 3}
+      propertyPath: mirando
+      value: izquierda
+      objectReference: {fileID: 0}
     - target: {fileID: 949396392255571546, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
       propertyPath: m_Name
@@ -630,6 +635,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.28217006
       objectReference: {fileID: 0}
+    - target: {fileID: 1898880203, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
+      propertyPath: mirando
+      value: derecha
+      objectReference: {fileID: 0}
     - target: {fileID: 2739998777306809194, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}
       propertyPath: m_SortingOrder
@@ -638,7 +647,7 @@ PrefabInstance:
     - target: {fileID: 2739998777306809194, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6316675606246026367, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}

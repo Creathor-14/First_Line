@@ -20,6 +20,7 @@ public class Prue2 : MonoBehaviour
     private BoxCollider2D bc;
     private BoxCollider2D bc1;
     public string animGolpe;
+    public string mirando;
     
    
     void Start()
@@ -45,32 +46,69 @@ public class Prue2 : MonoBehaviour
             
         Vector3 forward = transform.TransformDirection(player.transform.position - transform.position);
         Debug.DrawRay(transform.position, forward, Color.red);
-        
-        if (forward.x > 0)
+        if (mirando == "izquierda")
         {
-            sp.flipX = true;
-            bc.enabled = false;
-            if (sp.sprite.name == (animGolpe))
+            if (forward.x > 0)
             {
-                bc1.enabled = true;
+                sp.flipX = true;
+                bc.enabled = false;
+                if (sp.sprite.name == (animGolpe))
+                {
+                    bc1.enabled = true;
+                }
+                else
+                {
+                    bc1.enabled = false;
+                }
             }
             else
             {
+                sp.flipX = false;
                 bc1.enabled = false;
+                if (sp.sprite.name == (animGolpe))
+                {
+                    bc.enabled = true;
+                }
+                else
+                {
+                    bc.enabled = false;
+                }
+            }
+        }
+        else if (mirando == "derecha")
+        {
+            if (forward.x < 0)
+            {
+                sp.flipX = true;
+                bc1.enabled = false;
+                if (sp.sprite.name == (animGolpe))
+                {
+                    bc.enabled = true;
+                }
+                else
+                {
+                    bc.enabled = false;
+                }
+            }
+            else
+            {
+                sp.flipX = false;
+                bc.enabled = false;
+                if (sp.sprite.name == (animGolpe))
+                {
+                    bc1.enabled = true;
+                }
+                else
+                {
+                    bc1.enabled = false;
+                }
+                
+                
             }
         }
         else
         {
-            sp.flipX = false;
-            bc1.enabled = false;
-            if (sp.sprite.name == (animGolpe))
-            {
-                bc.enabled = true;
-            }
-            else
-            {
-                bc.enabled = false;
-            }
+            print("NO ELIGIO IZQUIERDA O DERECHA");
         }
         
         if (hit.collider != null)
