@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Prue2 : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class Prue2 : MonoBehaviour
     private BoxCollider2D bc1;
     public string animGolpe;
     public string mirando;
+    private Vector3 dir;
     
    
     void Start()
@@ -35,6 +37,7 @@ public class Prue2 : MonoBehaviour
         bc.enabled = false;
         bc1 = transform.GetChild(1).GetComponent<BoxCollider2D>();
         bc1.enabled = false;
+        
     }
     void Update()
     {
@@ -46,6 +49,8 @@ public class Prue2 : MonoBehaviour
             
         Vector3 forward = transform.TransformDirection(player.transform.position - transform.position);
         Debug.DrawRay(transform.position, forward, Color.red);
+        
+        //hitBox de golpes segun a donde parte mirando el sprite
         if (mirando == "izquierda")
         {
             if (forward.x > 0)
@@ -130,6 +135,7 @@ public class Prue2 : MonoBehaviour
         }
         else
         {
+           
             rb2d.MovePosition(transform.position+dir * Speed * Time.deltaTime);
             anim.speed = 1;
             anim.SetBool("Seguir",true);
