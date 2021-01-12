@@ -13,9 +13,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assets/Scripts/pruebaPlaye.cs" />
         <option value="$PROJECT_DIR$/Assets/DrawScenneLine.cs" />
         <option value="$PROJECT_DIR$/Assets/plataformaMovil.cs" />
+=======
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/MenuSelectC.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
@@ -26,7 +29,6 @@
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/plataformaMovil.cs" />
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Seguir.cs" />
-        <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Luces.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Light2D.cs" />
@@ -64,6 +66,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/mover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Settings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -174,6 +184,11 @@
       <workItem from="1610174290445" duration="148000" />
       <workItem from="1610221617935" duration="2675000" />
       <workItem from="1610243970041" duration="8727000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1610427122020" duration="5996000" />
+      <workItem from="1610462278863" duration="4264000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

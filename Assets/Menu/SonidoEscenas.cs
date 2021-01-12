@@ -2,9 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SonidoEscenas : MonoBehaviour
 {
+    public AudioMixer audioMixer;
     private SonidoEscenas instance;
     public SonidoEscenas Intance
     {
@@ -31,5 +33,10 @@ public class SonidoEscenas : MonoBehaviour
         }
         
         DontDestroyOnLoad(gameObject);
+    }
+    
+    public void SetVolumen(float volumeGeneral)
+    {
+        audioMixer.SetFloat("GeneralVolumen", volumeGeneral);
     }
 }

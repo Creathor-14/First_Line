@@ -1,9 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 public class MainMenu : MonoBehaviour
 {
+
     public void PlayerSelect()
     {
         SceneManager.LoadScene("PlayerSelection");
@@ -13,12 +16,7 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("LoadGame");
     }
-    
-    public void Options()
-    {
-        SceneManager.LoadScene("Options");
-    }
-    
+
     public void Tips()
     {
         SceneManager.LoadScene("Tips");
