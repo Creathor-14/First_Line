@@ -5,26 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class CambioPersonaje : MonoBehaviour
 {
-    private GameObject[] cambiarP;
-    private int index;
+    private GameObject[] cambiarP; // se tiene una lista de personajes
+    private int index;  // cada personaje tiene un indice
 
     void Start()
     {
-        index = PlayerPrefs.GetInt("animation player");
+        index = PlayerPrefs.GetInt("animation player"); //obtiene una animacion(los personajes en IDLE)
         cambiarP = new GameObject[transform.childCount];
 
-        for (int i = 0; i < transform.childCount; i++)
+        for (int i = 0; i < transform.childCount; i++)  // guarda a los personajes en un contenedor(lista de objetos)
             cambiarP[i] = transform.GetChild(i).gameObject;
 
         foreach (GameObject objeto in cambiarP)
             objeto.SetActive(false);
 
-        if (cambiarP[index])
+        if (cambiarP[index]) // si ese objeto esta seleccionado que muestre su animacion en la pantalla
             cambiarP[index].SetActive(true);
 
     }
 
-    public void BotonDer()
+    public void BotonDer() // se cambia al personaje de la derecha
     {
         cambiarP[index].SetActive(false);
         index++;
@@ -33,7 +33,7 @@ public class CambioPersonaje : MonoBehaviour
         cambiarP[index].SetActive(true);
     }
     
-    public void BotonIzq()
+    public void BotonIzq()  // se cambia al personaje de la izquierda
     {
         cambiarP[index].SetActive(false);
         index--;
@@ -42,7 +42,7 @@ public class CambioPersonaje : MonoBehaviour
         cambiarP[index].SetActive(true);
     }
 
-    public void PlayScene()
+    public void PlayScene()  // manda al jugador al juego
     {
         PlayerPrefs.SetInt("animation player",index);
         SceneManager.LoadScene("Nivel_1 luces");

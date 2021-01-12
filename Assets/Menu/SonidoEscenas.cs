@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SonidoEscenas : MonoBehaviour
+public class SonidoEscenas : MonoBehaviour // Aca lo unico que pasa es que la musica no se corte al pasar a otra escena
 {
     private SonidoEscenas instance;
+    
     public SonidoEscenas Intance
     {
         get{
@@ -15,7 +16,7 @@ public class SonidoEscenas : MonoBehaviour
 
     private void Awake()
     {
-        if (FindObjectsOfType(GetType()).Length > 1)
+        if (FindObjectsOfType(GetType()).Length > 1) // si la escena es mayor que la principal, que el sonido siga funcionando
         {
             Destroy(gameObject);
         }

@@ -12,7 +12,7 @@ public class GameOverManager : MonoBehaviour
     
     void Start()
     {
-        menuPanel.SetActive(false);
+        menuPanel.SetActive(false);// NO esta activo el panel de "Juego Terminado"
     }
     void Awake()
     {
@@ -21,10 +21,10 @@ public class GameOverManager : MonoBehaviour
     
     void Update()
     {
-        if (vidaP.barraVida.fillAmount <= 0) 
+        if (vidaP.barraVida.fillAmount <= 0) // Se obtiene la vida del objeto vidaP(de tipo VidaPlayer) y se ve si es menor a 0
         {
-            menuPanel.SetActive(true);
-            anim.SetTrigger("GameOver");
+            menuPanel.SetActive(true);   // se activa el panel de "Juego Terminado"
+            anim.SetTrigger("GameOver");  // aparece la animacion de crecimiento
             Time.timeScale = 0;
         }
 
