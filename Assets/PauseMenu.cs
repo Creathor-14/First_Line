@@ -14,7 +14,7 @@ public class PauseMenu : MonoBehaviour
         menuSalir.SetActive(false);
     }
 
-    public void Switch()
+    public void Switch() 
     {
         if (panel)
         {
@@ -28,32 +28,32 @@ public class PauseMenu : MonoBehaviour
     }
     
 
-    void btnResume()
+    void btnResume() //continua con el juego
     {
         menuP.SetActive(false);
         Time.timeScale = 1;
         panel = false;
     }
     
-    void btnPause()
+    void btnPause() // se abre el menu de pausa
     {
         menuP.SetActive(true);
         Time.timeScale = 0;
         panel = true;
     }
     
-    public void panelQuit()
+    public void panelQuit() // despliega un mini menu donde vuelve a preguntarle al usuario si esta seguro de volver al menuMain
     {
         menuSalir.SetActive(true);
     }
     
     public void backYES()
     {
-        SceneManager.LoadScene("Menu");
         menuP.SetActive(false);
         menuSalir.SetActive(false);
         panel = false;
-        
+        SceneManager.LoadScene("Menu");
+
     }
 
     public void OptionsScene()

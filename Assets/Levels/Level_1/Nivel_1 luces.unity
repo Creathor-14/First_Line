@@ -920,8 +920,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
@@ -1882,7 +1882,7 @@ GameObject:
   - component: {fileID: 384289035}
   - component: {fileID: 384289034}
   m_Layer: 5
-  m_Name: Load Game
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1935,8 +1935,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
@@ -2016,28 +2016,15 @@ GameObject:
   - component: {fileID: 387080718}
   - component: {fileID: 387080717}
   - component: {fileID: 387080716}
-  - component: {fileID: 387080715}
+  - component: {fileID: 387080720}
+  - component: {fileID: 387080721}
   m_Layer: 5
   m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &387080715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387080714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0973076ed5f7b3749ab40a1b19526f4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  menuP: {fileID: 1311251055}
-  menuSalir: {fileID: 253220832}
+  m_IsActive: 1
 --- !u!114 &387080716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2118,6 +2105,40 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &387080720
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387080714}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 84e5bbd3c610a9d4ebad6e77c617cc5d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &387080721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387080714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814f554fadc075e4e8a96fa6a03c44a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaP: {fileID: 1043982410}
+  menuPanel: {fileID: 1311251055}
+  miniMenu: {fileID: 253220832}
 --- !u!1 &425890433
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,8 +2276,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16645631
+  m_fontColor: {r: 1, g: 0.990566, b: 0.990566, a: 0}
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
@@ -2547,7 +2568,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 387080715}
+      - m_Target: {fileID: 387080721}
         m_MethodName: backYES
         m_Mode: 1
         m_Arguments:
@@ -3117,7 +3138,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 387080715}
+      - m_Target: {fileID: 387080721}
         m_MethodName: backNo
         m_Mode: 1
         m_Arguments:
@@ -4729,6 +4750,18 @@ MonoBehaviour:
   lightFlickerMax: 8
   beginningTime: 0.1
   BarraVida: {fileID: 752406610}
+--- !u!114 &1043982410 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4504571436865557220, guid: 2fcdbd4f790689448a5b3c6103be2832,
+    type: 3}
+  m_PrefabInstance: {fileID: 193609266}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c0d7aedddfe5d45b8ed52590470e69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1055718781
 GameObject:
   m_ObjectHideFlags: 0
@@ -5931,7 +5964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.07520469, g: 0.122641504, b: 0.121229686, a: 0.6431373}
+  m_Color: {r: 0.07520469, g: 0.122641504, b: 0.121229686, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6620,8 +6653,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
@@ -7198,8 +7231,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 387080721}
+        m_MethodName: openMiniMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
