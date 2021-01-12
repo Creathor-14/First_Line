@@ -11,8 +11,6 @@ public class VidaEnemy : MonoBehaviour
     //public Image fondo;
     //public Image fondo1;
     
-    
-    // Update is called once per frame
     void Update()
     {
         vida = Mathf.Clamp(vida, 0, 100);
