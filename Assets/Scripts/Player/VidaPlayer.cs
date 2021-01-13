@@ -18,12 +18,12 @@ public class VidaPlayer : MonoBehaviour
         if (barraArmadura.fillAmount.ToString().Equals("0"))
         {
             barraVida.fillAmount = vida / 100;
-            print("La vida actual es: "+barraVida.fillAmount.ToString());
+            //print("La vida actual es: "+barraVida.fillAmount.ToString());
         }
         else
         {
             barraArmadura.fillAmount = vida / 100;
-            print("La armadura actual es: "+barraArmadura.fillAmount.ToString());
+            //print("La armadura actual es: "+barraArmadura.fillAmount.ToString());
         }
 
         if (barraArmadura.fillAmount.ToString().Equals("0") && cont==0) //pasa el a la imagen vida para bajarle a la vida despues de la armadura

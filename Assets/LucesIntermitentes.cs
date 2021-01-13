@@ -15,12 +15,15 @@ public class LucesIntermitentes : MonoBehaviour
     Light2D myLight;
 
     public Image BarraVida;
+    
 
     private void Start()
     {
         myLight = GetComponent<Light2D>();
         StartCoroutine(StartScene());
-    }
+        
+    
+}
 
     IEnumerator StartScene()
     {

@@ -18,6 +18,7 @@ TagManager:
   - AtakEspada
   - AtakMordida
   - GolpeMazo
+  - centinela
   layers:
   - Default
   - TransparentFX

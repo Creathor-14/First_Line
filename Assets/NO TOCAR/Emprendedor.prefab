@@ -152,6 +152,7 @@ MonoBehaviour:
   vida: 100
   barraVida: {fileID: 0}
   barraArmadura: {fileID: 0}
+  "Da\xF1oEnemigo": 10
 --- !u!50 &7744760734722786984
 Rigidbody2D:
   serializedVersion: 4

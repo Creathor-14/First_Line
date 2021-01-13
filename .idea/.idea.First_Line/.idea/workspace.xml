@@ -10,6 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/movVidaEne.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -55,15 +58,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/mover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
       </list>
     </option>
   </component>
@@ -176,6 +179,7 @@
       <workItem from="1610243970041" duration="8727000" />
       <workItem from="1610427122020" duration="5996000" />
       <workItem from="1610476551682" duration="5153000" />
+      <workItem from="1610496947707" duration="3701000" />
     </task>
     <servers />
   </component>
