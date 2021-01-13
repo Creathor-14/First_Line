@@ -1278,6 +1278,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 9039834767363612271}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &227071148 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2962107957130455894, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 78325938}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &238620678
 GameObject:
   m_ObjectHideFlags: 0
@@ -6033,6 +6045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1269226692}
   - component: {fileID: 1269226691}
+  - component: {fileID: 1269226693}
   m_Layer: 10
   m_Name: Freeform Light 2D
   m_TagString: Untagged
@@ -6095,6 +6108,19 @@ Transform:
   m_Father: {fileID: 107785409}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1269226693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269226690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3131ba1d26893dc479b1a4b252c7721c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BarraVida: {fileID: 227071148}
 --- !u!1001 &1287956791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9913,6 +9939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1953150213}
   - component: {fileID: 1953150212}
+  - component: {fileID: 1953150214}
   m_Layer: 10
   m_Name: Global Light 2D
   m_TagString: Untagged
@@ -9975,6 +10002,19 @@ Transform:
   m_Father: {fileID: 107785409}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1953150214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953150211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3131ba1d26893dc479b1a4b252c7721c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BarraVida: {fileID: 227071148}
 --- !u!1 &1982485723
 GameObject:
   m_ObjectHideFlags: 0

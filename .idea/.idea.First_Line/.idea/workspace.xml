@@ -11,12 +11,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Iluminacion_Global.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/plataformaMovil.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/MenuSelectC.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
@@ -67,6 +67,7 @@
         <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Iluminacion_Global.cs" />
       </list>
     </option>
   </component>
@@ -182,6 +183,7 @@
       <workItem from="1610496947707" duration="3701000" />
       <workItem from="1610560953608" duration="1491000" />
       <workItem from="1610562936622" duration="529000" />
+      <workItem from="1610564739857" duration="771000" />
     </task>
     <servers />
   </component>
