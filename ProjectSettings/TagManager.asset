@@ -19,6 +19,9 @@ TagManager:
   - AtakMordida
   - GolpeMazo
   - centinela
+  - PL(golpe-normal)
+  - PL(golpe-especial)
+  - MP(mordisco)
   layers:
   - Default
   - TransparentFX

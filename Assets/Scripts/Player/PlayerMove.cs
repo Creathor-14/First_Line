@@ -50,7 +50,7 @@ public class PlayerMove : MonoBehaviour
 //segun animaciones
         if (player.sprite.name==("mujer primera linea(limpio)_0")||player.sprite.name==("mujer primera linea(limpio)_1")||player.sprite.name==("mujer primera linea(limpio)_2")||player.sprite.name==("mujer primera linea(limpio)_3") ||player.sprite.name==("mujer primera linea(limpio)_4")
             ||player.sprite.name==("mujer primera linea(limpio)_11")||player.sprite.name==("mujer primera linea(limpio)_12")||player.sprite.name==("mujer primera linea(limpio)_13")||player.sprite.name==("mujer primera linea(limpio)_14")
-            ||player.sprite.name==("mujer primera linea(limpio)_53")||player.sprite.name==("mujer primera linea(limpio)_56")||player.sprite.name==("mujer primera linea(limpio)_57")||player.sprite.name==("mujer primera linea(limpio)_58")||player.sprite.name==("mujer primera linea(limpio)_59"))
+            ||player.sprite.name==("mujer primera linea(limpio)_53")||player.sprite.name==("mujer primera linea(limpio)_56")||player.sprite.name==("mujer primera linea(limpio)_57")||player.sprite.name==("mujer primera linea(limpio)_58"))
         {
         }
         else
@@ -148,41 +148,5 @@ public class PlayerMove : MonoBehaviour
         //https://www.youtube.com/watch?v=0LgCaEMCoz8
         //min 12:33
     }
-
-    
-    
-    
-    
-//detecta los golpes enemigos y aplica el daño(1)    
-
-    public void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.tag.Equals(tagDelOponente))
-        {
-            if (!Input.GetButtonDown(("Fire1")))
-            {
-                vida -= 4;//deve obtener el valor del daño del que lo golpea (en vez de el 4)
-                anim.SetTrigger("Daño");
-                if (vida <= 0)
-                {
-                    anim.SetBool("Muere",true);
-                }
-/*
- *                Cuando reciva golpes el personaje no podra moverse
- *
- *                 mov.x = 0;
- *                 mov.y = 0;
- */
-                
-            }
-            else//retroceso
-            {
-                rd.AddForce(Vector2.right*(GetComponentInParent<Transform>().localScale.x*-1)*5,ForceMode2D.Impulse);//Get component depende de cual de los objetos le da el movimiento al jugador(GetComponentInParent) en este caso es Get component normal
-            }
-        }
-    }
-
-    
-    
 }
 //EN Quieto(anim) 2 HAY QUE HACER QUE EL PERSONAJE SE QUEDE QUIETO

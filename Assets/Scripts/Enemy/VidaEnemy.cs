@@ -1,71 +1,49 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class VidaEnemy : MonoBehaviour
 {
-    public float vida = 100;
-    
-    public Image barraVida;
-    //public Image fondo;
-    //public Image fondo1;
-    
-    void Update()
+    public float vidaReal;
+    public float vida;
+    private SpriteRenderer barraVida;
+    private void Start()
     {
-        vida = Mathf.Clamp(vida, 0, 100);
-        barraVida.fillAmount = vida / 100;
+        barraVida = transform.GetChild(2).GetComponent<SpriteRenderer>();
+        barraVida.drawMode = SpriteDrawMode.Sliced;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        /*invs
-        var aja = barraVida.color;
-        var aje = fondo.color;
-        var aji = fondo1.color;
-        */
-        if (collision.gameObject.tag == "Attack")
+        if (vida > 0)
         {
-            vida -= 10f;
-            /*invs
-            aja.a = 255f;
-            aje.a = 255f;
-            aji.a = 255f;
-            */
-            
+            float daño;
+            if (collision.gameObject.tag == "PL(golpe-normal)")
+            {
+                daño = 44f;
+                vida -= daño;
+                daño /= vidaReal;
+                barraVida.size -= new Vector2(daño,0f);
+            }
+            if (collision.gameObject.tag == "PL(golpe-especial)")
+            {
+                daño = 64f;
+                vida -= daño;
+                daño /= vidaReal;
+                barraVida.size -= new Vector2(daño,0f);
+            }
+            if (collision.gameObject.tag == "MP(mordisco)")
+            {
+                daño = 66f;
+                vida -= daño;
+                daño /= vidaReal;
+                //AGREGAR SANGRADO
+                barraVida.size -= new Vector2(daño,0f);
+            }
         }
-        else if (collision.gameObject.tag == "golpeCuchillo")
-        {
-            vida -= 5f;
-        }
-
-        else if (collision.gameObject.tag == "AtakEspada")
-        {
-            vida -= 5f;
-        }
-
-        else if (collision.gameObject.tag == "AtakMordida")
-        {
-            vida -= 5f;
-        }
-
-        else if (collision.gameObject.tag == "GolpeMazo")
-        {
-            vida -= 5f;
-        }
-        /*invs
         else
         {
-            aja.a = 25f;
-            aje.a = 25f;
-            aji.a = 25f;
-            
+            barraVida.size = new Vector2(0f,0f);
         }
-        barraVida.color = aja;
-        fondo.color = aje;
-        fondo1.color = aji;
-        */
-        
-        
-
     }
 }
