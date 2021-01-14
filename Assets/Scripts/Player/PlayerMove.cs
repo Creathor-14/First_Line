@@ -163,6 +163,7 @@ public class PlayerMove : MonoBehaviour
             {
                 vida -= 4;//deve obtener el valor del daño del que lo golpea (en vez de el 4)
                 anim.SetTrigger("Daño");
+                Debug.Log(vida);
                 if (vida <= 0)
                 {
                     anim.SetBool("Muere",true);

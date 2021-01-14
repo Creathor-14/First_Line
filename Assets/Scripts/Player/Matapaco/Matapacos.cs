@@ -22,6 +22,7 @@ public class Matapacos : MonoBehaviour
     
     //sistema de daño(2)
     private CircleCollider2D ac;
+    
     void Start()
     {
         player = GetComponent<SpriteRenderer>();
