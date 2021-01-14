@@ -63,11 +63,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
         <option value="$PROJECT_DIR$/Assets/Iluminacion_Global.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
       </list>
     </option>
   </component>
@@ -187,6 +187,8 @@
       <workItem from="1610589679767" duration="3105000" />
       <workItem from="1610598335356" duration="1735000" />
       <workItem from="1610649457182" duration="7892000" />
+      <workItem from="1610651203666" duration="2055000" />
+      <workItem from="1610653413320" duration="4002000" />
     </task>
     <servers />
   </component>

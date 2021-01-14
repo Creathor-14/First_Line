@@ -470,6 +470,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1001 &78325938
 PrefabInstance:
@@ -686,6 +687,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &129631545
 GameObject:
@@ -706,7 +708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &129631546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,7 +783,7 @@ RectTransform:
   - {fileID: 298641015}
   - {fileID: 1207651602}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -891,6 +893,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &137575738
 GameObject:
@@ -1271,6 +1274,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!4 &222308220 stripped
 Transform:
@@ -1926,6 +1930,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &384289032
 GameObject:
@@ -2155,7 +2160,7 @@ RectTransform:
   m_Children:
   - {fileID: 1311251056}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2285,6 +2290,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &433769367
 GameObject:
@@ -2780,6 +2786,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &544832099
 GameObject:
@@ -2870,6 +2877,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &567436222
 GameObject:
@@ -2960,6 +2968,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &589270087
 GameObject:
@@ -3184,6 +3193,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &627899022
 GameObject:
@@ -3540,6 +3550,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &688551776
 GameObject:
@@ -3630,6 +3641,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &726848453
 GameObject:
@@ -3720,6 +3732,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &746944190
 GameObject:
@@ -4088,6 +4101,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &784414859
 GameObject:
@@ -4178,6 +4192,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &801600481
 GameObject:
@@ -4268,6 +4283,7 @@ MonoBehaviour:
   lightFlickerMin: 5
   lightFlickerMax: 8
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &834937332
 GameObject:
@@ -4358,6 +4374,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &871898281
 GameObject:
@@ -4692,6 +4709,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &897738249
 GameObject:
@@ -4720,12 +4738,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897738249}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97712100fc2d551498be3027f365e60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  follow: {fileID: 0}
+  follow: {fileID: 436462600}
   minCamPos: {x: 0, y: 0}
   maxCamPos: {x: 89.1, y: 0}
   smoothTime: 0
@@ -4910,10 +4928,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf054c3a1537b834d83bd34a617d18ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  betweenLightFlickers: 5
+  betweenLightFlickers: 0.1
   lightFlickerMin: 5
   lightFlickerMax: 8
-  beginningTime: 0.1
+  beginningTime: 5
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!114 &1043982410 stripped
 MonoBehaviour:
@@ -5286,6 +5305,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1070255874
 GameObject:
@@ -5376,6 +5396,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &1111529799
 GameObject:
@@ -5466,6 +5487,7 @@ MonoBehaviour:
   lightFlickerMin: 5
   lightFlickerMax: 8
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &1117962932
 GameObject:
@@ -5556,6 +5578,7 @@ MonoBehaviour:
   lightFlickerMin: 5
   lightFlickerMax: 8
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!114 &1150373874 stripped
 MonoBehaviour:
@@ -5773,7 +5796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.3999634, y: 5.100006}
+  m_AnchoredPosition: {x: -1.4000244, y: 5.100006}
   m_SizeDelta: {x: 21.884033, y: 10.1936035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1207651603
@@ -5877,7 +5900,7 @@ PrefabInstance:
     - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
@@ -6069,7 +6092,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 0.59
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -6115,7 +6138,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269226690}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3131ba1d26893dc479b1a4b252c7721c, type: 3}
   m_Name: 
@@ -6233,7 +6256,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.3999634, y: 5.100006}
+  m_AnchoredPosition: {x: -1.4000244, y: 5.100006}
   m_SizeDelta: {x: 21.884033, y: 10.1936035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1311251057
@@ -6577,6 +6600,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1411115102
 GameObject:
@@ -6667,6 +6691,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1418127498
 GameObject:
@@ -6757,6 +6782,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1426745735
 GameObject:
@@ -6843,10 +6869,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf054c3a1537b834d83bd34a617d18ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  betweenLightFlickers: 0.1
+  betweenLightFlickers: 2
   lightFlickerMin: 5
   lightFlickerMax: 8
-  beginningTime: 0.1
+  beginningTime: 5
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &1446048321
 GameObject:
@@ -7114,6 +7141,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1475012849
 GameObject:
@@ -7204,6 +7232,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1488276326
 GameObject:
@@ -7689,6 +7718,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &1550939530
 GameObject:
@@ -8427,6 +8457,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1591775382
 GameObject:
@@ -8517,6 +8548,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1613605460
 GameObject:
@@ -8607,6 +8639,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!4 &1623356656 stripped
 Transform:
@@ -8833,6 +8866,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1706302222
 GameObject:
@@ -9481,6 +9515,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &1779990303
 GameObject:
@@ -9571,6 +9606,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &1835364607
 GameObject:
@@ -9928,6 +9964,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &1953150211
 GameObject:
@@ -9963,7 +10000,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 0.7
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 000000009fbb55e7
   m_LightCookieSprite: {fileID: 0}
@@ -10009,7 +10046,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953150211}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3131ba1d26893dc479b1a4b252c7721c, type: 3}
   m_Name: 
@@ -10104,6 +10141,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1988180624
 GameObject:
@@ -10194,6 +10232,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1 &1988324250
 GameObject:
@@ -10284,6 +10323,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!4 &2002851450 stripped
 Transform:
@@ -10380,6 +10420,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &2013547722
 GameObject:
@@ -10470,6 +10511,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 1
   BarraVida: {fileID: 752406610}
 --- !u!1 &2059227170
 GameObject:
@@ -10560,6 +10602,7 @@ MonoBehaviour:
   lightFlickerMin: 8
   lightFlickerMax: 5
   beginningTime: 0.1
+  tipo: 2
   BarraVida: {fileID: 752406610}
 --- !u!1001 &3609694807802180452
 PrefabInstance:
@@ -10827,80 +10870,6 @@ PrefabInstance:
       objectReference: {fileID: 1150373874}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1faf15cc9b7d0e242b06ae17cd27784b, type: 3}
---- !u!1001 &6420051978839258350
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382306, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382310, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_Name
-      value: cuadrado
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420051980512382311, guid: aac8439fdf6058344ad1e1acc3fc8481,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: aac8439fdf6058344ad1e1acc3fc8481, type: 3}
 --- !u!1001 &9039834767363612271
 PrefabInstance:
   m_ObjectHideFlags: 0
