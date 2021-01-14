@@ -293,6 +293,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1603075154, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603075155, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1898880204, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1898880204, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1898880206, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -307,7 +323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1898880207, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2033273255, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
       propertyPath: barraVida
@@ -566,7 +582,7 @@ PrefabInstance:
     - target: {fileID: 377489450351908788, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2135690537206429513, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
@@ -643,6 +659,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7394328406777983892, guid: 2fcdbd4f790689448a5b3c6103be2832,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9031620622808682374, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
       propertyPath: m_BodyType
@@ -657,6 +678,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031620622808682374, guid: 2fcdbd4f790689448a5b3c6103be2832,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fcdbd4f790689448a5b3c6103be2832, type: 3}
@@ -853,18 +879,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &1172025356 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2962107956861858672, guid: 650ceea6be63aab489ffb29dd1d14b1d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1816056798}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1301439410
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,9 +1196,17 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 613893721, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
+      propertyPath: m_Constraints
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 613893721, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 613893722, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 613893728, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
       propertyPath: m_Enabled
@@ -1197,7 +1219,7 @@ PrefabInstance:
     - target: {fileID: 613893728, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 1172025356}
+      objectReference: {fileID: 208016590}
     - target: {fileID: 2106424412, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -1265,6 +1287,11 @@ PrefabInstance:
     - target: {fileID: 5059405614640727821, guid: 96fe469986fcba14a9db55845af079cf,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7704097112030886888, guid: 96fe469986fcba14a9db55845af079cf,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
