@@ -379,6 +379,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: centinela escudo limpio_0
       objectReference: {fileID: 0}
+    - target: {fileID: 8898930887368105907, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
 --- !u!1 &435734295
@@ -1328,12 +1333,12 @@ PrefabInstance:
     - target: {fileID: 7711300691024152711, guid: d9eb5817161804e419b4c7560c761607,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.97
+      value: 8.21
       objectReference: {fileID: 0}
     - target: {fileID: 7711300691024152711, guid: d9eb5817161804e419b4c7560c761607,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.14
+      value: -3.32
       objectReference: {fileID: 0}
     - target: {fileID: 7711300691024152711, guid: d9eb5817161804e419b4c7560c761607,
         type: 3}
