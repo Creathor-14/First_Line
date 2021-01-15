@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: 329a6aa7b905a144f95f9ea82033112d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7031444542376342418
+    second: ponchoPROYECTO_0
+  - first:
+      213: 7956294073358522738
+    second: ponchoPROYECTO_1
+  - first:
+      213: 8940244129503657972
+    second: ponchoPROYECTO_2
+  - first:
+      213: -1686963922769135100
+    second: ponchoPROYECTO_3
+  - first:
+      213: -8439186748800593946
+    second: ponchoPROYECTO_4
+  - first:
+      213: 953590869384112934
+    second: ponchoPROYECTO_5
+  - first:
+      213: 1719571571831014200
+    second: ponchoPROYECTO_6
+  - first:
+      213: -317921222707992672
+    second: ponchoPROYECTO_7
+  - first:
+      213: 6271147456186907979
+    second: ponchoPROYECTO_8
+  - first:
+      213: 3898823149229730177
+    second: ponchoPROYECTO_9
+  - first:
+      213: -5589688356111452853
+    second: ponchoPROYECTO_10
+  - first:
+      213: 6375805427466221375
+    second: ponchoPROYECTO_11
+  - first:
+      213: 6532664182976696387
+    second: ponchoPROYECTO_12
+  - first:
+      213: 7276643905379362474
+    second: ponchoPROYECTO_13
+  - first:
+      213: -7611841268908309605
+    second: ponchoPROYECTO_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ponchoPROYECTO_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1015
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c8cc1617a4b6e90800000000000000
+      internalID: -7031444542376342418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1008
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27994133e4f6a6e60800000000000000
+      internalID: 7956294073358522738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1002
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff36581ba0221c70800000000000000
+      internalID: 8940244129503657972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_3
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 990
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a327a0043b698e0800000000000000
+      internalID: -1686963922769135100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 669
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef8e8c5d5cf1ea80800000000000000
+      internalID: -8439186748800593946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_5
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 653
+        width: 293
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b22b6e7d5db3d00800000000000000
+      internalID: 953590869384112934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 652
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83309d0eb352dd710800000000000000
+      internalID: 1719571571831014200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_7
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 636
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7aee51554869bf0800000000000000
+      internalID: -317921222707992672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d7d1ca267970750800000000000000
+      internalID: 6271147456186907979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 335
+        width: 293
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18968e35ff66b1630800000000000000
+      internalID: 3898823149229730177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_10
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 351
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45f6d83e007d62b0800000000000000
+      internalID: -5589688356111452853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_11
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 354
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37b12d71496b7850800000000000000
+      internalID: 6375805427466221375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 48
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3405e3f767fa8aa50800000000000000
+      internalID: 6532664182976696387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_13
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 54
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6e5212415dbf460800000000000000
+      internalID: 7276643905379362474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchoPROYECTO_14
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 61
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93cf08f1be4d5690800000000000000
+      internalID: -7611841268908309605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

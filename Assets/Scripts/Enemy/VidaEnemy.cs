@@ -18,6 +18,7 @@ public class VidaEnemy : MonoBehaviour
         if (vida > 0)
         {
             float daño;
+            //primera linea
             if (collision.gameObject.tag == "PL(golpe-normal)")
             {
                 daño = 44f;
@@ -32,6 +33,7 @@ public class VidaEnemy : MonoBehaviour
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
             }
+            //matapaco
             if (collision.gameObject.tag == "MP(mordisco)")
             {
                 daño = 66f;
@@ -40,6 +42,14 @@ public class VidaEnemy : MonoBehaviour
                 //AGREGAR SANGRADO
                 barraVida.size -= new Vector2(daño,0f);
             }
+            //karateka
+            
+            //hombre
+            
+            //empresario
+            
+            //Sensual Spiderman(o por dios pero mira que sensual)
+            
         }
         else
         {

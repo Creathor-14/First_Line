@@ -12,13 +12,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Iluminacion_Global.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DesTrucho.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Menu/MenuSelectC.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemigo.cs" />
@@ -62,12 +61,14 @@
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Iluminacion_Global.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
+        <option value="$PROJECT_DIR$/Assets/DestruirConsumible.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DesTrucho.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
       </list>
     </option>
   </component>
@@ -189,6 +190,7 @@
       <workItem from="1610649457182" duration="7892000" />
       <workItem from="1610651203666" duration="2055000" />
       <workItem from="1610653413320" duration="4002000" />
+      <workItem from="1610669246216" duration="3891000" />
     </task>
     <servers />
   </component>

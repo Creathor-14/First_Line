@@ -22,6 +22,12 @@ TagManager:
   - PL(golpe-normal)
   - PL(golpe-especial)
   - MP(mordisco)
+  - Vinito
+  - Handroll
+  - Empanada
+  - Chupalla
+  - Kapo
+  - Poncho
   layers:
   - Default
   - TransparentFX

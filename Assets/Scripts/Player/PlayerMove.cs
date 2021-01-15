@@ -106,7 +106,7 @@ public class PlayerMove : MonoBehaviour
         else if (Input.GetAxisRaw("Horizontal") > 0)
         {
             player.flipX = false;
-            if(mov!= Vector3.zero) ac.offset= new Vector3(-0.3f,-0.4f,0);//golpes
+            if(mov!= Vector3.zero) ac.offset= new Vector3(-0.3f,1f,0);//golpes
             if(mov!= Vector3.zero) ac1.offset= new Vector3(3f,-0.4f,0);//barrida
             if(mov!= Vector3.zero) ac2.offset= new Vector3(1.5f,3f,0);//barrida2
         }

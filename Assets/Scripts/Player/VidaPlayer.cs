@@ -7,48 +7,73 @@ public class VidaPlayer : MonoBehaviour
 {
     public float vida = 100;
     public Image barraVida;
+    public float armadura = 100;
     public Image barraArmadura;
     private int cont = 0;
     public int DañoEnemigo = 10;
-
-    
     void Update()
     {
         vida = Mathf.Clamp(vida, 0, 100);
+        armadura = Mathf.Clamp(armadura, 0, 100);
         if (barraArmadura.fillAmount.ToString().Equals("0"))
         {
             barraVida.fillAmount = vida / 100;
-            //print("La vida actual es: "+barraVida.fillAmount.ToString());
         }
         else
         {
-            barraArmadura.fillAmount = vida / 100;
-            //print("La armadura actual es: "+barraArmadura.fillAmount.ToString());
+            barraArmadura.fillAmount = armadura / 100;
         }
-
-        if (barraArmadura.fillAmount.ToString().Equals("0") && cont==0) //pasa el a la imagen vida para bajarle a la vida despues de la armadura
+        if (cont==1) //pasa el a la imagen vida para bajarle a la vida despues de la armadura
         {
-            vida = 100;
-            cont += 1;
+            barraArmadura.fillAmount = armadura / 100;
+            cont = 0;
         }
-
-        
+        if (cont == 2)
+        {
+            barraVida.fillAmount = vida / 100;
+            barraArmadura.fillAmount = armadura / 100;
+            cont = 0; 
+        }
+        //print("La vida actual es: "+barraVida.fillAmount.ToString()+", La armadura actual es: "+barraArmadura.fillAmount.ToString());
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //Golpes Enemigos
         if (collision.gameObject.tag == "EnemyAtk")
         {
-            vida -= 10f;
-
+            if (barraArmadura.fillAmount.ToString().Equals("0"))
+            {
+                vida -= 10f; 
+            }
+            else
+            {
+                armadura -= 10f;
+            }
         }
+
         if (collision.gameObject.tag == "golpeCuchillo")
         {
-            vida -= 5f;
+            if (barraArmadura.fillAmount.ToString().Equals("0"))
+            {
+                vida -= 5f; 
+            }
+            else
+            {
+                armadura -= 5f;
+            }
         }
 
         if (collision.gameObject.tag == "AtakEspada")
         {
-            vida -= 5f;
+            if (barraArmadura.fillAmount.ToString().Equals("0"))
+            {
+                vida -= 5f; 
+            }
+            else
+            {
+                armadura -= 5f;
+            }
         }
 
         if (collision.gameObject.tag == "AtakMordida")
@@ -60,6 +85,43 @@ public class VidaPlayer : MonoBehaviour
         {
             vida -= 5f;
         }
+
+        //Consumibles
+        if (collision.gameObject.tag == "Vinito")
+        {
+            vida += 100f;
+        }
+        if (collision.gameObject.tag == "Handroll")
+        {
+            vida += 50f;
+        }
+        if (collision.gameObject.tag == "Empanada")
+        {
+            vida += 10f;
+        }
+        if (collision.gameObject.tag == "Poncho")
+        {
+            armadura += 100f;
+            cont = 1;
+        }
+        if (collision.gameObject.tag == "Chupalla")
+        {
+            armadura += 50f;
+            cont = 1;
+        }
+        if (collision.gameObject.tag == "Kapo")
+        {
+            armadura += 10f;
+            cont = 1;
+        }
+
+        if (collision.gameObject.tag == "PoleraChile")
+        {
+            armadura += 100f;
+            vida += 100f;
+            cont = 2;
+        }
     }
 }
+
 
