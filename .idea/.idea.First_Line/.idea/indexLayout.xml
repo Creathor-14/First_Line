@@ -29,6 +29,8 @@
       <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Library</Path>
+      <Path>PruebaJuego</Path>
+      <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

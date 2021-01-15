@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameOverManager : MonoBehaviour
 {
-    
+    public PlayerMove move;
     public VidaPlayer vidaP;
     private Animator anim;
     public GameObject menuPanel,miniMenu;

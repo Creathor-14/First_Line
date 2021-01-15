@@ -12,14 +12,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Iluminacion_Global.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DesTrucho.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemigo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FixDepth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/pruebaEne.cs" />
@@ -57,7 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Menu/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/mover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
@@ -68,7 +65,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DesTrucho.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/RestartLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" />
       </list>
     </option>
   </component>
@@ -91,6 +91,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/PruebaJuego\First Line (1).exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\jmarc\Documents\GitHub\First_Line\PruebaJuego" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -191,6 +199,7 @@
       <workItem from="1610651203666" duration="2055000" />
       <workItem from="1610653413320" duration="4002000" />
       <workItem from="1610669246216" duration="3891000" />
+      <workItem from="1610671769977" duration="7056000" />
     </task>
     <servers />
   </component>

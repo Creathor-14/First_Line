@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     private SpriteRenderer player;
     private Animator anim;
     private Rigidbody2D rd;
+    public GameObject Reset;
 
     //limites personaje eje y
     public float techo=-0.72f;
@@ -41,6 +42,7 @@ public class PlayerMove : MonoBehaviour
         ac1.enabled = false;
         ac2= transform.GetChild(2).GetComponent<CircleCollider2D>();
         ac2.enabled = false;
+        Reset.SetActive(true);
     }
 
     void FixedUpdate()
