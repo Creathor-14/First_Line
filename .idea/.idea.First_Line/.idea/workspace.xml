@@ -63,11 +63,11 @@
         <option value="$PROJECT_DIR$/Assets/DestruirConsumible.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DesTrucho.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
         <option value="$PROJECT_DIR$/Assets/RestartLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
       </list>
     </option>
@@ -201,6 +201,7 @@
       <workItem from="1610669246216" duration="3891000" />
       <workItem from="1610671769977" duration="7056000" />
       <workItem from="1610739883135" duration="1176000" />
+      <workItem from="1610745968876" duration="1718000" />
     </task>
     <servers />
   </component>

@@ -374,8 +374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19dfb57e2c205e42878fe232482ce3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vidaReal: 100
   vida: 100
-  barraVida: {fileID: 5068665634209436939}
 --- !u!1001 &6723537048137057895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -448,12 +448,6 @@ PrefabInstance:
 --- !u!4 &5068665634209436940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1952673108056593259, guid: b4bebf984484c8b43ad27ccec8469a7d,
-    type: 3}
-  m_PrefabInstance: {fileID: 6723537048137057895}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &5068665634209436939 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 1952673108056593260, guid: b4bebf984484c8b43ad27ccec8469a7d,
     type: 3}
   m_PrefabInstance: {fileID: 6723537048137057895}
   m_PrefabAsset: {fileID: 0}

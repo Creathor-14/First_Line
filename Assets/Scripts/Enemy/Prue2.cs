@@ -151,6 +151,14 @@ public class Prue2 : MonoBehaviour
         {
             rb2d.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
         }
+
+        if (sp.sprite.name == ("Invisible_0"))
+        {
+            anim.enabled = false;
+            sp.enabled = false;
+            bc.enabled = false;
+        }
+        
         if (target == initialPosition && distance < 0.01f)
         {
             transform.position = initialPosition;

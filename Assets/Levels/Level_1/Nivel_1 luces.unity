@@ -7443,23 +7443,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 438197906, guid: 411421cee5b5deb408be060f8bacdd66, type: 3}
-      propertyPath: m_TagString
-      value: golpeCuchillo
-      objectReference: {fileID: 0}
-    - target: {fileID: 1493310683, guid: 411421cee5b5deb408be060f8bacdd66, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957341598, guid: 411421cee5b5deb408be060f8bacdd66, type: 3}
-      propertyPath: m_TagString
-      value: golpeCuchillo
-      objectReference: {fileID: 0}
-    - target: {fileID: 768271545809456571, guid: 411421cee5b5deb408be060f8bacdd66,
-        type: 3}
-      propertyPath: visionRadius
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 949396392255571546, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
       propertyPath: m_Name
@@ -7759,6 +7742,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2033273255, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
+      propertyPath: vidaReal
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033273255, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
+      propertyPath: vida
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6316675606246026367, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7818,11 +7809,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: centinela escudo limpio_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8898930887368105907, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
