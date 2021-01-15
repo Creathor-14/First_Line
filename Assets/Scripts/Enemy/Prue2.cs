@@ -23,8 +23,8 @@ public class Prue2 : MonoBehaviour
     public string animGolpe;
     public string mirando;
     private Vector3 dir;
-    
-   
+
+    //private Rigidbody2D rb;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -32,6 +32,7 @@ public class Prue2 : MonoBehaviour
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         sp = GetComponent<SpriteRenderer>();
+        //rb = GetComponent<Rigidbody2D>();
         
         bc = transform.GetChild(0).GetComponent<BoxCollider2D>();
         bc.enabled = false;
@@ -142,6 +143,14 @@ public class Prue2 : MonoBehaviour
             anim.SetBool("Golpear",false);
         }
 
+        if (anim.GetBool("Golpear"))
+        {
+            rb2d.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+        }
+        else
+        {
+            rb2d.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
+        }
         if (target == initialPosition && distance < 0.01f)
         {
             transform.position = initialPosition;
