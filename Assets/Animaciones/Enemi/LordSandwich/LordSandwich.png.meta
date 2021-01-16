@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: f12edd0c3eebfe54984fb049e9baec84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5306688433024435864
+    second: LordSandwich_0
+  - first:
+      213: -8275201790869366711
+    second: LordSandwich_1
+  - first:
+      213: 7149641658200631962
+    second: LordSandwich_2
+  - first:
+      213: 3549440795737967041
+    second: LordSandwich_3
+  - first:
+      213: -9010083756549564718
+    second: LordSandwich_4
+  - first:
+      213: -6620637270883870605
+    second: LordSandwich_5
+  - first:
+      213: -5043558888630774333
+    second: LordSandwich_6
+  - first:
+      213: -800413212896500151
+    second: LordSandwich_7
+  - first:
+      213: 5019243563505848580
+    second: LordSandwich_8
+  - first:
+      213: 3209725284375610845
+    second: LordSandwich_9
+  - first:
+      213: 148825601452445548
+    second: LordSandwich_10
+  - first:
+      213: -1337963276493763966
+    second: LordSandwich_11
+  - first:
+      213: 1783433033906847875
+    second: LordSandwich_12
+  - first:
+      213: -8239425078750844077
+    second: LordSandwich_13
+  - first:
+      213: 391325094479735280
+    second: LordSandwich_14
+  - first:
+      213: -462109798045968830
+    second: LordSandwich_15
+  - first:
+      213: 3280614376436890198
+    second: LordSandwich_16
+  - first:
+      213: 8727266480393680223
+    second: LordSandwich_17
+  - first:
+      213: 303639840231291674
+    second: LordSandwich_18
+  - first:
+      213: 3120711058434491395
+    second: LordSandwich_19
+  - first:
+      213: -8718312796020897772
+    second: LordSandwich_20
+  - first:
+      213: -8669526023313072272
+    second: LordSandwich_21
+  - first:
+      213: 1516084991164211266
+    second: LordSandwich_22
+  - first:
+      213: 2117826861140011355
+    second: LordSandwich_23
+  - first:
+      213: -3273577104391935887
+    second: LordSandwich_24
+  - first:
+      213: 9078973959142278356
+    second: LordSandwich_25
+  - first:
+      213: 5491593546137064384
+    second: LordSandwich_26
+  - first:
+      213: 4754277766041024968
+    second: LordSandwich_27
+  - first:
+      213: -5915630383383317513
+    second: LordSandwich_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LordSandwich_0
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2552
+        width: 252
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86977e77cfada56b0800000000000000
+      internalID: -5306688433024435864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2162
+        width: 238
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9481e8aa0d3982d80800000000000000
+      internalID: -8275201790869366711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 2167
+        width: 197
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a226c2531a83360800000000000000
+      internalID: 7149641658200631962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_3
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2179
+        width: 207
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9cd351995224130800000000000000
+      internalID: 3549440795737967041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_4
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 2179
+        width: 215
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d698569f80c5f280800000000000000
+      internalID: -9010083756549564718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_5
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 2209
+        width: 226
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3785142da75ce14a0800000000000000
+      internalID: -6620637270883870605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_6
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 2220
+        width: 198
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c51667a9eda10ab0800000000000000
+      internalID: -5043558888630774333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_7
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1660
+        width: 270
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94666c37c6c54e4f0800000000000000
+      internalID: -800413212896500151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_8
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1655
+        width: 189
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4019eeb8d6fe7a540800000000000000
+      internalID: 5019243563505848580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_9
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1676
+        width: 231
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd54cc9e32c3b8c20800000000000000
+      internalID: 3209725284375610845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_10
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1688
+        width: 353
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f8e04981cb01200800000000000000
+      internalID: 148825601452445548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_11
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1714
+        width: 294
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a42162d799e6de0800000000000000
+      internalID: -1337963276493763966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_12
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 1721
+        width: 254
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38007b235e600c810800000000000000
+      internalID: 1783433033906847875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1238
+        width: 269
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b6c939b8ea7ad80800000000000000
+      internalID: -8239425078750844077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_14
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1228
+        width: 269
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f92920a9144e6500800000000000000
+      internalID: 391325094479735280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_15
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1252
+        width: 273
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2461e3846914699f0800000000000000
+      internalID: -462109798045968830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1252
+        width: 322
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a7f88d465178d20800000000000000
+      internalID: 3280614376436890198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_17
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1235
+        width: 326
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55f908ff9a7d1970800000000000000
+      internalID: 8727266480393680223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_18
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1198
+        width: 315
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b74a073deb63400800000000000000
+      internalID: 303639840231291674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_19
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 1184
+        width: 233
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3040f946c2efe4b20800000000000000
+      internalID: 3120711058434491395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_20
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 1181
+        width: 227
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4188e6024b4520780800000000000000
+      internalID: -8718312796020897772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_21
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 1163
+        width: 251
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f5b61d308afa780800000000000000
+      internalID: -8669526023313072272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 731
+        width: 269
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e4a354473a0510800000000000000
+      internalID: 1516084991164211266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_23
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 724
+        width: 271
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59e70a3f48046d10800000000000000
+      internalID: 2117826861140011355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_24
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 724
+        width: 251
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178eddbb7fae192d0800000000000000
+      internalID: -3273577104391935887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_25
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 715
+        width: 252
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d482bf96befefd70800000000000000
+      internalID: 9078973959142278356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_26
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 715
+        width: 267
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3d3580c3f063c40800000000000000
+      internalID: 5491593546137064384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_27
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 724
+        width: 332
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9b96060769af140800000000000000
+      internalID: 4754277766041024968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LordSandwich_28
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 701
+        width: 336
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3fde7328577eda0800000000000000
+      internalID: -5915630383383317513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
