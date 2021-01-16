@@ -35,6 +35,7 @@
           <e p="DesTrucho.cs" t="Include" />
           <e p="DestruirConsumible.cs" t="Include" />
           <e p="Enemy" t="Include">
+            <e p="EnemyMove.cs" t="Include" />
             <e p="Prue2.cs" t="Include" />
             <e p="VidaEnemy.cs" t="Include" />
           </e>

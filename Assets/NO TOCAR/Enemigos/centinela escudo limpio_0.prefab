@@ -175,6 +175,7 @@ GameObject:
   - component: {fileID: 1898880203}
   - component: {fileID: 1898880205}
   - component: {fileID: 2033273255}
+  - component: {fileID: 100497556}
   m_Layer: 9
   m_Name: centinela escudo limpio_0
   m_TagString: centinela
@@ -270,7 +271,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!58 &1898880204
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -339,7 +340,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8898930887368105907}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bece0d27b3c0774caaf6f91162d94f9, type: 3}
   m_Name: 
@@ -374,8 +375,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19dfb57e2c205e42878fe232482ce3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaReal: 100
-  vida: 100
+  vidaReal: 500
+  vida: 500
+--- !u!114 &100497556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8898930887368105907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c441383b7973d8441a3a036f05ee86e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  mirando: derecha
+  velocidad: 7
 --- !u!1001 &6723537048137057895
 PrefabInstance:
   m_ObjectHideFlags: 0
