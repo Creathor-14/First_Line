@@ -11,17 +11,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Iluminacion_Global.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Ayudantia 1/Assets/Scripts/Perseguir.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/FixDepth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/pruebaEne.cs" />
-        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/plataformaMovil.cs" />
-        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Seguir.cs" />
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Luces.cs" />
@@ -69,6 +64,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VisionCEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CampoVisionEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/CampoVisionEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CampoVision.cs" />
       </list>
     </option>
   </component>
@@ -203,6 +202,7 @@
       <workItem from="1610739883135" duration="1176000" />
       <workItem from="1610745968876" duration="1718000" />
       <workItem from="1610809155470" duration="5354000" />
+      <workItem from="1610821948621" duration="6193000" />
     </task>
     <servers />
   </component>

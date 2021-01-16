@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 613893721}
   - component: {fileID: 613893722}
   - component: {fileID: 613893728}
+  - component: {fileID: 5205816621915126769}
   m_Layer: 0
   m_Name: MataPacos
   m_TagString: Player
@@ -266,7 +267,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1.44, y: 0.96}
-  m_EdgeRadius: 0
+  m_EdgeRadius: 0.5
 --- !u!114 &613893728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,6 +285,24 @@ MonoBehaviour:
   armadura: 100
   barraArmadura: {fileID: 0}
   "Da\xF1oEnemigo": 10
+--- !u!114 &5205816621915126769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5059405614640727821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1751a38b283ea4749b19c5cfd70c937d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ViewRadius: 10
+  viewAngle: 8
+  AtaqueMask:
+    serializedVersion: 2
+    m_Bits: 4096
+  visibleTargets: []
 --- !u!1 &6103653425257082261
 GameObject:
   m_ObjectHideFlags: 0

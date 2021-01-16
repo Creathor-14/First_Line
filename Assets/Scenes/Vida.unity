@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -151,12 +151,12 @@ PrefabInstance:
     - target: {fileID: 3609694807572122889, guid: 96fe469986fcba14a9db55845af079cf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.49
+      value: -8.27
       objectReference: {fileID: 0}
     - target: {fileID: 3609694807572122889, guid: 96fe469986fcba14a9db55845af079cf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.24
+      value: -1.97
       objectReference: {fileID: 0}
     - target: {fileID: 3609694807572122889, guid: 96fe469986fcba14a9db55845af079cf,
         type: 3}
@@ -264,7 +264,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -620,57 +620,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 497792811, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.00999786
-      objectReference: {fileID: 0}
-    - target: {fileID: 497792811, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: m_Size.x
-      value: 0.1940149
-      objectReference: {fileID: 0}
-    - target: {fileID: 497792811, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: m_Size.y
-      value: 0.37579307
-      objectReference: {fileID: 0}
-    - target: {fileID: 1603075154, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.01796874
-      objectReference: {fileID: 0}
-    - target: {fileID: 1603075154, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: m_Size.y
-      value: 0.28217006
-      objectReference: {fileID: 0}
-    - target: {fileID: 1898880203, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: mirando
-      value: derecha
-      objectReference: {fileID: 0}
-    - target: {fileID: 1898880203, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: attackRadius
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1898880204, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: m_Radius
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2739998777306809194, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2739998777306809194, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
-        type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 100497556, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1190781025}
     - target: {fileID: 6316675606246026367, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.91
+      value: 3.67
       objectReference: {fileID: 0}
     - target: {fileID: 6316675606246026367, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.32
+      value: -2.03
       objectReference: {fileID: 0}
     - target: {fileID: 6316675606246026367, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}
@@ -717,18 +679,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8620548445823209994, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620548445823209994, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
+        type: 3}
+      propertyPath: AtaqueMask.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620548445823209994, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
+        type: 3}
+      propertyPath: viewAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620548445823209994, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
+        type: 3}
+      propertyPath: ViewRadius
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8898930887368105907, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}
       propertyPath: m_Name
       value: centinela escudo limpio_0
       objectReference: {fileID: 0}
-    - target: {fileID: 8898930887368105907, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
+--- !u!4 &1190781025 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3609694807572122889, guid: 96fe469986fcba14a9db55845af079cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 235824808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1236100163 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2962107957110489118, guid: 650ceea6be63aab489ffb29dd1d14b1d,
