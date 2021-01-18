@@ -1266,18 +1266,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 30645481}
     m_Modifications:
-    - target: {fileID: 432268641, guid: 2fcdbd4f790689448a5b3c6103be2832, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 610473181, guid: 2fcdbd4f790689448a5b3c6103be2832, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1212078503, guid: 2fcdbd4f790689448a5b3c6103be2832, type: 3}
-      propertyPath: m_BodyType
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 377489450351908788, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
       propertyPath: m_Name
@@ -3610,27 +3598,6 @@ MonoBehaviour:
   beginningTime: 0.1
   tipo: 1
   BarraVida: {fileID: 752406610}
---- !u!1 &546301567 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 949396392255571546, guid: 411421cee5b5deb408be060f8bacdd66,
-    type: 3}
-  m_PrefabInstance: {fileID: 1227963969}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &546301577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 546301567}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c441383b7973d8441a3a036f05ee86e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1623356656}
-  mirando: izquierda
-  velocidad: 9
 --- !u!1 &567436222
 GameObject:
   m_ObjectHideFlags: 0
@@ -7464,35 +7431,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 166399717821309228, guid: 411421cee5b5deb408be060f8bacdd66,
-        type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 768271545809456571, guid: 411421cee5b5deb408be060f8bacdd66,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 546301577, guid: 411421cee5b5deb408be060f8bacdd66, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1623356656}
     - target: {fileID: 949396392255571546, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
       propertyPath: m_Name
       value: centinela con cuchillo
       objectReference: {fileID: 0}
-    - target: {fileID: 949396392255571546, guid: 411421cee5b5deb408be060f8bacdd66,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.67
+      value: 9.3
       objectReference: {fileID: 0}
     - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.17
+      value: -2.59
       objectReference: {fileID: 0}
     - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
@@ -7777,14 +7733,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1623356656}
-    - target: {fileID: 100497556, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: velocidad
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1898880203, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6316675606246026367, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7840,20 +7788,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8620548445823209994, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8898930887368105907, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
         type: 3}
       propertyPath: m_Name
       value: centinela escudo limpio_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8898930887368105907, guid: 4b3d8be9db6be934e9c18cb35cc2158d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b3d8be9db6be934e9c18cb35cc2158d, type: 3}

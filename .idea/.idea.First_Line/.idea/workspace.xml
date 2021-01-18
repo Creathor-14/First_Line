@@ -61,12 +61,12 @@
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VisionCEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampoVisionEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/CampoVisionEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampoVision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
       </list>
     </option>
   </component>
@@ -202,7 +202,7 @@
       <workItem from="1610745968876" duration="1718000" />
       <workItem from="1610809155470" duration="5354000" />
       <workItem from="1610821948621" duration="6193000" />
-      <workItem from="1610996938564" duration="354000" />
+      <workItem from="1610996938564" duration="1450000" />
     </task>
     <servers />
   </component>

@@ -39,7 +39,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497792809}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -118,7 +118,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603075152}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8898930887368105907}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bece0d27b3c0774caaf6f91162d94f9, type: 3}
   m_Name: 
@@ -385,14 +385,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8898930887368105907}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c441383b7973d8441a3a036f05ee86e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   mirando: derecha
-  velocidad: 7
+  velocidad: 3
 --- !u!114 &8620548445823209994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,13 +400,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8898930887368105907}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1751a38b283ea4749b19c5cfd70c937d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 0.01
-  viewAngle: 1.08
+  ViewRadius: 82.4
+  viewAngle: 4.1
   AtaqueMask:
     serializedVersion: 2
     m_Bits: 0

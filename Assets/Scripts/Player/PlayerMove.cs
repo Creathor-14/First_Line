@@ -127,7 +127,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            //ac.enabled = false; ver q wa
+            ac.enabled = false; 
         }
     //barrida    
         if(player.sprite.name==("mujer primera linea(limpio)_59"))
@@ -136,16 +136,16 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            //ac1.enabled = false; ver que wa
+            ac1.enabled = false; 
         }
     //barrida2
         if(player.sprite.name==("mujer primera linea(limpio)_70"))
-        {
-         ac2.enabled = true;
-     }
+        { 
+            ac2.enabled = true;
+        }
         else
-        {
-          //ac2.enabled = false; ver que wa
+        { 
+            ac2.enabled = false;
         }
         //https://www.youtube.com/watch?v=0LgCaEMCoz8
         //min 12:33
