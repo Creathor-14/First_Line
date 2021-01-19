@@ -5,19 +5,22 @@ using  UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public static bool gamePaused = false;
+    public static bool gamePaused;
     public GameObject menuP, menuSalir;
 
     void Start()  // Ambos paneles comienzan desactivados
     {
         menuP.SetActive(false);
         menuSalir.SetActive(false);
+        gamePaused = false;
+        Time.timeScale = 1;
     }
 
     void Update() 
     {
         if (Input.GetKeyDown(KeyCode.Escape))  // si apretamos el boton escape o el boton de pausa entramos en el menu de pausa
         {
+            
             if (gamePaused)  
             {
                 Resume(); // si el juego esta pausado permite la opcion de continuar con el juego
@@ -56,11 +59,6 @@ public class PauseMenu : MonoBehaviour
         gamePaused = false;
         SceneManager.LoadScene("Menu");
 
-    }
-
-    public void OptionsScene() // envia al usuario al menu de opciones
-    {
-        SceneManager.LoadScene("Options");
     }
 
     public void backNo() // deja al usuario en el menu de gameOVER porque no quizo volver al menu principal

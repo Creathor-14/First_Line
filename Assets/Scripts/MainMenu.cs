@@ -29,7 +29,7 @@ public class MainMenu : MonoBehaviour // aqui cada public void (metodos) te envi
         SceneManager.LoadScene("Menu");
     }
 
-    public void ExitGame() // solo suelta un mensaje aun falta configurarlo
+    public void ExitGame()
     {
         Application.Quit();
         Debug.Log("Ha salido del juego");

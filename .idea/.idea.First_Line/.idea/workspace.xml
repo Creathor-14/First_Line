@@ -47,16 +47,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/mover.cs" />
-        <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/SonidoEscenas.cs" />
         <option value="$PROJECT_DIR$/Assets/Iluminacion_Global.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
         <option value="$PROJECT_DIR$/Assets/LucesIntermitentes.cs" />
         <option value="$PROJECT_DIR$/Assets/DestruirConsumible.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DesTrucho.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
         <option value="$PROJECT_DIR$/Assets/RestartLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
@@ -67,6 +63,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/CampoVisionEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampoVision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
       </list>
     </option>
   </component>
@@ -203,6 +203,8 @@
       <workItem from="1610809155470" duration="5354000" />
       <workItem from="1610821948621" duration="6193000" />
       <workItem from="1610996938564" duration="1450000" />
+      <workItem from="1611020298335" duration="1901000" />
+      <workItem from="1611035066416" duration="1271000" />
     </task>
     <servers />
   </component>

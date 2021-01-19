@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class GameOverManager : MonoBehaviour
 {
-    public PlayerMove move;
     public VidaPlayer vidaP;
     private Animator anim;
     public GameObject menuPanel,miniMenu;
@@ -17,6 +16,7 @@ public class GameOverManager : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>(); // se obtiene la animacion que se agrego al canvas
+        Time.timeScale = 1;
     }
     
     void Update()
@@ -27,6 +27,7 @@ public class GameOverManager : MonoBehaviour
             anim.SetTrigger("GameOver");  // aparece la animacion de crecimiento
             Time.timeScale = 0;
         }
+        
 
     }
     

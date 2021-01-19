@@ -68,11 +68,11 @@ public class VidaPlayer : MonoBehaviour
         {
             if (barraArmadura.fillAmount.ToString().Equals("0"))
             {
-                vida -= 5f; 
+                vida -= 105f; 
             }
             else
             {
-                armadura -= 5f;
+                armadura -= 105f;
             }
         }
 
