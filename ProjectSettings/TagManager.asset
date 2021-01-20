@@ -28,6 +28,7 @@ TagManager:
   - Chupalla
   - Kapo
   - Poncho
+  - HPL(golpe)
   layers:
   - Default
   - TransparentFX

@@ -50,7 +50,14 @@ public class VidaEnemy : MonoBehaviour
             //karateka
             
             //hombre
-            
+            if (collision.gameObject.tag == "HPL(golpe)")
+            {
+                daño = 66f;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                
+                barraVida.size -= new Vector2(daño,0f);
+            }
             //empresario
             
             //Sensual Spiderman(o por dios pero mira que sensual)
