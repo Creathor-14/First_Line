@@ -154,10 +154,12 @@ public class Prue2 : MonoBehaviour
 
         if (sp.sprite.name == ("Invisible_0"))
         {
-            anim.enabled = false;
-            sp.enabled = false;
+            //anim.enabled = false;
+            //sp.enabled = false;
             bc.enabled = false;
+            Destroy(gameObject);
         }
+        
         
         if (target == initialPosition && distance < 0.01f)
         {

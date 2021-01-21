@@ -23,11 +23,24 @@ public class Empendedor : MonoBehaviour
     //condicion para sacar el tipo de arma
     private int cont=0;
     
+    //sistema de daño(2)
+    private CircleCollider2D ac;
+    private CircleCollider2D ac1;
+    private CircleCollider2D ac2;
+    private CircleCollider2D ac3;
     void Start()
     {
         player = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rd = GetComponent<Rigidbody2D>();
+        ac= transform.GetChild(0).GetComponent<CircleCollider2D>();
+        ac.enabled = false;
+        ac1= transform.GetChild(1).GetComponent<CircleCollider2D>();
+        ac1.enabled = false;
+        ac2= transform.GetChild(2).GetComponent<CircleCollider2D>();
+        ac2.enabled = false;
+        ac3= transform.GetChild(3).GetComponent<CircleCollider2D>();
+        ac3.enabled = false;
     }
 
     // Update is called once per frame
@@ -43,6 +56,15 @@ public class Empendedor : MonoBehaviour
             mov.x = 0;
             mov.y = 0;
         }
+//Animaciones para movimiento
+        if (mov.x == 0 && mov.y == 0)
+        {
+            anim.SetBool("Caminar", false);
+        }
+        else
+        {
+            anim.SetBool("Caminar", true);
+        }        
 
 //Detectar limites de movimiento eje y        
         if (techo == player.transform.position.y && player.transform.position.y>0)
@@ -72,32 +94,34 @@ public class Empendedor : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, transform.position + mov, Time.deltaTime * speed);
         
 //Animaciones para movimiento
-        if (mov.x == 0 && mov.y == 0)
-        {
-            anim.SetBool("Caminar", false);
-        }
-        else
-        {
-            anim.SetBool("Caminar", true);
-        }
-
-//Giros del personaje + cambiar posicion colaiders
-        if (Input.GetAxisRaw("Horizontal") < 0)
+        if (Input.GetAxisRaw("Horizontal") < 0)//izquierda
         {
             player.flipX = true;
+            if(mov!= Vector3.zero) ac.offset= new Vector3(-3f,1f,0);//golpes
+            if(mov!= Vector3.zero) ac1.offset= new Vector3(-3f,1f,0);//barrida
+            if(mov!= Vector3.zero) ac2.offset= new Vector3(-3f,1f,0);//patada2
+            if(mov!= Vector3.zero) ac3.offset= new Vector3(-3,1f,0);//patada2
         }
-        else if (Input.GetAxisRaw("Horizontal") > 0)
+        else if (Input.GetAxisRaw("Horizontal") > 0) //derecha
         {
             player.flipX = false;
+            if (mov != Vector3.zero) ac.offset = new Vector3(-0.3f, 1f, 0); //golpes
+            if (mov != Vector3.zero)ac1.offset = new Vector3(-0.3f, 1f, 0); //patada
+            if (mov != Vector3.zero)ac2.offset = new Vector3(-0.3f, 1f, 0); //patada2
+            if (mov != Vector3.zero)ac3.offset = new Vector3(-0.3f, 1f,0);//patada2
         }
-        
+
 //Atacar
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger(("Ataque"));
-            
         }
+        
 //Cambio de arma
+        if (Input.GetButtonDown("Fire2"))
+        {
+            anim.SetTrigger(("Arma"));
+        }
         if (player.sprite.name == ("Emprendedor_15"))
         {
             if (Input.GetButtonDown("Fire1"))
@@ -112,6 +136,43 @@ public class Empendedor : MonoBehaviour
         else
         {
             anim.SetBool("TipoArma", true);
+        }
+//Activar o desactivar colaider    
+        //golpes
+        if (player.sprite.name==("Emprendedor_8"))
+        {
+            ac.enabled = true;
+        }
+        else
+        {
+            ac.enabled = false; 
+        }
+        //barrida    
+        if(player.sprite.name==("Emprendedor_11"))
+        {
+            ac1.enabled = true;
+        }
+        else
+        {
+            ac1.enabled = false; 
+        }
+        //barrida2
+        if(player.sprite.name==("Emprendedor_37"))
+        { 
+            ac2.enabled = true;
+        }
+        else
+        { 
+            ac2.enabled = false;
+        }
+
+        if (player.sprite.name == ("Emprendedor_57"))
+        {
+            ac3.enabled = true;
+        }
+        else
+        { 
+            ac3.enabled = false;
         }
     }
 }

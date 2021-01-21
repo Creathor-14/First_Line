@@ -17,8 +17,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Luces.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Light2D.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" />
         <option value="$PROJECT_DIR$/Assets/AAAAaaa.cs" />
@@ -33,7 +31,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/TeleDerecha.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/TeleA.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/TeleDerecha.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Telearañas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ataque.cs" />
@@ -55,7 +52,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DesTrucho.cs" />
         <option value="$PROJECT_DIR$/Assets/RestartLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VisionCEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampoVisionEditor.cs" />
@@ -63,11 +59,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CampoVision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/hombrePrime/HombrMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca/Karateca.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Emprendedor/Empendedor.cs" />
       </list>
     </option>
   </component>
@@ -207,6 +207,7 @@
       <workItem from="1611020298335" duration="1901000" />
       <workItem from="1611035066416" duration="1271000" />
       <workItem from="1611176487777" duration="4549000" />
+      <workItem from="1611190675921" duration="8881000" />
     </task>
     <servers />
   </component>

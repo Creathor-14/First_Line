@@ -37,6 +37,7 @@ public class VidaEnemy : MonoBehaviour
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
             }
             //matapaco
             if (collision.gameObject.tag == "MP(mordisco)")
@@ -46,29 +47,114 @@ public class VidaEnemy : MonoBehaviour
                 daño /= vidaReal;
                 //AGREGAR SANGRADO
                 barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
             }
             //karateka
-            
+            if (collision.gameObject.tag == "K(golpe)")
+            {
+                daño = 1;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }if (collision.gameObject.tag == "K(patada)")
+            {
+                daño = 10;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }if (collision.gameObject.tag == "K(patada2)")
+            {
+                daño = 20;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }
             //hombre
             if (collision.gameObject.tag == "HPL(golpe)")
             {
-                daño = 66f;//cambiar daño
+                daño = 40f;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }
+            if (collision.gameObject.tag == "HPL(patada)")
+            {
+                daño = 55f;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 
                 barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
             }
             //empresario
-            
+            if (collision.gameObject.tag == "E(golpe)")
+            {
+                daño = 10;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }if (collision.gameObject.tag == "E(golpe2)")
+            {
+                daño = 10;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }if (collision.gameObject.tag == "E(baston1)")
+            {
+                daño = 10;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }if (collision.gameObject.tag == "E(baston2)")
+            {
+                daño = 10;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }
             //Sensual Spiderman(o por dios pero mira que sensual)
-            
+            if (collision.gameObject.tag == "HPL(golpe1)")
+            {
+                daño = 10;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }if (collision.gameObject.tag == "HPL(golpe2)")
+            {
+                daño = 20;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }if (collision.gameObject.tag == "SM(golpe3)")
+            {
+                daño = 30;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
+                
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }
         }
         else
         {
             barraVida.size = new Vector2(0f,0f);
             anim.Play("muerte");
-            
         }
-        
     }
 }

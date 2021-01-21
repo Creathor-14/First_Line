@@ -29,6 +29,16 @@ TagManager:
   - Kapo
   - Poncho
   - HPL(golpe)
+  - K(golpe)
+  - K(patada)
+  - K(patada2)
+  - SM(golpe1)
+  - SM(golpe2)
+  - SM(golpe3)
+  - E(golpe)
+  - E(golpe2)
+  - E(baston)
+  - E(baston2)
   layers:
   - Default
   - TransparentFX

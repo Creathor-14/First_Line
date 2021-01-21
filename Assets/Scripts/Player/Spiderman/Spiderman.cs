@@ -9,6 +9,7 @@ public class Spiderman : MonoBehaviour
     private SpriteRenderer player;
     private Animator anim;
     private Rigidbody2D rd;
+    private BoxCollider2D bc;
 
     //limites personaje eje y
     public float techo=-0.72f;
@@ -21,7 +22,10 @@ public class Spiderman : MonoBehaviour
     //sistema barreras ordas
     private int kills = 0;
 
-    //Telearañas
+    //sistema de daño(2)
+    private CircleCollider2D ac;
+    private CircleCollider2D ac1;
+    private CircleCollider2D ac2;
     
     
     void Start()
@@ -29,6 +33,13 @@ public class Spiderman : MonoBehaviour
         player = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rd = GetComponent<Rigidbody2D>();
+        bc = GetComponent<BoxCollider2D>();
+        ac= transform.GetChild(2).GetComponent<CircleCollider2D>();
+        ac.enabled = false;
+        ac1= transform.GetChild(3).GetComponent<CircleCollider2D>();
+        ac1.enabled = false;
+        ac2= transform.GetChild(4).GetComponent<CircleCollider2D>();
+        ac2.enabled = false;
     }
 
 
@@ -98,22 +109,30 @@ public class Spiderman : MonoBehaviour
         }
 
 //Giros del personaje + cambiar posicion colaiders
-        if (player.sprite.name == ("Invisible_0"))
+        if (player.sprite.name==("Invisible_0"))
         {
+            bc.enabled = false;//intocable durante telearaña
             
         }
         else
         {
-            if (Input.GetAxisRaw("Horizontal") < 0)
+            bc.enabled = true;
+            if (Input.GetAxisRaw("Horizontal") < 0)//izquierda
             {
                 player.flipX = true;
+                if(mov!= Vector3.zero) ac.offset= new Vector3(-2.4f,1f,0);//golpe1
+                if(mov!= Vector3.zero) ac1.offset= new Vector3(-2.4f,1f,0);//golpe2
+                if(mov!= Vector3.zero) ac2.offset= new Vector3(-2.4f,1f,0);//golpe3
             }
-            else if (Input.GetAxisRaw("Horizontal") > 0)
+            else if (Input.GetAxisRaw("Horizontal") > 0)//derecha
             {
                 player.flipX = false;
-                ;
-            }
+                if(mov!= Vector3.zero) ac.offset= new Vector3(-0.3f,1f,0);//golpe1
+                if(mov!= Vector3.zero) ac1.offset= new Vector3(-0.3f,1f,0);//golpe2
+                if(mov!= Vector3.zero) ac2.offset= new Vector3(-0.3f,1f,0);//golpe3
+            } 
         }
+       
 
         
 //Atacar
@@ -121,8 +140,37 @@ public class Spiderman : MonoBehaviour
         {
             anim.SetTrigger(("Ataque"));
 
+        } 
+//Activar o desactivar colaider    
+        //golpe1
+        if (player.sprite.name==("SpiderMan_18"))
+        {
+            ac.enabled = true;
         }
- 
+        else
+        {
+            ac.enabled = false; 
+        }
+        //golpe2    
+        if(player.sprite.name==("SpiderMan_21"))
+        {
+            ac1.enabled = true;
+        }
+        else
+        {
+            ac1.enabled = false; 
+        }
+        //golpe3
+        if(player.sprite.name==("SpiderMan_25"))
+        { 
+            ac2.enabled = true;
+        }
+        else
+        { 
+            ac2.enabled = false;
+        }
+        
+
 
     }
 }

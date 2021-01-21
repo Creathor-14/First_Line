@@ -10,7 +10,7 @@ public class VidaPlayer : MonoBehaviour
     public float armadura = 100;
     public Image barraArmadura;
     private int cont = 0;
-    public int DañoEnemigo = 10;
+    
     void Update()
     {
         vida = Mathf.Clamp(vida, 0, 100);
@@ -68,11 +68,11 @@ public class VidaPlayer : MonoBehaviour
         {
             if (barraArmadura.fillAmount.ToString().Equals("0"))
             {
-                vida -= 105f; 
+                vida -= 10f; 
             }
             else
             {
-                armadura -= 105f;
+                armadura -= 10f;
             }
         }
 
