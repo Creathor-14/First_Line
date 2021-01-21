@@ -44,13 +44,8 @@ var playerComp=GetComponent().player.GetComponent<PlayerMove>();
 var pos=TDF.GetValueOfBlock(Slots[SlotID],"Game", "PlayerPos").Split(","[0]);
 var posX=float.Parse(pos[0]);
 var posY=float.Parse(pos[1]);
-var posZ=float.Parse(pos[2]);
-player.position=new Vector3(posX,posY,posZ);
-var rot=TDF.GetValueOfBlock(Slots[SlotID],"Game", "PlayerRot").Split(","[0]);
-var rotX=float.Parse(rot[0]);
-var rotY=float.Parse(rot[1]);
-var rotZ=float.Parse(rot[2]);
-player.rotation=Quaternion.Euler(new Vector3(0,rotY,0));
+
+player.position=new Vector2(posX,posY);
 
 }
 player.GetComponent<PlayerMove>().Move=true;

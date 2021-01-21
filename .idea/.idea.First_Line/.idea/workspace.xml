@@ -16,8 +16,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PrimeraLinea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Empendedor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ladrido.cs" />
@@ -62,11 +60,13 @@
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Personaje.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/SaveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/ManagerSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Emprendedor/Empendedor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/hombrePrime/HombrMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CambioPersonaje.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/ManagerSave.cs" />
+        <option value="$PROJECT_DIR$/Assets/SaveLoadGame.cs" />
       </list>
     </option>
   </component>
@@ -210,6 +210,7 @@
       <workItem from="1611193130217" duration="731000" />
       <workItem from="1611193892838" duration="9422000" />
       <workItem from="1611262424175" duration="6854000" />
+      <workItem from="1611262963298" duration="5327000" />
     </task>
     <servers />
   </component>

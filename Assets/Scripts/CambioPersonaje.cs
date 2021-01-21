@@ -8,7 +8,7 @@ public class CambioPersonaje : MonoBehaviour
     private GameObject[] cambiarP; // se tiene una lista de personajes
     private int index;  // cada personaje tiene un indice
 
-    void Start()
+    void Awake()
     {
         index = PlayerPrefs.GetInt("animation player"); //obtiene una animacion(los personajes en IDLE)
         cambiarP = new GameObject[transform.childCount];
@@ -16,7 +16,7 @@ public class CambioPersonaje : MonoBehaviour
         for (int i = 0; i < transform.childCount; i++)  // guarda a los personajes en un contenedor(lista de objetos)
             cambiarP[i] = transform.GetChild(i).gameObject;
 
-        foreach (GameObject objeto in cambiarP)
+        foreach (GameObject objeto in cambiarP)// desactiva a los demas personajes de la lista mientras uno este activo
             objeto.SetActive(false);
 
         if (cambiarP[index]) // si ese objeto esta seleccionado que muestre su animacion en la pantalla
