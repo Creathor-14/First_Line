@@ -382,7 +382,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30645480}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a302cc45b3f1c34889c489b5ddb21bb, type: 3}
   m_Name: 
@@ -16896,6 +16896,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: hombre primera linea
+      objectReference: {fileID: 0}
+    - target: {fileID: 4201980599792047079, guid: 0164709a81ea21f42b82f7e16071f880,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4201980599792047100, guid: 0164709a81ea21f42b82f7e16071f880,
         type: 3}

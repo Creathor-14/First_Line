@@ -7,7 +7,7 @@ public class HombrMove : MonoBehaviour
     public float speed = 4f;
     private SpriteRenderer player;
     private Animator anim;
-    private Rigidbody2D rd;
+    private Rigidbody2D rb;
     
     //sistema barreras ordas
     private int kills = 0;
@@ -18,9 +18,11 @@ public class HombrMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
+        rb.bodyType = RigidbodyType2D.Dynamic;
         player = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        rd = GetComponent<Rigidbody2D>();
+        
         ac= transform.GetChild(0).GetComponent<CircleCollider2D>();
         ac.enabled = false;
         ac1= transform.GetChild(1).GetComponent<CircleCollider2D>();
@@ -29,6 +31,7 @@ public class HombrMove : MonoBehaviour
 
 void FixedUpdate()
     { 
+        
 //Movimiento------------------------------------------------------------------------------------------------------------
         Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
 //segun animaciones
@@ -99,17 +102,33 @@ void FixedUpdate()
         {
             ac1.enabled = false; 
         }
-    /*
-        //barrida2
-        if(player.sprite.name==("mujer primera linea(limpio)_70"))
-        { 
-            ac2.enabled = true;
+        
+        if (Input.GetButtonDown("Fire2"))
+        {
+            anim.SetTrigger("dempsey roll");
+        }
+    //dempsey roll
+        if (player.sprite.name == ("hombre primera linea_22")||player.sprite.name==("hombre primera linea_23")||player.sprite.name==("hombre primera linea_24")||player.sprite.name==("hombre primera linea_25"))
+        {
+           rb.bodyType = RigidbodyType2D.Kinematic;
         }
         else
-        { 
-            ac2.enabled = false;
+        {
+           rb.bodyType= RigidbodyType2D.Dynamic;
         }
-    */
+
+        
+        /*
+            //barrida2
+            if(player.sprite.name==("mujer primera linea(limpio)_70"))
+            { 
+                ac2.enabled = true;
+            }
+            else
+            { 
+                ac2.enabled = false;
+            }
+        */
         //https://www.youtube.com/watch?v=0LgCaEMCoz8
         //min 12:33
     }
