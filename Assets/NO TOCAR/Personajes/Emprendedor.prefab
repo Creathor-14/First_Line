@@ -298,7 +298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1040122347806398645
 Transform:
   m_ObjectHideFlags: 0
@@ -404,6 +404,7 @@ MonoBehaviour:
   suelo: -3.77
   derecha: 100.02
   izquierda: -10.37
+  barraVida: {fileID: 0}
 --- !u!114 &1040122347806398647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,7 +454,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!61 &3556065703309377263
 BoxCollider2D:
   m_ObjectHideFlags: 0

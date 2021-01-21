@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,7 +11,13 @@ public class VidaPlayer : MonoBehaviour
     public float armadura = 100;
     public Image barraArmadura;
     private int cont = 0;
-    
+    private Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     void Update()
     {
         vida = Mathf.Clamp(vida, 0, 100);
@@ -50,6 +57,7 @@ public class VidaPlayer : MonoBehaviour
             {
                 armadura -= 10f;
             }
+            anim.Play("daño");
         }
 
         if (collision.gameObject.tag == "golpeCuchillo")
@@ -62,6 +70,7 @@ public class VidaPlayer : MonoBehaviour
             {
                 armadura -= 5f;
             }
+            anim.Play("daño");
         }
 
         if (collision.gameObject.tag == "AtakEspada")
@@ -74,6 +83,7 @@ public class VidaPlayer : MonoBehaviour
             {
                 armadura -= 10f;
             }
+            anim.Play("daño");
         }
 
         if (collision.gameObject.tag == "AtakMordida")

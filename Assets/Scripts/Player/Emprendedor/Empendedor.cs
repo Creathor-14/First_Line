@@ -54,7 +54,9 @@ public class Empendedor : MonoBehaviour
 //segun animaciones
         if (player.sprite.name == ("Emprendedor_7") || player.sprite.name == ("Emprendedor_8") ||
             player.sprite.name == ("Emprendedor_9") || player.sprite.name == ("Emprendedor_10") ||
-            player.sprite.name == ("Emprendedor_11"))
+            player.sprite.name == ("Emprendedor_11")||player.sprite.name == ("Emprendedor_15")||
+            player.sprite.name == ("Emprendedor_33")||player.sprite.name == ("Emprendedor_35")||
+            player.sprite.name == ("Emprendedor_53")||player.sprite.name == ("Emprendedor_55"))
         {
             mov.x = 0;
             mov.y = 0;

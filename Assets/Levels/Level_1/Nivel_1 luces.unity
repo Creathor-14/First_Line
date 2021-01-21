@@ -1498,16 +1498,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrimeraLinea
       objectReference: {fileID: 0}
-    - target: {fileID: 377489450351908788, guid: 2fcdbd4f790689448a5b3c6103be2832,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2804933754143527037, guid: 2fcdbd4f790689448a5b3c6103be2832,
-        type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4504571436865557220, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
       propertyPath: barraVida
@@ -16764,11 +16754,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MataPacos
       objectReference: {fileID: 0}
-    - target: {fileID: 5059405614640727821, guid: 96fe469986fcba14a9db55845af079cf,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
 --- !u!1001 &3735019928886346523
@@ -16912,11 +16897,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: hombre primera linea
       objectReference: {fileID: 0}
-    - target: {fileID: 4201980599792047079, guid: 0164709a81ea21f42b82f7e16071f880,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4201980599792047100, guid: 0164709a81ea21f42b82f7e16071f880,
         type: 3}
       propertyPath: barraVida
@@ -17011,11 +16991,6 @@ PrefabInstance:
       propertyPath: barraArmadura
       value: 
       objectReference: {fileID: 1150373874}
-    - target: {fileID: 7744760734722786984, guid: 4109899f11b2e664fb298cdf099d2f54,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4109899f11b2e664fb298cdf099d2f54, type: 3}
 --- !u!4 &5353757734753830421 stripped
@@ -17248,11 +17223,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpiderMan
       objectReference: {fileID: 0}
-    - target: {fileID: 6317778379498793728, guid: 1faf15cc9b7d0e242b06ae17cd27784b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6317778379498793850, guid: 1faf15cc9b7d0e242b06ae17cd27784b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17470,11 +17440,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Karateca
-      objectReference: {fileID: 0}
-    - target: {fileID: 9039834767309093140, guid: fc896c1e8af614d40b4df987a0f0882b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc896c1e8af614d40b4df987a0f0882b, type: 3}

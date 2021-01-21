@@ -21,7 +21,7 @@ public class VidaEnemy : MonoBehaviour
         if (vida > 0)
         {
             float daño;
-            //primera linea
+        //mujer(PL)
             if (collision.gameObject.tag == "PL(golpe-normal)")
             {
                 daño = 44f;
@@ -39,7 +39,7 @@ public class VidaEnemy : MonoBehaviour
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }
-            //matapaco
+        //matapaco
             if (collision.gameObject.tag == "MP(mordisco)")
             {
                 daño = 66f;
@@ -49,7 +49,7 @@ public class VidaEnemy : MonoBehaviour
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }
-            //karateka
+        //karateka
             if (collision.gameObject.tag == "K(golpe)")
             {
                 daño = 1;//cambiar daño
@@ -72,7 +72,7 @@ public class VidaEnemy : MonoBehaviour
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }
-            //hombre
+        //hombre(PL)
             if (collision.gameObject.tag == "HPL(golpe)")
             {
                 daño = 40f;//cambiar daño
@@ -86,17 +86,15 @@ public class VidaEnemy : MonoBehaviour
                 daño = 55f;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
-                
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }
-            //empresario
+        //emprendedor
             if (collision.gameObject.tag == "E(golpe)")
             {
                 daño = 10;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
-                
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }if (collision.gameObject.tag == "E(golpe2)")
@@ -120,17 +118,15 @@ public class VidaEnemy : MonoBehaviour
                 daño = 10;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
-                
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }
-            //Sensual Spiderman(o por dios pero mira que sensual)
+        //Sensual Spiderman(o por dios pero mira que sensual)
             if (collision.gameObject.tag == "HPL(golpe1)")
             {
                 daño = 10;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
-                
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }if (collision.gameObject.tag == "HPL(golpe2)")
@@ -138,7 +134,6 @@ public class VidaEnemy : MonoBehaviour
                 daño = 20;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
-                
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }if (collision.gameObject.tag == "SM(golpe3)")
@@ -146,11 +141,20 @@ public class VidaEnemy : MonoBehaviour
                 daño = 30;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
-                
+                barraVida.size -= new Vector2(daño,0f);
+                anim.Play("daño");
+            }
+        //cuando esta en telearaña
+            if (collision.gameObject.tag == "0"||collision.gameObject.tag == "1"||collision.gameObject.tag == "2"||collision.gameObject.tag == "3")
+            {
+                daño = 1000;//cambiar daño
+                vida -= daño;
+                daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }
         }
+        
         else
         {
             barraVida.size = new Vector2(0f,0f);
