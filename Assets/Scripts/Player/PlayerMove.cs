@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     private SpriteRenderer player;
     private Animator anim;
     private Rigidbody2D rd;
+    public bool Move = true;
    
 
     //limites personaje eje y
@@ -46,107 +47,134 @@ public class PlayerMove : MonoBehaviour
     }
 
     void FixedUpdate()
-    { 
+    {
+        if (Move)
+        {
 //Movimiento------------------------------------------------------------------------------------------------------------
-        Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
+            Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
 //segun animaciones
-        if (player.sprite.name==("mujer primera linea(limpio)_0")||player.sprite.name==("mujer primera linea(limpio)_1")||player.sprite.name==("mujer primera linea(limpio)_2")||player.sprite.name==("mujer primera linea(limpio)_3") ||player.sprite.name==("mujer primera linea(limpio)_4")
-            ||player.sprite.name==("mujer primera linea(limpio)_11")||player.sprite.name==("mujer primera linea(limpio)_12")||player.sprite.name==("mujer primera linea(limpio)_13")||player.sprite.name==("mujer primera linea(limpio)_14")
-            ||player.sprite.name==("mujer primera linea(limpio)_53")||player.sprite.name==("mujer primera linea(limpio)_56")||player.sprite.name==("mujer primera linea(limpio)_57")||player.sprite.name==("mujer primera linea(limpio)_58"))
-        {
-        }
-        else
-        {
-            mov.x = 0;
-            mov.y = 0;
-        }
-//Detectar limites de movimiento eje y        
-        if (techo == player.transform.position.y && player.transform.position.y>0)
-        {
-            mov.y = 0;
-        }
-//Detectar limites de movimiento eje x        
-        if (izquierda == player.transform.position.x && player.transform.position.x>0)
-        {
-            mov.x = 0;
-        }
-//Topes de movimiento en el mapa        
-        if (mov.y != 0)
-        {
-            transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, suelo, techo), transform.position.z);
-        }
-
-        if (kills == 0)
-        {
-            derecha = 5.72f;
-            if (mov.x != 0)
+            if (player.sprite.name == ("mujer primera linea(limpio)_0") ||
+                player.sprite.name == ("mujer primera linea(limpio)_1") ||
+                player.sprite.name == ("mujer primera linea(limpio)_2") ||
+                player.sprite.name == ("mujer primera linea(limpio)_3") ||
+                player.sprite.name == ("mujer primera linea(limpio)_4")
+                || player.sprite.name == ("mujer primera linea(limpio)_11") ||
+                player.sprite.name == ("mujer primera linea(limpio)_12") ||
+                player.sprite.name == ("mujer primera linea(limpio)_13") ||
+                player.sprite.name == ("mujer primera linea(limpio)_14")
+                || player.sprite.name == ("mujer primera linea(limpio)_53") ||
+                player.sprite.name == ("mujer primera linea(limpio)_56") ||
+                player.sprite.name == ("mujer primera linea(limpio)_57") ||
+                player.sprite.name == ("mujer primera linea(limpio)_58"))
             {
-                transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha), transform.position.y, transform.position.z);
             }
-        }
+            else
+            {
+                mov.x = 0;
+                mov.y = 0;
+            }
+
+//Detectar limites de movimiento eje y        
+            if (techo == player.transform.position.y && player.transform.position.y > 0)
+            {
+                mov.y = 0;
+            }
+
+//Detectar limites de movimiento eje x        
+            if (izquierda == player.transform.position.x && player.transform.position.x > 0)
+            {
+                mov.x = 0;
+            }
+
+//Topes de movimiento en el mapa        
+            if (mov.y != 0)
+            {
+                transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, suelo, techo),
+                    transform.position.z);
+            }
+
+            if (kills == 0)
+            {
+                derecha = 5.72f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+
 //Genera el movimiento
-        transform.position = Vector3.MoveTowards(transform.position, transform.position + mov, Time.deltaTime * speed);
-        
+            transform.position =
+                Vector3.MoveTowards(transform.position, transform.position + mov, Time.deltaTime * speed);
+
 //Animaciones para movimiento
-        if (mov.x == 0 && mov.y == 0)
-        {
-            anim.SetBool("Caminar", false);
-        }
-        else
-        {
-            anim.SetBool("Caminar", true);
-        }
+            if (mov.x == 0 && mov.y == 0)
+            {
+                anim.SetBool("Caminar", false);
+            }
+            else
+            {
+                anim.SetBool("Caminar", true);
+            }
 
 //Giros del personaje + cambiar posicion colaiders
-        if (Input.GetAxisRaw("Horizontal") < 0)
-        {
-            player.flipX = true;
-            if(mov!= Vector3.zero) ac.offset= new Vector3(-2.5f,1f,0);//golpes
-            if(mov!= Vector3.zero) ac1.offset= new Vector3(-3f,-0.4f,0);//barrida
-            if(mov!= Vector3.zero) ac2.offset= new Vector3(-1.5f,3f,0);//barrida2
-        }
-        else if (Input.GetAxisRaw("Horizontal") > 0)
-        {
-            player.flipX = false;
-            if(mov!= Vector3.zero) ac.offset= new Vector3(-0.3f,1f,0);//golpes
-            if(mov!= Vector3.zero) ac1.offset= new Vector3(3f,-0.4f,0);//barrida
-            if(mov!= Vector3.zero) ac2.offset= new Vector3(1.5f,3f,0);//barrida2
-        }
-        
+            if (Input.GetAxisRaw("Horizontal") < 0)
+            {
+                player.flipX = true;
+                if (mov != Vector3.zero) ac.offset = new Vector3(-2.5f, 1f, 0); //golpes
+                if (mov != Vector3.zero) ac1.offset = new Vector3(-3f, -0.4f, 0); //barrida
+                if (mov != Vector3.zero) ac2.offset = new Vector3(-1.5f, 3f, 0); //barrida2
+            }
+            else if (Input.GetAxisRaw("Horizontal") > 0)
+            {
+                player.flipX = false;
+                if (mov != Vector3.zero) ac.offset = new Vector3(-0.3f, 1f, 0); //golpes
+                if (mov != Vector3.zero) ac1.offset = new Vector3(3f, -0.4f, 0); //barrida
+                if (mov != Vector3.zero) ac2.offset = new Vector3(1.5f, 3f, 0); //barrida2
+            }
+
 //Atacar
-        if (Input.GetButtonDown("Fire1"))
-        {
-            anim.SetTrigger(("Ataque"));
-            
-        }
+            if (Input.GetButtonDown("Fire1"))
+            {
+                anim.SetTrigger(("Ataque"));
+
+            }
+
 //Activar o desactivar colaider    
-    //golpes
-        if (player.sprite.name==("mujer primera linea(limpio)_27")||player.sprite.name==("mujer primera linea(limpio)_28")||player.sprite.name==("mujer primera linea(limpio)_33")||player.sprite.name==("mujer primera linea(limpio)_40"))
-        {
-            ac.enabled = true;
+            //golpes
+            if (player.sprite.name == ("mujer primera linea(limpio)_27") ||
+                player.sprite.name == ("mujer primera linea(limpio)_28") ||
+                player.sprite.name == ("mujer primera linea(limpio)_33") ||
+                player.sprite.name == ("mujer primera linea(limpio)_40"))
+            {
+                ac.enabled = true;
+            }
+            else
+            {
+                ac.enabled = false;
+            }
+
+            //barrida    
+            if (player.sprite.name == ("mujer primera linea(limpio)_59"))
+            {
+                ac1.enabled = true;
+            }
+            else
+            {
+                ac1.enabled = false;
+            }
+
+            //barrida2
+            if (player.sprite.name == ("mujer primera linea(limpio)_70"))
+            {
+                ac2.enabled = true;
+            }
+            else
+            {
+                ac2.enabled = false;
+            }
         }
-        else
-        {
-            ac.enabled = false; 
-        }
-    //barrida    
-        if(player.sprite.name==("mujer primera linea(limpio)_59"))
-        {
-            ac1.enabled = true;
-        }
-        else
-        {
-            ac1.enabled = false; 
-        }
-    //barrida2
-        if(player.sprite.name==("mujer primera linea(limpio)_70"))
-        { 
-            ac2.enabled = true;
-        }
-        else
-        { 
-            ac2.enabled = false;
-        }
+
         //https://www.youtube.com/watch?v=0LgCaEMCoz8
         //min 12:33
     }

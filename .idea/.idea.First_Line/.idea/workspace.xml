@@ -11,17 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/hombrePrime/HombrMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Light2D.cs" />
-        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/AAAAaaa.cs" />
-        <option value="$PROJECT_DIR$/Assets/Animaciones/Main/Matapaco/ladrido.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapacos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PrimeraLinea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Empendedor.cs" />
@@ -57,7 +51,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CampoVisionEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/CampoVisionEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampoVision.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
@@ -68,6 +61,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Emprendedor/Empendedor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Personaje.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/SaveData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/ManagerSave.cs" />
       </list>
     </option>
   </component>
@@ -208,6 +207,8 @@
       <workItem from="1611035066416" duration="1271000" />
       <workItem from="1611176487777" duration="4549000" />
       <workItem from="1611190675921" duration="8881000" />
+      <workItem from="1611193130217" duration="731000" />
+      <workItem from="1611193892838" duration="9422000" />
     </task>
     <servers />
   </component>
