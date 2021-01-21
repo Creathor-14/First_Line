@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Empendedor : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class Empendedor : MonoBehaviour
     private CircleCollider2D ac1;
     private CircleCollider2D ac2;
     private CircleCollider2D ac3;
+    //barra vida
+    public Image barraVida;
     void Start()
     {
         player = GetComponent<SpriteRenderer>();
@@ -122,6 +125,7 @@ public class Empendedor : MonoBehaviour
         {
             anim.SetTrigger(("Arma"));
         }
+        /*
         if (player.sprite.name == ("Emprendedor_15"))
         {
             if (Input.GetButtonDown("Fire1"))
@@ -129,7 +133,8 @@ public class Empendedor : MonoBehaviour
                 cont += 1;
             }
         }
-        if (cont < 10)
+        */
+        if (barraVida.fillAmount > 0.5f)
         {
             anim.SetBool("TipoArma", false);
         }

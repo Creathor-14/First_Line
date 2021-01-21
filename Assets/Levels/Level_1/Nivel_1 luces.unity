@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30645480}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a302cc45b3f1c34889c489b5ddb21bb, type: 3}
   m_Name: 
@@ -679,6 +679,21 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 897738252}
+    - target: {fileID: 2962107956811394882, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962107956811394883, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962107956811394941, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2962107957110489118, guid: 650ceea6be63aab489ffb29dd1d14b1d,
         type: 3}
       propertyPath: m_FillAmount
@@ -752,12 +767,32 @@ PrefabInstance:
     - target: {fileID: 9061975135546319550, guid: 650ceea6be63aab489ffb29dd1d14b1d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 115
+      value: 652
       objectReference: {fileID: 0}
     - target: {fileID: 9061975135546319550, guid: 650ceea6be63aab489ffb29dd1d14b1d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 67
+      value: -238
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061975135546319550, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061975135546319550, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061975135546319550, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061975135546319550, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 650ceea6be63aab489ffb29dd1d14b1d, type: 3}
@@ -6956,7 +6991,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897738249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 151.88, y: -0.1, z: -10}
+  m_LocalPosition: {x: -0.72, y: -0.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -16901,6 +16936,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 30645481}
     m_Modifications:
+    - target: {fileID: 253572201131786604, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: barraVida
+      value: 
+      objectReference: {fileID: 752406610}
     - target: {fileID: 1040122347806398645, guid: 4109899f11b2e664fb298cdf099d2f54,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16971,6 +17011,11 @@ PrefabInstance:
       propertyPath: barraArmadura
       value: 
       objectReference: {fileID: 1150373874}
+    - target: {fileID: 7744760734722786984, guid: 4109899f11b2e664fb298cdf099d2f54,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4109899f11b2e664fb298cdf099d2f54, type: 3}
 --- !u!4 &5353757734753830421 stripped
