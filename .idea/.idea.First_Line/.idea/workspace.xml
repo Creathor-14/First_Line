@@ -58,7 +58,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Emprendedor/Empendedor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/hombrePrime/HombrMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
@@ -67,6 +66,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuitGame.cs" />
         <option value="$PROJECT_DIR$/Assets/SaveLoadGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/LOAD.cs" />
       </list>
     </option>
@@ -216,7 +216,8 @@
       <workItem from="1611272834653" duration="12882000" />
       <workItem from="1611298393323" duration="21469000" />
       <workItem from="1611321332809" duration="449000" />
-      <workItem from="1611313798905" duration="4422000" />
+      <workItem from="1611313798905" duration="5045000" />
+      <workItem from="1611321942427" duration="1635000" />
     </task>
     <servers />
   </component>

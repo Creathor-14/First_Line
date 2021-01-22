@@ -20,12 +20,14 @@ public class SaveLoadGame: MonoBehaviour
         PlayerPrefs.SetFloat("Player y", player.transform.position.y);
 
         PlayerPrefs.Save();
+        Debug.Log("Guardado");
     }
 
     public void Borrar()
     {
         PlayerPrefs.DeleteKey("Player x");
         PlayerPrefs.DeleteKey("Player y");
+        Debug.Log("Borrado");
     }
 
 }

@@ -9,20 +9,18 @@ public class LOAD: MonoBehaviour
 
     private void Start()
     {
-        b.interactable = PlayerPrefs.GetFloat("Player x") != null && PlayerPrefs.GetFloat("Player y") != null;
+        b.interactable = PlayerPrefs.GetFloat("Player x") == null && PlayerPrefs.GetFloat("Player y") == null;
     }
 
     public void Cargar()
     {
-        Debug.Log("Cargado");
-        Application.LoadLevel(2);
+        Application.LoadLevel(1);
         carga = true;
     }
     
     public void NoCargar()
     {
-        Debug.Log("Bloqueado");
         carga = false;
-        Application.LoadLevel(2);
+        Application.LoadLevel(1);
     }
 }

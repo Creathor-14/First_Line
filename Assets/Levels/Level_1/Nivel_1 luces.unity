@@ -2904,7 +2904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &387080715
 CanvasRenderer:
   m_ObjectHideFlags: 2
@@ -17249,6 +17249,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 43680367, guid: 964463fdb123e004ea8341baf3a12de4, type: 3}
+      propertyPath: vidaReal
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 43680367, guid: 964463fdb123e004ea8341baf3a12de4, type: 3}
+      propertyPath: vida
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7184486317270496754, guid: 964463fdb123e004ea8341baf3a12de4,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7356959630309661209, guid: 964463fdb123e004ea8341baf3a12de4,
         type: 3}
       propertyPath: m_LocalPosition.x
