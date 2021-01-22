@@ -55,6 +55,7 @@ public class Seguir : MonoBehaviour
         
 //Calcula la distancia y la direccion al jugador(normalized = 0,-1,1)
         float distance = Vector3.Distance(target, transform.position);
+        print(distance);
         Vector3 dir = (target - transform.position).normalized;
         
 //En este caso lo atacamos      

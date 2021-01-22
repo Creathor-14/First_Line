@@ -18,7 +18,8 @@ public class Karateca : MonoBehaviour
     public float izquierda = -10.37f;
     
     //sistema barreras ordas
-    private int kills = 0;
+    public static int kills = 0;
+    public int nivel;
     
     //sistema de daño(2)
     private CircleCollider2D ac;
@@ -62,20 +63,290 @@ public class Karateca : MonoBehaviour
         {
             mov.x = 0;
         }
-//Topes de movimiento en el mapa        
-        if (mov.y != 0)
+// topes nivel 1
+            if (nivel == 1)
         {
-            transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, suelo, techo), transform.position.z);
-        }
-
         if (kills == 0)
-        {
-            derecha = 5.72f;
-            if (mov.x != 0)
             {
-                transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha), transform.position.y, transform.position.z);
+                derecha = -24.55f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills < 3)
+            {
+                derecha = -7.36f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills < 6)
+            {
+                derecha = 9.95f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <10)
+            {
+                derecha = 27.18f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <15)
+            {
+                derecha = 44.42f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <18)
+            {
+                derecha = 61.5f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <20)
+            {
+                derecha = 78.6f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            if (kills <23)
+            {
+                derecha = 95.69f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            if (kills <26)
+            {
+                derecha = 112.93f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
             }
         }
+            
+            
+	    // topes nivel 2
+        if (nivel == 2)
+        {
+            izquierda = -21.3f;
+            techo = 11.5f;
+            suelo = 2.9f;
+            
+            if (kills == 0)
+            {
+                derecha = 30.1f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills < 3)
+            {
+                derecha = 71.8f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills < 6)
+            {
+                derecha = 112.8f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <10)
+            {
+                derecha = 154f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <15)
+            {
+                derecha = 194.6f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <18)
+            {
+                derecha = 236.2f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <20)
+            {
+                derecha = 278f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            if (kills <23)
+            {
+                derecha = 319.2f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            if (kills <26)
+            {
+                derecha = 361.1f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+        }
+            
+	    // topes nivel 3 Y FINAL
+            if (nivel == 3)
+            {
+            izquierda = -21.3f;
+            techo = 11.5f;
+            suelo = 2.9f;
+            
+            if (kills == 0)
+            {
+                derecha = 30.1f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills < 3)
+            {
+                derecha = 71.8f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills < 6)
+            {
+                derecha = 112.8f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <10)
+            {
+                derecha = 154f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <15)
+            {
+                derecha = 194.6f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <18)
+            {
+                derecha = 236.2f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            
+            if (kills <20)
+            {
+                derecha = 278f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            if (kills <23)
+            {
+                derecha = 319.2f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            if (kills <26)
+            {
+                derecha = 361.1f;
+                if (mov.x != 0)
+                {
+                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
+                        transform.position.y, transform.position.z);
+                }
+            }
+            }
 //Genera el movimiento
         transform.position = Vector3.MoveTowards(transform.position, transform.position + mov, Time.deltaTime * speed);
         

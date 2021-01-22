@@ -298,7 +298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1040122347806398645
 Transform:
   m_ObjectHideFlags: 0
@@ -400,10 +400,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  techo: -0.72
-  suelo: -3.77
-  derecha: 100.02
-  izquierda: -10.37
   barraVida: {fileID: 0}
 --- !u!114 &1040122347806398647
 MonoBehaviour:

@@ -12,10 +12,11 @@ public class VidaPlayer : MonoBehaviour
     public Image barraArmadura;
     private int cont = 0;
     private Animator anim;
-
+    private Rigidbody2D rb;
     private void Start()
     {
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -131,6 +132,7 @@ public class VidaPlayer : MonoBehaviour
             vida += 100f;
             cont = 2;
         }
+        
     }
 }
 
