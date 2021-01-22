@@ -1803,6 +1803,7 @@ GameObject:
   - component: {fileID: 164499288}
   - component: {fileID: 164499291}
   - component: {fileID: 164499292}
+  - component: {fileID: 164499293}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1921,6 +1922,22 @@ MonoBehaviour:
   follow: {fileID: 0}
   minCamPos: {x: 30.6, y: -1.3}
   maxCamPos: {x: 412.6, y: -1.3}
+  smoothTime: 0
+--- !u!114 &164499293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164499287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97712100fc2d551498be3027f365e60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  follow: {fileID: 1901866453}
+  minCamPos: {x: 30.6, y: -1.3}
+  maxCamPos: {x: 412.1, y: -1.3}
   smoothTime: 0
 --- !u!1 &178380448
 GameObject:
@@ -3004,12 +3021,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053602}
     - target: {fileID: 4201980599792047100, guid: 0164709a81ea21f42b82f7e16071f880,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053601}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0164709a81ea21f42b82f7e16071f880, type: 3}
 --- !u!4 &246513783 stripped
@@ -5391,7 +5408,7 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053602}
     - target: {fileID: 253572201131786604, guid: 4109899f11b2e664fb298cdf099d2f54,
         type: 3}
       propertyPath: nivel
@@ -5466,12 +5483,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053602}
     - target: {fileID: 7308325686006641237, guid: 4109899f11b2e664fb298cdf099d2f54,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053601}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4109899f11b2e664fb298cdf099d2f54, type: 3}
 --- !u!4 &518068773 stripped
@@ -6955,12 +6972,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053602}
     - target: {fileID: 7792670146791251670, guid: fc896c1e8af614d40b4df987a0f0882b,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053601}
     - target: {fileID: 9039834767309093136, guid: fc896c1e8af614d40b4df987a0f0882b,
         type: 3}
       propertyPath: nivel
@@ -7353,11 +7370,11 @@ PrefabInstance:
     - target: {fileID: 613893728, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053602}
     - target: {fileID: 613893728, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053601}
     - target: {fileID: 3609694807572122889, guid: 96fe469986fcba14a9db55845af079cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9754,12 +9771,12 @@ PrefabInstance:
     - target: {fileID: 7356959630309661209, guid: 964463fdb123e004ea8341baf3a12de4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 424.8
       objectReference: {fileID: 0}
     - target: {fileID: 7356959630309661209, guid: 964463fdb123e004ea8341baf3a12de4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -7.7
       objectReference: {fileID: 0}
     - target: {fileID: 7356959630309661209, guid: 964463fdb123e004ea8341baf3a12de4,
         type: 3}
@@ -9806,6 +9823,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7356959630309661209, guid: 964463fdb123e004ea8341baf3a12de4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6815474
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356959630309661209, guid: 964463fdb123e004ea8341baf3a12de4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.24412
+      objectReference: {fileID: 0}
     - target: {fileID: 8098466758449528694, guid: 964463fdb123e004ea8341baf3a12de4,
         type: 3}
       propertyPath: m_Name
@@ -9814,7 +9841,7 @@ PrefabInstance:
     - target: {fileID: 8098466758449528694, guid: 964463fdb123e004ea8341baf3a12de4,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 964463fdb123e004ea8341baf3a12de4, type: 3}
@@ -10976,7 +11003,7 @@ PrefabInstance:
     - target: {fileID: 949396392255571546, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4030645769743526733, guid: 411421cee5b5deb408be060f8bacdd66,
         type: 3}
@@ -14511,12 +14538,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053602}
     - target: {fileID: 8624270594882683250, guid: 1faf15cc9b7d0e242b06ae17cd27784b,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053601}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1faf15cc9b7d0e242b06ae17cd27784b, type: 3}
 --- !u!4 &1511589055 stripped
@@ -17301,6 +17328,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 650ceea6be63aab489ffb29dd1d14b1d, type: 3}
+--- !u!114 &1819053601 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2962107956242398428, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1819053600}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1819053602 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2962107957110489118, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1819053600}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1824862256
 GameObject:
   m_ObjectHideFlags: 0
@@ -17787,12 +17838,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053602}
     - target: {fileID: 4504571436865557220, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1819053601}
     - target: {fileID: 6112032786843485579, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17878,6 +17929,12 @@ PrefabInstance:
 --- !u!4 &1901866452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6112032786843485579, guid: 2fcdbd4f790689448a5b3c6103be2832,
+    type: 3}
+  m_PrefabInstance: {fileID: 1901866451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1901866453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 377489450351908788, guid: 2fcdbd4f790689448a5b3c6103be2832,
     type: 3}
   m_PrefabInstance: {fileID: 1901866451}
   m_PrefabAsset: {fileID: 0}

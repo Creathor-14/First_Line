@@ -1347,6 +1347,7 @@ GameObject:
   - component: {fileID: 253503534}
   - component: {fileID: 253503533}
   - component: {fileID: 253503532}
+  - component: {fileID: 253503537}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -1466,6 +1467,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &253503537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253503531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97712100fc2d551498be3027f365e60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  follow: {fileID: 1060458868}
+  minCamPos: {x: 30.6, y: -1.3}
+  maxCamPos: {x: 412.6, y: -1.3}
+  smoothTime: 0
 --- !u!1 &263769123
 GameObject:
   m_ObjectHideFlags: 0
@@ -7106,6 +7123,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 650ceea6be63aab489ffb29dd1d14b1d, type: 3}
+--- !u!114 &870664961 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2962107956242398428, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 870664960}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &870664962 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2962107957110489118, guid: 650ceea6be63aab489ffb29dd1d14b1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 870664960}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &875619441
 GameObject:
   m_ObjectHideFlags: 0
@@ -8695,12 +8736,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664962}
     - target: {fileID: 4504571436865557220, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664961}
     - target: {fileID: 6112032786843485579, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8786,6 +8827,12 @@ PrefabInstance:
 --- !u!4 &1060458867 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6112032786843485579, guid: 2fcdbd4f790689448a5b3c6103be2832,
+    type: 3}
+  m_PrefabInstance: {fileID: 1060458866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1060458868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 377489450351908788, guid: 2fcdbd4f790689448a5b3c6103be2832,
     type: 3}
   m_PrefabInstance: {fileID: 1060458866}
   m_PrefabAsset: {fileID: 0}
@@ -10544,11 +10591,11 @@ PrefabInstance:
     - target: {fileID: 613893728, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664962}
     - target: {fileID: 613893728, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664961}
     - target: {fileID: 3609694807572122889, guid: 96fe469986fcba14a9db55845af079cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12161,7 +12208,7 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664962}
     - target: {fileID: 253572201131786604, guid: 4109899f11b2e664fb298cdf099d2f54,
         type: 3}
       propertyPath: nivel
@@ -12236,12 +12283,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664962}
     - target: {fileID: 7308325686006641237, guid: 4109899f11b2e664fb298cdf099d2f54,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664961}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4109899f11b2e664fb298cdf099d2f54, type: 3}
 --- !u!4 &1480790308 stripped
@@ -13259,12 +13306,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664962}
     - target: {fileID: 8624270594882683250, guid: 1faf15cc9b7d0e242b06ae17cd27784b,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664961}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1faf15cc9b7d0e242b06ae17cd27784b, type: 3}
 --- !u!4 &1614610155 stripped
@@ -15002,12 +15049,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664962}
     - target: {fileID: 4201980599792047100, guid: 0164709a81ea21f42b82f7e16071f880,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664961}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0164709a81ea21f42b82f7e16071f880, type: 3}
 --- !u!4 &1771655646 stripped
@@ -18311,12 +18358,12 @@ PrefabInstance:
         type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664962}
     - target: {fileID: 7792670146791251670, guid: fc896c1e8af614d40b4df987a0f0882b,
         type: 3}
       propertyPath: barraArmadura
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 870664961}
     - target: {fileID: 9039834767309093136, guid: fc896c1e8af614d40b4df987a0f0882b,
         type: 3}
       propertyPath: nivel

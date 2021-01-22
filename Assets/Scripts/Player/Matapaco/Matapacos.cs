@@ -77,13 +77,12 @@ public class Matapacos : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, suelo, techo),
                     transform.position.z);
             }
-// topes nivel 1
+        // topes nivel 1 y RUN ( 4 )
         if (nivel == 1)
         {
-            if (kills == 0)
-                izquierda = 0f;
+            izquierda = -8.45f;
+            if (CantEnemy.cantEnemy == 0)
             {
-
                 derecha = 6.07f;
                 if (mov.x != 0)
                 {
@@ -92,7 +91,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 3)
+            else if (CantEnemy.cantEnemy < 3)
             {
                 derecha = 23.14f;
                 if (mov.x != 0)
@@ -198,7 +197,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 3)
+            else if (kills < 3)
             {
                 derecha = 102.6f;
                 if (mov.x != 0)
@@ -208,7 +207,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 6)
+            else if (kills < 6)
             {
                 derecha = 145.5f;
                 if (mov.x != 0)
@@ -218,7 +217,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 10)
+            else if (kills < 10)
             {
                 derecha = 184.6f;
                 if (mov.x != 0)
@@ -228,7 +227,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 15)
+            else if (kills < 15)
             {
                 derecha = 225f;
                 if (mov.x != 0)
@@ -238,7 +237,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 18)
+            else if (kills < 18)
             {
                 derecha = 266.8f;
                 if (mov.x != 0)
@@ -248,7 +247,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 20)
+            else if (kills < 20)
             {
                 derecha = 308.7f;
                 if (mov.x != 0)
@@ -258,7 +257,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 23)
+            else if (kills < 23)
             {
                 derecha = 349.8f;
                 if (mov.x != 0)
@@ -268,7 +267,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 26)
+            else if (kills < 26)
             {
                 derecha = 391.6f;
                 if (mov.x != 0)
@@ -278,7 +277,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
 
-            if (kills < 30)
+            else if (kills < 30)
             {
                 derecha = 433.6f;
                 if (mov.x != 0)
@@ -306,6 +305,7 @@ public class Matapacos : MonoBehaviour
                 }
             }
         }
+
 
 //Genera el movimiento
             transform.position =
