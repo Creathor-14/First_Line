@@ -11,16 +11,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/vidaBoss.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/BossMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/vidaBoss.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ataque.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/AtaqueMatapaco.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/CambioPersonaje.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/ImageInv.cs" />
@@ -46,7 +43,6 @@
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Personaje.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/SaveData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CambioPersonaje.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/ManagerSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/CantEnemy.cs" />
@@ -70,6 +66,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Emprendedor/Empendedor.cs" />
+        <option value="$PROJECT_DIR$/Assets/CambioEEscena.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CambioPersonaje.cs" />
+        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
       </list>
     </option>
   </component>
@@ -222,6 +221,7 @@
       <workItem from="1611321942427" duration="1635000" />
       <workItem from="1611340485165" duration="2350000" />
       <workItem from="1611342775713" duration="3153000" />
+      <workItem from="1611348240267" duration="5012000" />
     </task>
     <servers />
   </component>

@@ -12,7 +12,13 @@ public class CameraFollow : MonoBehaviour
     public float smoothTime;
 
     private Vector2 velocity;
-    
+    public CambioPersonaje personaje;
+    public GameObject per;
+
+    private void Awake()
+    {
+        follow = personaje.player;
+    }
 
     // Update is called once per frame
     private void FixedUpdate()

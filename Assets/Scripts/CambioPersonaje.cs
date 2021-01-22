@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,8 +7,11 @@ using UnityEngine.SceneManagement;
 public class CambioPersonaje : MonoBehaviour
 {
     private GameObject[] cambiarP; // se tiene una lista de personajes
-    private int index;  // cada personaje tiene un indice
+    private int index; // cada personaje tiene un indice
 
+
+    public GameObject player = null;
+    
     void Awake()
     {
         index = PlayerPrefs.GetInt("animation player"); //obtiene una animacion(los personajes en IDLE)
@@ -22,6 +26,7 @@ public class CambioPersonaje : MonoBehaviour
         if (cambiarP[index]) // si ese objeto esta seleccionado que muestre su animacion en la pantalla
             cambiarP[index].SetActive(true);
 
+        player = cambiarP[index];
     }
 
     public void BotonDer() // se cambia al personaje de la derecha
