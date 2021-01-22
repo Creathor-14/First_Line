@@ -40,6 +40,7 @@ TagManager:
   - E(baston)
   - E(baston2)
   - tope
+  - lordIz
   layers:
   - Default
   - TransparentFX

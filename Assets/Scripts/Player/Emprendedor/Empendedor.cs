@@ -95,90 +95,48 @@ public class Empendedor : MonoBehaviour
         {
         if (kills == 0)
             {
-                derecha = -24.55f;
-                if (mov.x != 0)
-                {
-                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
-                        transform.position.y, transform.position.z);
-                }
+                derecha = 50f;
+                
             }
             
-            if (kills < 3)
+            else if (kills < 3)
             {
-                derecha = -7.36f;
-                if (mov.x != 0)
-                {
-                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
-                        transform.position.y, transform.position.z);
-                }
+                
             }
             
-            if (kills < 6)
+        else if (kills < 6)
             {
                 derecha = 9.95f;
-                if (mov.x != 0)
-                {
-                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
-                        transform.position.y, transform.position.z);
-                }
+                
+                
             }
             
-            if (kills <10)
+        else if (kills <10)
             {
                 derecha = 27.18f;
-                if (mov.x != 0)
-                {
-                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
-                        transform.position.y, transform.position.z);
-                }
             }
             
-            if (kills <15)
+        else if (kills <15)
             {
                 derecha = 44.42f;
-                if (mov.x != 0)
-                {
-                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
-                        transform.position.y, transform.position.z);
-                }
             }
             
-            if (kills <18)
+        else if (kills <18)
             {
                 derecha = 61.5f;
-                if (mov.x != 0)
-                {
-                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
-                        transform.position.y, transform.position.z);
-                }
             }
             
-            if (kills <20)
+        else if (kills <20)
             {
                 derecha = 78.6f;
-                if (mov.x != 0)
-                {
-                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
-                        transform.position.y, transform.position.z);
-                }
             }
-            if (kills <23)
+        else if (kills <23)
             {
                 derecha = 95.69f;
-                if (mov.x != 0)
-                {
-                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
-                        transform.position.y, transform.position.z);
-                }
             }
-            if (kills <26)
+        else  if (kills <26)
             {
                 derecha = 112.93f;
-                if (mov.x != 0)
-                {
-                    transform.position = new Vector3(Mathf.Clamp(transform.position.x, izquierda, derecha),
-                        transform.position.y, transform.position.z);
-                }
             }
         }
             
