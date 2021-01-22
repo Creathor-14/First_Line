@@ -11,15 +11,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/vidaBoss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuitGame.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/TeleDerecha.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Telearañas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ataque.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/AtaqueMatapaco.cs" />
@@ -38,13 +35,11 @@
         <option value="$PROJECT_DIR$/Assets/DestruirConsumible.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DesTrucho.cs" />
         <option value="$PROJECT_DIR$/Assets/RestartLevel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VisionCEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampoVisionEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/CampoVisionEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampoVision.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Game.cs" />
@@ -52,7 +47,6 @@
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/SaveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CambioPersonaje.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/ManagerSave.cs" />
-        <option value="$PROJECT_DIR$/Assets/SaveLoadGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/GameOverManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/CantEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/piraña(normal).cs" />
@@ -69,6 +63,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuitGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/SaveLoadGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/LOAD.cs" />
       </list>
     </option>
   </component>
@@ -217,6 +216,7 @@
       <workItem from="1611272834653" duration="12882000" />
       <workItem from="1611298393323" duration="21469000" />
       <workItem from="1611321332809" duration="449000" />
+      <workItem from="1611313798905" duration="4422000" />
     </task>
     <servers />
   </component>

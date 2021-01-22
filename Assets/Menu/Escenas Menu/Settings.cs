@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,9 +7,12 @@ public class Settings : MonoBehaviour
 {
     public Dropdown resolutionDropdown;
     Resolution[] resolutions;
-
+    private AudioSource audio;
+    private float music = 0.03f; 
+    
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
 
@@ -30,6 +34,16 @@ public class Settings : MonoBehaviour
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionsIndex;
         resolutionDropdown.RefreshShownValue();
+    }
+
+    private void Update()
+    {
+        audio.volume = music;
+    }
+
+    public void setVolumen(float vol)
+    {
+        music = vol;
     }
 
     public void setResolution(int resolutionIndex)

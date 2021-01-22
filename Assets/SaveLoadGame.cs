@@ -5,41 +5,27 @@ using UnityEngine.UIElements;
 
 public class SaveLoadGame: MonoBehaviour
 {
-    public GameObject playerMove;
+    public GameObject player;
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (LOAD.carga)
+            player.transform.position = new Vector3(PlayerPrefs.GetFloat("Player x"),PlayerPrefs.GetFloat("Player y"),0);
+    }
 
     public void Guardar()
     {
-        GameObject player = GameObject.FindWithTag("Player");
-        string data = string.Empty;
-        Vector3 posPlayer; 
-        
-        posPlayer = player.transform.position;
-        data = posPlayer.x + ";" + posPlayer.y + ";" + posPlayer.z;
-        Debug.Log(data);
-        PlayerPrefs.SetString("Player",data);
+        PlayerPrefs.SetFloat("Player x",player.transform.position.x);
+        PlayerPrefs.SetFloat("Player y", player.transform.position.y);
+
         PlayerPrefs.Save();
     }
 
-    public void Vacio()
+    public void Borrar()
     {
-        Destroy(playerMove);
-    }
-
-    public void Cargar()
-    {
-        string data = PlayerPrefs.GetString("Player",String.Empty);
-        Debug.Log(data);
-        string coma = ";";
-
-        string[] ejes = data.Split(coma.ToCharArray());
-        
-        Debug.Log(ejes[0]);
-        Vector3 pos = Vector3.zero;
-        
-        pos.x = float.Parse(ejes[0]); 
-        pos.y = float.Parse(ejes[1]);
-        Vacio();
-        Instantiate(this.playerMove, pos,Quaternion.identity);
+        PlayerPrefs.DeleteKey("Player x");
+        PlayerPrefs.DeleteKey("Player y");
     }
 
 }
