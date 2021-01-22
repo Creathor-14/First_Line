@@ -11,6 +11,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/vidaBoss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/BossMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -54,20 +56,20 @@
         <option value="$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/piraña.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/vidaBoss.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/hombrePrime/HombrMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuitGame.cs" />
         <option value="$PROJECT_DIR$/Assets/SaveLoadGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/LOAD.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Emprendedor/Empendedor.cs" />
         <option value="$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/BossMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/hombrePrime/HombrMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca/Karateca.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Emprendedor/Empendedor.cs" />
       </list>
     </option>
   </component>
