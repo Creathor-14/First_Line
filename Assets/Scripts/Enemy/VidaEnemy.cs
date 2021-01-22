@@ -9,9 +9,10 @@ public class VidaEnemy : MonoBehaviour
     public float vida;
     private SpriteRenderer barraVida;
     private Animator anim;
-    private int cont = 0;
+    private BoxCollider2D bc;
     private void Start()
     {
+        bc = GetComponent<BoxCollider2D>();
         barraVida = transform.GetChild(2).GetComponent<SpriteRenderer>();
         barraVida.drawMode = SpriteDrawMode.Sliced;
         anim = GetComponent<Animator>();
@@ -158,7 +159,9 @@ public class VidaEnemy : MonoBehaviour
         else
         {
             barraVida.size = new Vector2(0f,0f);
+            bc.enabled = false;
             anim.Play("muerte");
+            CantEnemy.cantEnemy += 1;
         }
     }
 }

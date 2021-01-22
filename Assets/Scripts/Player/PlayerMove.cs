@@ -48,8 +48,6 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Move)
-        {
 //Movimiento------------------------------------------------------------------------------------------------------------
             Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
 //segun animaciones
@@ -178,5 +176,4 @@ public class PlayerMove : MonoBehaviour
         //https://www.youtube.com/watch?v=0LgCaEMCoz8
         //min 12:33
     }
-}
 //EN Quieto(anim) 2 HAY QUE HACER QUE EL PERSONAJE SE QUEDE QUIETO

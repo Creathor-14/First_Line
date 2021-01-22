@@ -19,7 +19,7 @@
         <e p="LucesIntermitentes.cs" t="Include" />
         <e p="Menu" t="Include">
           <e p="Escenas Menu" t="Include">
-            <e p="ManagerSave.cs" t="Include" />
+            <e p="CantEnemy.cs" t="Include" />
             <e p="Settings.cs" t="Include" />
           </e>
           <e p="GameOverManager.cs" t="Include" />

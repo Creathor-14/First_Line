@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameOverManager : MonoBehaviour
 {
     public VidaPlayer vidaP;
     private Animator anim;
     public GameObject menuPanel,miniMenu;
-    
+
     void Start()
     {
         menuPanel.SetActive(false);// NO esta activo el panel de "Juego Terminado"
@@ -21,7 +23,7 @@ public class GameOverManager : MonoBehaviour
     
     void Update()
     {
-        if (vidaP.barraVida.fillAmount <= 0) // Se obtiene la vida del objeto vidaP(de tipo VidaPlayer) y se ve si es menor a 0
+        if (vidaP.barraVida.fillAmount<= 0) // Se obtiene la vida del objeto vidaP(de tipo VidaPlayer) y se ve si es menor a 0
         {
             menuPanel.SetActive(true);   // se activa el panel de "Juego Terminado"
             anim.SetTrigger("GameOver");  // aparece la animacion de crecimiento
