@@ -93,7 +93,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 6)
+            else if (CantEnemy.cantEnemy < 6)
             {
                 derecha = 40.6f;
                 if (mov.x != 0)
@@ -103,7 +103,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 10)
+            else if (CantEnemy.cantEnemy < 10)
             {
                 derecha = 57.79f;
                 if (mov.x != 0)
@@ -113,7 +113,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 15)
+            else if (CantEnemy.cantEnemy < 15)
             {
                 derecha = 74.98f;
                 if (mov.x != 0)
@@ -123,7 +123,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 18)
+            else if (CantEnemy.cantEnemy < 18)
             {
                 derecha = 92.02f;
                 if (mov.x != 0)
@@ -133,7 +133,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 20)
+            else if (CantEnemy.cantEnemy < 20)
             {
                 derecha = 109.1f;
                 if (mov.x != 0)
@@ -142,7 +142,7 @@ public class Karateca : MonoBehaviour
                         transform.position.y, transform.position.z);
                 }
             }
-            else if (kills < 23)
+            else if (CantEnemy.cantEnemy < 23)
             {
                 derecha = 126.36f;
                 if (mov.x != 0)
@@ -151,7 +151,7 @@ public class Karateca : MonoBehaviour
                         transform.position.y, transform.position.z);
                 }
             }
-            else if (kills < 26)
+            else if (CantEnemy.cantEnemy < 26)
             {
                 derecha = 143.52f;
                 if (mov.x != 0)
@@ -160,7 +160,7 @@ public class Karateca : MonoBehaviour
                         transform.position.y, transform.position.z);
                 }
             }
-            else if (kills < 30)
+            else if (CantEnemy.cantEnemy < 30)
             {
                 derecha = 160.7f;
                 if (mov.x != 0)
@@ -179,7 +179,7 @@ public class Karateca : MonoBehaviour
             techo = -2.07f;
             suelo = -9.51f;
 
-            if (kills == 0)
+            if (CantEnemy.cantEnemy == 0)
             {
                 derecha = 60.7f;
                 if (mov.x != 0)
@@ -189,7 +189,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 3)
+            else if (CantEnemy.cantEnemy < 3)
             {
                 derecha = 102.6f;
                 if (mov.x != 0)
@@ -199,7 +199,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 6)
+            else if (CantEnemy.cantEnemy < 6)
             {
                 derecha = 145.5f;
                 if (mov.x != 0)
@@ -209,7 +209,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 10)
+            else if (CantEnemy.cantEnemy < 10)
             {
                 derecha = 184.6f;
                 if (mov.x != 0)
@@ -219,7 +219,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 15)
+            else if (CantEnemy.cantEnemy < 15)
             {
                 derecha = 225f;
                 if (mov.x != 0)
@@ -229,7 +229,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 18)
+            else if (CantEnemy.cantEnemy < 18)
             {
                 derecha = 266.8f;
                 if (mov.x != 0)
@@ -239,7 +239,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 20)
+            else if (CantEnemy.cantEnemy < 20)
             {
                 derecha = 308.7f;
                 if (mov.x != 0)
@@ -249,7 +249,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 23)
+            else if (CantEnemy.cantEnemy < 23)
             {
                 derecha = 349.8f;
                 if (mov.x != 0)
@@ -259,7 +259,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 26)
+            else if (CantEnemy.cantEnemy < 26)
             {
                 derecha = 391.6f;
                 if (mov.x != 0)
@@ -269,7 +269,7 @@ public class Karateca : MonoBehaviour
                 }
             }
 
-            else if (kills < 30)
+            else if (CantEnemy.cantEnemy < 30)
             {
                 derecha = 433.6f;
                 if (mov.x != 0)
@@ -287,7 +287,7 @@ public class Karateca : MonoBehaviour
             techo = -2.07f;
             suelo = -9.51f;
 
-            if (kills == 0)
+            if (CantEnemy.cantEnemy == 0)
             {
                 derecha = 160.7f;
                 if (mov.x != 0)

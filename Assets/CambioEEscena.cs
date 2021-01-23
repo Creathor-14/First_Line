@@ -39,7 +39,7 @@ public class CambioEEscena : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (CantEnemy.cantEnemy == 26)
+        if (CantEnemy.cantEnemy == 27)
         {
             CantEnemy.cantEnemy = 0;
             boton.gameObject.SetActive(true);
