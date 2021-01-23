@@ -116,7 +116,7 @@ public class PlayerMove : MonoBehaviour
                 }
             }
 
-            else if (kills < 6)
+            else if (CantEnemy.cantEnemy < 6)
             {
                 derecha = 40.6f;
                 if (mov.x != 0)
@@ -126,7 +126,7 @@ public class PlayerMove : MonoBehaviour
                 }
             }
 
-            else if (kills < 10)
+            else if (CantEnemy.cantEnemy < 10)
             {
                 derecha = 57.79f;
                 if (mov.x != 0)

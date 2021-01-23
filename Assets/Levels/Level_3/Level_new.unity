@@ -1483,6 +1483,8 @@ MonoBehaviour:
   minCamPos: {x: 30.6, y: -1.3}
   maxCamPos: {x: 412.6, y: -1.3}
   smoothTime: 0
+  personaje: {fileID: 0}
+  per: {fileID: 0}
 --- !u!1 &263769123
 GameObject:
   m_ObjectHideFlags: 0
@@ -8815,7 +8817,7 @@ PrefabInstance:
     - target: {fileID: 6690220351298960078, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
       propertyPath: nivel
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9031620622808682374, guid: 2fcdbd4f790689448a5b3c6103be2832,
         type: 3}
@@ -10664,7 +10666,7 @@ PrefabInstance:
     - target: {fileID: 7704097112030886888, guid: 96fe469986fcba14a9db55845af079cf,
         type: 3}
       propertyPath: nivel
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96fe469986fcba14a9db55845af079cf, type: 3}
@@ -12212,7 +12214,7 @@ PrefabInstance:
     - target: {fileID: 253572201131786604, guid: 4109899f11b2e664fb298cdf099d2f54,
         type: 3}
       propertyPath: nivel
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1040122347806398645, guid: 4109899f11b2e664fb298cdf099d2f54,
         type: 3}
@@ -12859,6 +12861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a302cc45b3f1c34889c489b5ddb21bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!4 &1541003665
 Transform:
   m_ObjectHideFlags: 0
@@ -13300,7 +13303,7 @@ PrefabInstance:
     - target: {fileID: 6317778379498793855, guid: 1faf15cc9b7d0e242b06ae17cd27784b,
         type: 3}
       propertyPath: nivel
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8624270594882683250, guid: 1faf15cc9b7d0e242b06ae17cd27784b,
         type: 3}
@@ -15043,7 +15046,7 @@ PrefabInstance:
     - target: {fileID: 4201980599792047099, guid: 0164709a81ea21f42b82f7e16071f880,
         type: 3}
       propertyPath: nivel
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4201980599792047100, guid: 0164709a81ea21f42b82f7e16071f880,
         type: 3}
@@ -18367,7 +18370,7 @@ PrefabInstance:
     - target: {fileID: 9039834767309093136, guid: fc896c1e8af614d40b4df987a0f0882b,
         type: 3}
       propertyPath: nivel
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9039834767309093139, guid: fc896c1e8af614d40b4df987a0f0882b,
         type: 3}

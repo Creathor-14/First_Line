@@ -6,9 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class CambioEEscena : MonoBehaviour
 {
-    public VidaEnemy VidaE;
-
-    public GameObject bot;
+    public Button boton;
 
     private void Awake()
     {
@@ -17,12 +15,13 @@ public class CambioEEscena : MonoBehaviour
     
     void Start()
     {
-        bot.SetActive(false);
+        boton.gameObject.SetActive(false);
     }
     
-    public void E2()
+    public void Escena2()
     {
         SceneManager.LoadScene("Level_2");
+        Debug.Log("cambio");
     }
     
     public void E3()
@@ -40,11 +39,10 @@ public class CambioEEscena : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (CantEnemy.cantEnemy == 60)
+        if (CantEnemy.cantEnemy == 26)
         {
             CantEnemy.cantEnemy = 0;
-            bot.SetActive(true);
-            
+            boton.gameObject.SetActive(true);
         }
 
     }

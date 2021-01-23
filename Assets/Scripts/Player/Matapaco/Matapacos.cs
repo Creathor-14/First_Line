@@ -77,7 +77,7 @@ public class Matapacos : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, suelo, techo),
                     transform.position.z);
             }
-        // topes nivel 1 y RUN ( 4 )
+        // topes nivel 1
         if (nivel == 1)
         {
             izquierda = -8.45f;
