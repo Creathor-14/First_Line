@@ -12,6 +12,7 @@ public class Empendedor : MonoBehaviour
     private Rigidbody2D rb;
 
     public int nivel;
+    
     //limites personaje eje y
     public float techo=-0.72f;
     public float suelo=-3.77f;

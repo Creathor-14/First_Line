@@ -11,9 +11,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/vidaBoss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,10 +65,10 @@
         <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/hombrePrime/HombrMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Emprendedor/Empendedor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca/Karateca.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
       </list>
     </option>
   </component>
@@ -223,6 +223,7 @@
       <workItem from="1611342775713" duration="3153000" />
       <workItem from="1611348240267" duration="5012000" />
       <workItem from="1611381847864" duration="1243000" />
+      <workItem from="1611373305896" duration="2472000" />
     </task>
     <servers />
   </component>

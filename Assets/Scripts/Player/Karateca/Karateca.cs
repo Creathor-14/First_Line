@@ -63,6 +63,12 @@ public class Karateca : MonoBehaviour
         {
             mov.x = 0;
         }
+//Topes de movimiento en el mapa        
+        if (mov.y != 0)
+        {
+            transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, suelo, techo),
+                transform.position.z);
+        }
         // topes nivel 1 y RUN ( 4 )
         if (nivel == 1)
         {
