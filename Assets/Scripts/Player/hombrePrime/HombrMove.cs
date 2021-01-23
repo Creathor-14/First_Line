@@ -10,7 +10,7 @@ public class HombrMove : MonoBehaviour
     private Rigidbody2D rb;
     
     //sistema barreras ordas
-    private int kills = 0;
+    private int kills = CantEnemy.cantEnemy;
     
     //limites personaje eje y
     public float techo=-0.72f;

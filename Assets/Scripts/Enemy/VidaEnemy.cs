@@ -44,7 +44,7 @@ public class VidaEnemy : MonoBehaviour
         //matapaco
             if (collision.gameObject.tag == "MP(mordisco)")
             {
-                daño = 66f;
+                daño = 50f;
                 vida -= daño;
                 daño /= vidaReal;
                 //AGREGAR SANGRADO
@@ -54,21 +54,21 @@ public class VidaEnemy : MonoBehaviour
         //karateka
             if (collision.gameObject.tag == "K(golpe)")
             {
-                daño = 1;//cambiar daño
+                daño = 45;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }if (collision.gameObject.tag == "K(patada)")
             {
-                daño = 10;//cambiar daño
+                daño = 53;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }if (collision.gameObject.tag == "K(patada2)")
             {
-                daño = 20;//cambiar daño
+                daño = 53;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
@@ -77,7 +77,7 @@ public class VidaEnemy : MonoBehaviour
         //hombre(PL)
             if (collision.gameObject.tag == "HPL(golpe)")
             {
-                daño = 40f;//cambiar daño
+                daño = 44f;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
@@ -85,7 +85,7 @@ public class VidaEnemy : MonoBehaviour
             }
             if (collision.gameObject.tag == "HPL(patada)")
             {
-                daño = 55f;//cambiar daño
+                daño = 64f;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
@@ -94,14 +94,14 @@ public class VidaEnemy : MonoBehaviour
         //emprendedor
             if (collision.gameObject.tag == "E(golpe)")
             {
-                daño = 10;//cambiar daño
+                daño = 30;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }if (collision.gameObject.tag == "E(golpe2)")
             {
-                daño = 10;//cambiar daño
+                daño = 30;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 
@@ -109,7 +109,7 @@ public class VidaEnemy : MonoBehaviour
                 anim.Play("daño");
             }if (collision.gameObject.tag == "E(baston1)")
             {
-                daño = 10;//cambiar daño
+                daño = 50;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 
@@ -117,7 +117,7 @@ public class VidaEnemy : MonoBehaviour
                 anim.Play("daño");
             }if (collision.gameObject.tag == "E(baston2)")
             {
-                daño = 10;//cambiar daño
+                daño = 100;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
@@ -126,14 +126,14 @@ public class VidaEnemy : MonoBehaviour
         //Sensual Spiderman(o por dios pero mira que sensual)
             if (collision.gameObject.tag == "HPL(golpe1)")
             {
-                daño = 10;//cambiar daño
+                daño = 30;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
                 anim.Play("daño");
             }if (collision.gameObject.tag == "HPL(golpe2)")
             {
-                daño = 20;//cambiar daño
+                daño = 30;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
@@ -149,7 +149,7 @@ public class VidaEnemy : MonoBehaviour
         //cuando esta en telearaña
             if (collision.gameObject.tag == "0"||collision.gameObject.tag == "1"||collision.gameObject.tag == "2"||collision.gameObject.tag == "3")
             {
-                daño = 1000;//cambiar daño
+                daño = 200;//cambiar daño
                 vida -= daño;
                 daño /= vidaReal;
                 barraVida.size -= new Vector2(daño,0f);
@@ -163,7 +163,7 @@ public class VidaEnemy : MonoBehaviour
             bc.enabled = false;
             anim.Play("muerte");
             CantEnemy.cantEnemy += 1;
-            Karateca.kills += 1;
+            
         }
     }
 }

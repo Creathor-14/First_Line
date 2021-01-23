@@ -11,8 +11,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/vidaBoss.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -50,7 +50,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Seguir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/VidaPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/piraña.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/vidaBoss.cs" />
         <option value="$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/Golpes.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/Escenas Menu/Settings.cs" />
@@ -61,14 +60,15 @@
         <option value="$PROJECT_DIR$/Assets/Animaciones/Jefes Finales/Piraña/BossMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Prue2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/CambioEEscena.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CambioPersonaje.cs" />
+        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/VidaEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/hombrePrime/HombrMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Karateca/Karateca.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spiderman/Spiderman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Matapaco/Matapacos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Emprendedor/Empendedor.cs" />
-        <option value="$PROJECT_DIR$/Assets/CambioEEscena.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CambioPersonaje.cs" />
-        <option value="$PROJECT_DIR$/Assets/Levels/Level_1/CameraFollow.cs" />
       </list>
     </option>
   </component>
@@ -222,6 +222,7 @@
       <workItem from="1611340485165" duration="2350000" />
       <workItem from="1611342775713" duration="3153000" />
       <workItem from="1611348240267" duration="5012000" />
+      <workItem from="1611381847864" duration="1243000" />
     </task>
     <servers />
   </component>
@@ -242,10 +243,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="417" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1608515416603" />
-    <state x="0" y="0" width="705" height="810" key="dock-window-1" timestamp="1611342630724">
+    <state x="0" y="0" width="705" height="810" key="dock-window-1" timestamp="1611382267950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" width="705" height="810" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1611342630723" />
+    <state x="0" y="0" width="705" height="810" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1611382267950" />
     <state x="0" y="0" width="827" height="803" key="dock-window-2" timestamp="1609463688186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

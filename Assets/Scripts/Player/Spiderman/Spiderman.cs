@@ -20,7 +20,7 @@ public class Spiderman : MonoBehaviour
     private float izquierda = 0f;
     
     //sistema barreras ordas
-    private int kills = 0;
+    private int kills = CantEnemy.cantEnemy;
 
     //sistema de daño(2)
     private CircleCollider2D ac;

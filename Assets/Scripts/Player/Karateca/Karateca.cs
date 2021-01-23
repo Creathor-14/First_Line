@@ -18,7 +18,7 @@ public class Karateca : MonoBehaviour
     private float izquierda = 0f;
     
     //sistema barreras ordas
-    public static int kills = 0;
+    private int kills = CantEnemy.cantEnemy;
     public int nivel;
     
     //sistema de daño(2)
