@@ -1,8 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movimiento : MonoBehaviour
+public class Moverse : MonoBehaviour
 {
     public float velocidad = 4f;
     public SpriteRenderer jugador;
@@ -13,16 +13,15 @@ public class Movimiento : MonoBehaviour
         jugador = GetComponent<SpriteRenderer>();
         animaciones = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
+ 
     void FixedUpdate()
     {
         Vector3 movimiento = caminar();
         animaciones.SetBool("Moverse",esta_moviendose(movimiento));
         girar(movimiento);
         
-        if(jugador == hombre primera linea){//las animaciones del hombre al moverse estan invertidas
-            jugador.flipX = girar(!movimiento);
+        if(jugador.name == "hombre primera linea"){//las animaciones del hombre al moverse estan invertidas
+            jugador.flipX = !girar(movimiento);
         }
         else{
             jugador.flipX = girar(movimiento);
