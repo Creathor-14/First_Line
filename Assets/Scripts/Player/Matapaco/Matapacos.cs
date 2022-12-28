@@ -5,7 +5,7 @@ using UnityEngine;
 public class Matapacos : MonoBehaviour
 {
     public float speed = 4f;
-    private SpriteRenderer player;
+    public SpriteRenderer player;
     private Animator anim;
     private Rigidbody2D rd;
     
@@ -37,6 +37,7 @@ public class Matapacos : MonoBehaviour
 //Movimiento------------------------------------------------------------------------------------------------------------
         Vector3 mov = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
 //segun animaciones
+/*
         if (player.sprite.name == ("mujer primera linea(limpio)_0") ||
             player.sprite.name == ("mujer primera linea(limpio)_1") ||
             player.sprite.name == ("mujer primera linea(limpio)_2") ||
@@ -52,6 +53,7 @@ public class Matapacos : MonoBehaviour
             player.sprite.name == ("mujer primera linea(limpio)_58") ||
             player.sprite.name == ("mujer primera linea(limpio)_59"))
         { }
+*/
         /*
         else
         {
